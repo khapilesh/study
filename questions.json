@@ -9,152 +9,581 @@
       "easy": 1,
       "medium": 2,
       "hard": 3
+    },
+    "difficultyFromMarks": {
+      "easy": "1-2 marks",
+      "medium": "3-4 marks",
+      "hard": "5+ marks"
     }
   },
   "questions": [
     {
-      "id": 1,
-      "topic": "Maths",
-      "difficulty": "easy",
-      "question": "What is 12 × 8?",
-      "answers": ["96"],
-      "explanation": "12 × 8 = 96."
-    },
-    {
-      "id": 2,
-      "topic": "Maths",
-      "difficulty": "easy",
-      "question": "Simplify: 3x + 5x",
-      "answers": ["8x"],
-      "explanation": "Combine like terms: 3x + 5x = 8x."
-    },
-    {
-      "id": 3,
-      "topic": "Maths",
+      "id": "POL_01_(i)",
+      "parentId": "POL_01",
+      "partLabel": "(i)",
+      "topic": "Polarization",
+      "source": "Edexcel IAL Physics WPH12/01 June 2025 Q12(b)",
+      "questionType": "Open Response",
+      "marks": 3,
       "difficulty": "medium",
-      "question": "Solve for x: 2x − 7 = 11",
-      "answers": ["9", "x=9"],
-      "explanation": "Add 7 to both sides: 2x = 18, so x = 9."
+      "markScheme": [
+        "Unpolarised light has oscillations / vibrations in all / many planes (or directions).",
+        "Plane polarised light has oscillations / vibrations in one plane (or direction).",
+        "Which includes / is perpendicular to the direction of wave travel."
+      ],
+      "sampleAnswer": "Unpolarised light consists of transverse waves with oscillations occurring in many different planes perpendicular to the direction of wave travel. In contrast, plane polarised light has oscillations restricted to a single plane that contains the direction of wave propagation.",
+      "type": "open",
+      "question": "Explain the difference between unpolarised light and plane polarised light.",
+      "answers": []
     },
     {
-      "id": 4,
-      "topic": "Maths",
+      "id": "POL_01_(ii)",
+      "parentId": "POL_01",
+      "partLabel": "(ii)",
+      "topic": "Polarization",
+      "source": "Edexcel IAL Physics WPH12/01 June 2025 Q12(b)",
+      "questionType": "Open Response",
+      "marks": 3,
       "difficulty": "medium",
-      "question": "What is the area of a triangle with base 10 cm and height 6 cm? (give the number in cm²)",
-      "answers": ["30", "30cm2", "30 cm^2", "30cm^2"],
-      "explanation": "Area = ½ × base × height = ½ × 10 × 6 = 30 cm²."
+      "markScheme": [
+        "The intensity of light varies / changes.",
+        "It varies from a maximum to a minimum every 90 degree rotation.",
+        "Maximum intensity occurs when the transmission axis of the polarising filter is parallel to the plane of oscillation of the reflected light (or minimum intensity occurs when perpendicular)."
+      ],
+      "sampleAnswer": "As the polarising filter is rotated, the observed light intensity varies continuously between a maximum and a minimum value every 90° of rotation. The maximum intensity occurs when the filter's transmission axis aligns with the plane of polarization of the reflected light, and minimum intensity occurs when the filter is rotated 90° perpendicular to this plane.",
+      "context": [
+        "(i) Explain the difference between unpolarised light and plane polarised light."
+      ],
+      "type": "open",
+      "question": "The student uses a polarising filter to view light reflected by a glass block. Explain what she would observe as she rotates the filter through 360 degrees.",
+      "answers": []
     },
     {
-      "id": 5,
-      "topic": "Maths",
-      "difficulty": "hard",
-      "question": "Find the sum of the roots of x² − 5x + 6 = 0",
-      "answers": ["5"],
-      "explanation": "For ax² + bx + c = 0 the sum of roots is −b/a = 5. (Roots are 2 and 3.)"
+      "id": "POL_02_(a)(i)",
+      "parentId": "POL_02",
+      "partLabel": "(a)(i)",
+      "topic": "Polarization",
+      "source": "Edexcel IAL Physics WPH12/01 Jan 2025 Q18",
+      "questionType": "Structured Open Response",
+      "marks": 3,
+      "difficulty": "medium",
+      "markScheme": [
+        "Unpolarised light has oscillations/vibrations in all/many directions/planes.",
+        "Plane polarised light has oscillations/vibrations in one direction/plane.",
+        "The direction of oscillation is perpendicular to the direction of energy transfer."
+      ],
+      "sampleAnswer": "Unpolarised light has electric field oscillations in all possible planes perpendicular to the direction of wave propagation. Plane polarised light has oscillations restricted to one single plane perpendicular to the direction of wave travel.",
+      "type": "open",
+      "question": "Explain the difference between unpolarised light and plane polarised light.",
+      "answers": []
     },
     {
-      "id": 6,
-      "topic": "Maths",
-      "difficulty": "hard",
-      "question": "Differentiate y = 3x⁴ with respect to x. Write your answer like 12x^3.",
-      "answers": ["12x^3", "12x³"],
-      "explanation": "Using the power rule: dy/dx = 4 × 3x³ = 12x³."
-    },
-    {
-      "id": 7,
-      "topic": "Science",
+      "id": "POL_02_(a)(ii)",
+      "parentId": "POL_02",
+      "partLabel": "(a)(ii)",
+      "topic": "Polarization",
+      "source": "Edexcel IAL Physics WPH12/01 Jan 2025 Q18",
+      "questionType": "Structured Open Response",
+      "marks": 2,
       "difficulty": "easy",
-      "question": "What is the chemical symbol for water?",
-      "answers": ["H2O", "H₂O"],
-      "explanation": "Water is two hydrogen atoms bonded to one oxygen atom."
+      "markScheme": [
+        "The polarising filter only transmits the component of light oscillating in one plane/direction.",
+        "Since unpolarised light has equal intensity/oscillations in all planes, rotating the filter transmits the same total energy/intensity in the new plane."
+      ],
+      "sampleAnswer": "Unpolarised light contains equal wave energy across all planes of oscillation. As the polarising filter is rotated, it continually transmits the vector component of light parallel to its transmission axis, keeping the total transmitted intensity constant regardless of the filter's angle.",
+      "context": [
+        "(a)(i) Explain the difference between unpolarised light and plane polarised light."
+      ],
+      "type": "open",
+      "question": "A student directs unpolarised light through a single polarising filter. The student rotates the polarising filter. Explain why rotating the polarising filter will not change the intensity of the light that passes through the filter.",
+      "answers": []
     },
     {
-      "id": 8,
-      "topic": "Science",
+      "id": "POL_02_(b)",
+      "parentId": "POL_02",
+      "partLabel": "(b)",
+      "topic": "Polarization",
+      "source": "Edexcel IAL Physics WPH12/01 Jan 2025 Q18",
+      "questionType": "Structured Open Response",
+      "marks": 5,
+      "difficulty": "hard",
+      "markScheme": [
+        "Light leaving Filter 1 is plane polarised vertically.",
+        "When Filter 2 is at 45°, it transmits the component of vertical light that is parallel to its 45° axis (intensity = I_0 * cos^2(45°)).",
+        "The light emerging from Filter 2 is now plane polarised at 45°.",
+        "Filter 3 (horizontal) can now transmit the horizontal component of the 45° light (intensity = I_2 * cos^2(45°)).",
+        "Therefore, the intensity of light emerging from Filter 3 increases from zero to a non-zero value."
+      ],
+      "sampleAnswer": "Initially, Filter 1 polarises light vertically, and Filter 3 (horizontal) blocks 100% of it because the perpendicular component is zero. When Filter 2 is rotated to 45°, it transmits a component of the vertically polarised light at 45°. This emerging 45°-polarised light now has a non-zero horizontal component, which Filter 3 can partially transmit. As a result, the light intensity passing through Filter 3 increases from zero.",
+      "context": [
+        "(a)(i) Explain the difference between unpolarised light and plane polarised light.",
+        "(a)(ii) A student directs unpolarised light through a single polarising filter. The student rotates the polarising filter. Explain why rotating the polarising filter will not change the intensity of the light that passes through the filter."
+      ],
+      "type": "open",
+      "question": "The student arranges three polarising filters in series. Filter 1 is oriented vertically and Filter 3 is oriented horizontally (at 90° to Filter 1). Initially, no light passes through Filter 3. The student then rotates Filter 2 (the middle filter) by 45° from the vertical. Explain how rotating Filter 2 by 45° affects the intensity of light passing through Filter 3.",
+      "answers": []
+    },
+    {
+      "id": "POL_03_(c)",
+      "parentId": "POL_03",
+      "partLabel": "(c)",
+      "topic": "Polarization",
+      "source": "Edexcel IAL Physics WPH12/01 Jan 2026 Q18(c)",
+      "questionType": "Short Answer",
+      "marks": 2,
       "difficulty": "easy",
-      "question": "Which planet is known as the Red Planet?",
-      "answers": ["Mars"],
-      "explanation": "Mars appears red because of iron oxide (rust) on its surface."
+      "markScheme": [
+        "Oscillations/vibrations are in one plane / one direction (radio waves are plane polarised).",
+        "The horizontal aerial cannot detect/absorb oscillations that occur strictly in the vertical plane (or aerial acts as a polarising filter/receiver)."
+      ],
+      "sampleAnswer": "The radio waves emitted by the transmitter are plane polarised with electric field oscillations in the vertical plane. When the receiving aerial is rotated to the horizontal position, it cannot absorb or detect oscillations perpendicular to its alignment, so no signal is detected.",
+      "type": "open",
+      "question": "Radio waves from a transmitter are detected by a vertical aerial. When the teacher rotated the aerial by 90° so that it was horizontal, the radio waves were no longer detected. Explain this observation.",
+      "answers": []
     },
     {
-      "id": 9,
-      "topic": "Science",
-      "difficulty": "medium",
-      "question": "What is the SI unit of force?",
-      "answers": ["Newton", "Newtons", "N"],
-      "explanation": "Force is measured in newtons (N), where 1 N = 1 kg·m/s²."
-    },
-    {
-      "id": 10,
-      "topic": "Science",
-      "difficulty": "medium",
-      "question": "In which organelle does photosynthesis take place?",
-      "answers": ["Chloroplast", "Chloroplasts", "the chloroplast"],
-      "explanation": "Chloroplasts contain chlorophyll, which captures light energy."
-    },
-    {
-      "id": 11,
-      "topic": "Science",
-      "difficulty": "hard",
-      "question": "A 2 kg object accelerates at 3 m/s². What is the net force on it in newtons?",
-      "answers": ["6", "6N", "6 N"],
-      "explanation": "F = ma = 2 × 3 = 6 N."
-    },
-    {
-      "id": 12,
-      "topic": "Science",
-      "difficulty": "hard",
-      "question": "What is the pH of a neutral solution at 25 °C?",
-      "answers": ["7", "7.0"],
-      "explanation": "At 25 °C pure water has equal H⁺ and OH⁻ concentrations, giving pH 7."
-    },
-    {
-      "id": 13,
-      "topic": "English",
+      "id": "POL_04_(a)",
+      "parentId": "POL_04",
+      "partLabel": "(a)",
+      "topic": "Polarization",
+      "source": "Physics Student Book 1 / Exam Practice",
+      "questionType": "Short Answer",
+      "marks": 1,
       "difficulty": "easy",
-      "question": "What is the plural of 'child'?",
-      "answers": ["children"],
-      "explanation": "'Child' has an irregular plural: 'children'."
+      "markScheme": [
+        "Sound waves are longitudinal waves (polarisation only applies to transverse waves)."
+      ],
+      "sampleAnswer": "Sound waves are longitudinal waves with oscillations parallel to the direction of wave propagation, whereas polarisation requires transverse oscillations.",
+      "type": "open",
+      "question": "State why sound waves cannot be polarised.",
+      "answers": []
     },
     {
-      "id": 14,
-      "topic": "English",
-      "difficulty": "medium",
-      "question": "Name the figure of speech in: 'The classroom was a zoo.'",
-      "answers": ["metaphor", "a metaphor"],
-      "explanation": "A metaphor directly compares two things without 'like' or 'as'."
-    },
-    {
-      "id": 15,
-      "topic": "English",
-      "difficulty": "hard",
-      "question": "What is the term for a word that is spelled the same forwards and backwards?",
-      "answers": ["palindrome", "a palindrome"],
-      "explanation": "Examples include 'level' and 'racecar'."
-    },
-    {
-      "id": 16,
-      "topic": "History",
+      "id": "POL_04_(b)",
+      "parentId": "POL_04",
+      "partLabel": "(b)",
+      "topic": "Polarization",
+      "source": "Physics Student Book 1 / Exam Practice",
+      "questionType": "Short Answer",
+      "marks": 1,
       "difficulty": "easy",
-      "question": "In which year did the Second World War end?",
-      "answers": ["1945"],
-      "explanation": "WWII ended in 1945 with the surrender of Germany (May) and Japan (September)."
+      "markScheme": [
+        "Reflected light from horizontal surfaces is partially horizontally plane-polarised; Polaroid sunglasses have vertical transmission axes to block this horizontal glare."
+      ],
+      "sampleAnswer": "Sunlight reflected off a flat horizontal surface becomes partially plane-polarised in the horizontal plane. Polaroid sunglasses have vertically oriented polarising filters, which block this horizontally polarised glare while transmitting useful light.",
+      "context": [
+        "(a) State why sound waves cannot be polarised."
+      ],
+      "type": "open",
+      "question": "Explain how Polaroid sunglasses reduce glare from sunlight reflected off a horizontal water surface.",
+      "answers": []
     },
     {
-      "id": 17,
-      "topic": "History",
+      "id": "QP_01_(a)",
+      "parentId": "QP_01",
+      "partLabel": "(a)",
+      "topic": "Quantum Physics",
+      "source": "Edexcel IAL Physics WPH12/01 June 2025 Q19",
+      "questionType": "Structured Open Response / Calculation",
+      "marks": 3,
       "difficulty": "medium",
-      "question": "Which ancient civilisation built the pyramids at Giza?",
-      "answers": ["Egyptians", "Egyptian", "Ancient Egyptians", "Egypt", "the Egyptians"],
-      "explanation": "The pyramids of Giza were built during Egypt's Old Kingdom."
+      "markScheme": [
+        "One-to-one interaction: Each photon transfers all its energy (E = hf) to a single electron.",
+        "Energy is required to overcome the work function (Φ) / release the electron from the surface.",
+        "Electrons at different depths within the metal require different amounts of energy to escape (surface electrons have maximum kinetic energy E_k,max = hf - Φ, while deeper electrons lose kinetic energy through collisions before escaping)."
+      ],
+      "sampleAnswer": "In the photoelectric effect, one photon transfers its total energy (E = hf) to one electron. A minimum energy equal to the work function (Φ) is required to free an electron from the metal surface. Electrons located deeper within the metal lattice require additional energy to reach the surface and lose energy via collisions before escaping, resulting in a range of kinetic energies up to E_k,max = hf - Φ.",
+      "type": "open",
+      "question": "A beam of monochromatic light is directed onto a metal plate in a vacuum photocell, causing the photoelectric effect. All photons in the beam have the exact same energy. Explain why the beam produces photoelectrons with a range of kinetic energies.",
+      "answers": []
     },
     {
-      "id": 18,
-      "topic": "History",
+      "id": "QP_01_(b)",
+      "parentId": "QP_01",
+      "partLabel": "(b)",
+      "topic": "Quantum Physics",
+      "source": "Edexcel IAL Physics WPH12/01 June 2025 Q19",
+      "questionType": "Structured Open Response / Calculation",
+      "marks": 5,
       "difficulty": "hard",
-      "question": "In what year did the Maldives gain independence from Britain?",
-      "answers": ["1965"],
-      "explanation": "The Maldives became fully independent on 26 July 1965."
+      "markScheme": [
+        "In the wave model, higher intensity means greater wave amplitude / energy rate, so wave theory predicts that light of any frequency/intensity would eventually release photoelectrons.",
+        "Observation 2 shows that high intensity white light does NOT emit photoelectrons, contradicting the wave model.",
+        "In the particle model, light consists of photons where energy E = hf depends only on frequency, and intensity only determines the number of photons per second.",
+        "UV light has higher frequency than white light, so UV photons have energy greater than the work function (E > Φ), releasing photoelectrons instantly even at low intensity.",
+        "Therefore, these observations demonstrate the particle (photon) nature of light and refute the wave model."
+      ],
+      "sampleAnswer": "Under the classical wave model, light energy is delivered continuously, so high-intensity white light should accumulate sufficient energy over time to release electrons. However, no current is observed for white light regardless of intensity. Under the particle model, light consists of photons where energy E = hf depends solely on frequency, and intensity only governs the photon arrival rate per second. UV photons have a high frequency exceeding the threshold frequency (hf > Φ), so each photon carries enough energy to immediately emit an electron even at low intensity. This conclusively proves the particle nature of light.",
+      "context": [
+        "(a) A beam of monochromatic light is directed onto a metal plate in a vacuum photocell, causing the photoelectric effect. All photons in the beam have the exact same energy. Explain why the beam produces photoelectrons with a range of kinetic energies."
+      ],
+      "type": "open",
+      "question": "A scientist directs light onto a photocell and makes the following observations:\n1. White light with a low intensity causes no current.\n2. White light with a high intensity causes no current.\n3. Ultraviolet light with a low intensity causes a current.\nExplain what these observations show about the nature of light.",
+      "answers": []
+    },
+    {
+      "id": "QP_01_(c)",
+      "parentId": "QP_01",
+      "partLabel": "(c)",
+      "topic": "Quantum Physics",
+      "source": "Edexcel IAL Physics WPH12/01 June 2025 Q19",
+      "questionType": "Structured Open Response / Calculation",
+      "marks": 5,
+      "difficulty": "hard",
+      "markScheme": [
+        "Use of c = f * λ -> f = 3.00x10^8 / 250x10^-9 = 1.20x10^15 Hz.",
+        "Use of E = hf -> E_photon = 6.63x10^-34 * 1.20x10^15 = 7.96x10^-19 J.",
+        "Use of hf = Φ + E_k,max -> E_k,max = 7.96x10^-19 - 6.90x10^-19 = 1.06x10^-19 J.",
+        "Convert E_k,max to eV or reverse voltage to Joules: E_k,max = 1.06x10^-19 / 1.60x10^-19 = 0.66 eV (or required stopping energy = 1.5 V * 1.6x10^-19 C = 2.4x10^-19 J).",
+        "Compare: E_k,max (0.66 eV) < 1.5 eV (or 1.06x10^-19 J < 2.4x10^-19 J), so photoelectrons do not have enough energy to overcome the opposing potential difference, and NO current is detected."
+      ],
+      "sampleAnswer": "1. Calculate photon frequency: f = c / λ = (3.00 x 10^8 m/s) / (250 x 10^-9 m) = 1.20 x 10^15 Hz.\n2. Calculate photon energy: E = hf = (6.63 x 10^-34 J s)(1.20 x 10^15 Hz) = 7.96 x 10^-19 J.\n3. Calculate max kinetic energy: E_k,max = E - Φ = 7.96 x 10^-19 J - 6.90 x 10^-19 J = 1.06 x 10^-19 J.\n4. Convert E_k,max to electronvolts: E_k,max = 1.06 x 10^-19 J / (1.60 x 10^-19 J/eV) = 0.66 eV.\n5. Conclusion: Since the maximum kinetic energy (0.66 eV) is less than the opposing stopping voltage (1.5 V), no emitted photoelectrons can reach the electrode. Thus, NO current is detected.",
+      "context": [
+        "(a) A beam of monochromatic light is directed onto a metal plate in a vacuum photocell, causing the photoelectric effect. All photons in the beam have the exact same energy. Explain why the beam produces photoelectrons with a range of kinetic energies.",
+        "(b) A scientist directs light onto a photocell and makes the following observations:\n1. White light with a low intensity causes no current.\n2. White light with a high intensity causes no current.\n3. Ultraviolet light with a low intensity causes a current.\nExplain what these observations show about the nature of light."
+      ],
+      "type": "open",
+      "question": "The photocell is connected to a reverse potential difference of 1.5 V. Ultraviolet light of wavelength 250 nm is incident on the metal plate. The work function of the metal plate is 6.9 x 10^-19 J. Deduce whether there is a current in the circuit.",
+      "answers": []
+    },
+    {
+      "id": "QP_02_(a)(i)",
+      "parentId": "QP_02",
+      "partLabel": "(a)(i)",
+      "topic": "Quantum Physics",
+      "source": "Edexcel IAL Physics WPH12/01 Jan 2026 Q21",
+      "questionType": "Structured Calculation / Deduction",
+      "marks": 3,
+      "difficulty": "medium",
+      "markScheme": [
+        "Use of c = f * λ -> f = 3.00x10^8 / 380x10^-9 = 7.89x10^14 Hz.",
+        "Use of E = hf -> E = 6.63x10^-34 * 7.89x10^14 = 5.23x10^-19 J.",
+        "Must give answer to at least 3 s.f. (5.23 x 10^-19 J) to show value."
+      ],
+      "sampleAnswer": "Frequency f = c / λ = 3.00 x 10^8 m/s / (380 x 10^-9 m) = 7.895 x 10^14 Hz.\nPhoton energy E = hf = (6.63 x 10^-34 J s)(7.895 x 10^14 Hz) = 5.234 x 10^-19 J.\n5.234 x 10^-19 J rounds to 5.2 x 10^-19 J as required.",
+      "type": "open",
+      "question": "A camera CCD array uses metal pixels exposed to UV light of wavelength 380 nm. Show that the energy of a photon of this light is about 5.2 x 10^-19 J.",
+      "answers": []
+    },
+    {
+      "id": "QP_02_(a)(ii)",
+      "parentId": "QP_02",
+      "partLabel": "(a)(ii)",
+      "topic": "Quantum Physics",
+      "source": "Edexcel IAL Physics WPH12/01 Jan 2026 Q21",
+      "questionType": "Structured Calculation / Deduction",
+      "marks": 5,
+      "difficulty": "hard",
+      "markScheme": [
+        "Calculates pixel area A = π * d^2 / 4 = π * (1.2x10^-5)^2 / 4 = 1.13x10^-10 m^2.",
+        "Use of I = P / A -> P = I * A = 1.1x10^-6 W m^-2 * 1.13x10^-10 m^2 = 1.24x10^-16 W.",
+        "Calculates number of incident photons per second N = P / E_photon = 1.24x10^-16 J / 5.23x10^-19 J = 238 photons/s.",
+        "Calculates percentage = (195 / 238) * 100% = 82%.",
+        "States 82% is approximately 80%, so the manufacturer's statement is correct/accurate."
+      ],
+      "sampleAnswer": "1. Pixel area A = π (1.2 x 10^-5 m)^2 / 4 = 1.131 x 10^-10 m^2.\n2. Power incident on pixel P = I x A = (1.1 x 10^-6 W/m^2)(1.131 x 10^-10 m^2) = 1.244 x 10^-16 W.\n3. Incident photons per second N = P / E_photon = 1.244 x 10^-16 J/s / 5.234 x 10^-19 J = 237.7 photons/sec.\n4. Emission efficiency = (195 / 237.7) x 100% = 82.0%.\n5. Conclusion: Since 82% is close to 80%, the manufacturer's statement is correct.",
+      "context": [
+        "(a)(i) A camera CCD array uses metal pixels exposed to UV light of wavelength 380 nm. Show that the energy of a photon of this light is about 5.2 x 10^-19 J."
+      ],
+      "type": "open",
+      "question": "The manufacturer states that about 80% of photons incident on a pixel cause electron emission. Data provided:\nIntensity of UV light = 1.1 μW m^-2\nPixel diameter = 1.2 x 10^-5 m\nElectrons emitted per pixel per second = 195\nDeduce whether the manufacturer's statement is correct.",
+      "answers": []
+    },
+    {
+      "id": "QP_02_(b)",
+      "parentId": "QP_02",
+      "partLabel": "(b)",
+      "topic": "Quantum Physics",
+      "source": "Edexcel IAL Physics WPH12/01 Jan 2026 Q21",
+      "questionType": "Structured Calculation / Deduction",
+      "marks": 4,
+      "difficulty": "medium",
+      "markScheme": [
+        "White light contains a continuous spectrum of wavelengths/frequencies (red, orange, yellow, green, blue, violet).",
+        "Only frequencies equal to or greater than the threshold frequency (green, blue, violet) have photon energy E = hf >= Φ.",
+        "Photons of red, orange, and yellow light have frequencies below threshold frequency, so they carry insufficient energy to release electrons.",
+        "Therefore, a smaller percentage of the incident photons have enough energy to release electrons, so the overall percentage decreases."
+      ],
+      "sampleAnswer": "White light consists of a range of frequencies across the visible spectrum. Since the threshold frequency corresponds to green light, only photons of green, blue, and violet light carry sufficient energy (E = hf >= Φ) to emit electrons. Photons of red, orange, and yellow light fall below the threshold frequency and cannot release photoelectrons regardless of intensity. Consequently, a lower fraction of total incident photons can cause emission, reducing the overall percentage.",
+      "context": [
+        "(a)(i) A camera CCD array uses metal pixels exposed to UV light of wavelength 380 nm. Show that the energy of a photon of this light is about 5.2 x 10^-19 J.",
+        "(a)(ii) The manufacturer states that about 80% of photons incident on a pixel cause electron emission. Data provided:\nIntensity of UV light = 1.1 μW m^-2\nPixel diameter = 1.2 x 10^-5 m\nElectrons emitted per pixel per second = 195\nDeduce whether the manufacturer's statement is correct."
+      ],
+      "type": "open",
+      "question": "The threshold frequency of the metal pixels equals the frequency of green light. The pixels are exposed to white light with the same total intensity as the UV light. Explain how this changed the percentage of photons that released electrons.",
+      "answers": []
+    },
+    {
+      "id": "QP_03_(a)",
+      "parentId": "QP_03",
+      "partLabel": "(a)",
+      "topic": "Quantum Physics",
+      "source": "Edexcel IAL Physics WPH12/01 June 2025 Q15",
+      "questionType": "de Broglie Wavelength & Diffraction",
+      "marks": 2,
+      "difficulty": "easy",
+      "markScheme": [
+        "The spreading out of waves",
+        "When passing through a gap/slit or around an object."
+      ],
+      "sampleAnswer": "Diffraction is the spreading out of waves as they pass through an aperture/gap or around the edge of an obstacle.",
+      "type": "open",
+      "question": "State what is meant by diffraction.",
+      "answers": []
+    },
+    {
+      "id": "QP_03_(b)(i)",
+      "parentId": "QP_03",
+      "partLabel": "(b)(i)",
+      "topic": "Quantum Physics",
+      "source": "Edexcel IAL Physics WPH12/01 June 2025 Q15",
+      "questionType": "de Broglie Wavelength & Diffraction",
+      "marks": 4,
+      "difficulty": "medium",
+      "markScheme": [
+        "Use of V = W/Q -> W = 4.9x10^3 V * 1.60x10^-19 C = 7.84x10^-16 J.",
+        "Use of E_k = 1/2 m v^2 -> v = sqrt(2 * 7.84x10^-16 / 9.11x10^-31) = 4.15x10^7 m s^-1.",
+        "Use of p = mv = 9.11x10^-31 * 4.15x10^7 = 3.78x10^-23 kg m s^-1.",
+        "Use of λ = h / p -> λ = 6.63x10^-34 / 3.78x10^-23 = 1.75x10^-11 m (shows ~1.8x10^-11 m)."
+      ],
+      "sampleAnswer": "1. Kinetic energy gained E_k = eV = (1.60 x 10^-19 C)(4.9 x 10^3 V) = 7.84 x 10^-16 J.\n2. Electron velocity v = sqrt(2 E_k / m) = sqrt(2 x 7.84 x 10^-16 / 9.11 x 10^-31) = 4.15 x 10^7 m/s.\n3. Electron momentum p = mv = (9.11 x 10^-31 kg)(4.15 x 10^7 m/s) = 3.78 x 10^-23 kg m/s.\n4. de Broglie wavelength λ = h / p = 6.63 x 10^-34 J s / 3.78 x 10^-23 kg m/s = 1.75 x 10^-11 m.\nThis rounds to 1.8 x 10^-11 m.",
+      "context": [
+        "(a) State what is meant by diffraction."
+      ],
+      "type": "open",
+      "question": "An electron is accelerated through a potential difference of 4.9 kV. Show that the de Broglie wavelength for the electron is about 1.8 x 10^-11 m.",
+      "answers": []
+    },
+    {
+      "id": "QP_03_(b)(ii)",
+      "parentId": "QP_03",
+      "partLabel": "(b)(ii)",
+      "topic": "Quantum Physics",
+      "source": "Edexcel IAL Physics WPH12/01 June 2025 Q15",
+      "questionType": "de Broglie Wavelength & Diffraction",
+      "marks": 3,
+      "difficulty": "medium",
+      "markScheme": [
+        "Converts grating lines to slit spacing d = (1x10^-2 m) / 5000 = 2.0x10^-6 m.",
+        "Use of n * λ = d * sin(θ) -> sin(θ) = 2 * 1.8x10^-11 / 2.0x10^-6 = 1.8x10^-5.",
+        "Calculates θ = 0.00103° (extremely small diffraction angle), concluding that the maxima overlap with the central beam and are NOT clearly visible."
+      ],
+      "sampleAnswer": "1. Slit spacing d = 0.01 m / 5000 = 2.0 x 10^-6 m.\n2. Using n λ = d sin θ for n = 2:\n   sin θ = (2 x 1.8 x 10^-11 m) / (2.0 x 10^-6 m) = 1.8 x 10^-5.\n   θ = sin^-1(1.8 x 10^-5) = 0.00103°.\n3. Conclusion: An angle of 0.00103° corresponds to a displacement of only ~0.018 mm on a screen 1 m away. The maxima would be indistinguishable from the central spot, so the second order maximum would NOT be clearly visible.",
+      "context": [
+        "(a) State what is meant by diffraction.",
+        "(b)(i) An electron is accelerated through a potential difference of 4.9 kV. Show that the de Broglie wavelength for the electron is about 1.8 x 10^-11 m."
+      ],
+      "type": "open",
+      "question": "A student suggests that the electron beam (λ = 1.8 x 10^-11 m) would produce a visible diffraction pattern on a screen 1 m away if a optical diffraction grating with 5000 lines per cm was used. Deduce whether a second order maximum would be clearly visible on the screen.",
+      "answers": []
+    },
+    {
+      "id": "QP_04_(a)",
+      "parentId": "QP_04",
+      "partLabel": "(a)",
+      "topic": "Quantum Physics",
+      "source": "Edexcel IAL Physics WPH12/01 Jan 2026 Q14",
+      "questionType": "Calculation",
+      "marks": 2,
+      "difficulty": "easy",
+      "markScheme": [
+        "Use of W = V * Q",
+        "W = 4800 V * 1.60x10^-19 C = 7.68x10^-16 J (at least 3 s.f. required)"
+      ],
+      "sampleAnswer": "E_k = eV = (1.60 x 10^-19 C)(4800 V) = 7.68 x 10^-16 J, which rounds to 7.7 x 10^-16 J.",
+      "type": "open",
+      "question": "An electron is accelerated from rest through a potential difference of 4.8 kV in a cathode ray tube. Show that the kinetic energy gained by the electron is about 7.7 x 10^-16 J.",
+      "answers": []
+    },
+    {
+      "id": "QP_04_(b)",
+      "parentId": "QP_04",
+      "partLabel": "(b)",
+      "topic": "Quantum Physics",
+      "source": "Edexcel IAL Physics WPH12/01 Jan 2026 Q14",
+      "questionType": "Calculation",
+      "marks": 3,
+      "difficulty": "medium",
+      "markScheme": [
+        "Use of E_k = 1/2 m v^2 or E_k = p^2 / 2m to find momentum p.",
+        "Use of λ = h / p.",
+        "λ = 1.8 x 10^-11 m (1.77 x 10^-11 m)."
+      ],
+      "sampleAnswer": "1. Momentum p = sqrt(2 m E_k) = sqrt(2 x 9.11 x 10^-31 kg x 7.68 x 10^-16 J) = 3.738 x 10^-23 kg m/s.\n2. λ = h / p = (6.63 x 10^-34 J s) / (3.738 x 10^-23 kg m/s) = 1.77 x 10^-11 m.",
+      "context": [
+        "(a) An electron is accelerated from rest through a potential difference of 4.8 kV in a cathode ray tube. Show that the kinetic energy gained by the electron is about 7.7 x 10^-16 J."
+      ],
+      "type": "open",
+      "question": "Calculate the de Broglie wavelength of this electron.",
+      "answers": []
+    },
+    {
+      "id": "QP_05_(a)",
+      "parentId": "QP_05",
+      "partLabel": "(a)",
+      "topic": "Quantum Physics",
+      "source": "Edexcel IAL Physics WPH12/01 Oct 2025 Q15 / Student Book 1",
+      "questionType": "Open Response",
+      "marks": 4,
+      "difficulty": "medium",
+      "markScheme": [
+        "Accelerated electrons collide with mercury atoms and transfer kinetic energy to atomic electrons.",
+        "Electrons in mercury atoms absorb this energy and move to higher discrete energy levels (atomic excitation).",
+        "The excited electrons fall back (de-excite) to lower energy levels / ground state.",
+        "Upon de-excitation, a photon is emitted with energy E = hf equal to the discrete energy difference (ΔE) between the two levels."
+      ],
+      "sampleAnswer": "When accelerated electrons collide with mercury atoms, they transfer kinetic energy to the bound atomic electrons. These electrons absorb specific amounts of energy and jump to higher discrete energy levels (excitation). Because excited states are unstable, the electrons quickly fall back (de-excite) to lower energy levels, releasing energy in the form of photons. The energy of each emitted photon (E = hf) exactly equals the discrete difference in energy between the two quantum energy levels.",
+      "type": "open",
+      "question": "A UV lamp contains mercury vapour. When an electric potential difference is applied across the tube, accelerated electrons collide with mercury atoms, which then emit ultraviolet photons. Explain why mercury atoms emit photons.",
+      "answers": []
+    },
+    {
+      "id": "QP_06_MCQ_1",
+      "parentId": "QP_06",
+      "partLabel": "MCQ_1",
+      "topic": "Quantum Physics",
+      "source": "Edexcel IAL Physics WPH12 Multiple Choice Collection",
+      "questionType": "Multiple Choice",
+      "marks": 1,
+      "difficulty": "easy",
+      "markScheme": [
+        "Correct Answer: B. λ = h / (m_e * v)"
+      ],
+      "sampleAnswer": "B",
+      "type": "mcq",
+      "question": "An electron has a velocity of 2.0 x 10^7 m s^-1. Which of the following expressions gives the de Broglie wavelength of the electron in metres?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "(9.11x10^-31 * 2x10^7) / 6.63x10^-34"
+        },
+        {
+          "letter": "B",
+          "text": "6.63x10^-34 / (9.11x10^-31 * 2x10^7)"
+        },
+        {
+          "letter": "C",
+          "text": "6.63x10^-34 / (1.67x10^-27 * 2x10^7)"
+        },
+        {
+          "letter": "D",
+          "text": "(1.67x10^-27 * 2x10^7) / 6.63x10^-34"
+        }
+      ],
+      "answers": [
+        "B"
+      ]
+    },
+    {
+      "id": "QP_06_MCQ_2",
+      "parentId": "QP_06",
+      "partLabel": "MCQ_2",
+      "topic": "Quantum Physics",
+      "source": "Edexcel IAL Physics WPH12 Multiple Choice Collection",
+      "questionType": "Multiple Choice",
+      "marks": 1,
+      "difficulty": "easy",
+      "markScheme": [
+        "Correct Answer: A (9.8 eV is not an exact transition energy from -13.60 eV; 10.2 eV = -3.40 - (-13.60); 12.09 eV = -1.51 - (-13.60); 12.75 eV = -0.85 - (-13.60))."
+      ],
+      "sampleAnswer": "A",
+      "type": "mcq",
+      "question": "The energy levels of a hydrogen atom are -13.60 eV, -3.40 eV, -1.51 eV, -0.85 eV, -0.54 eV. An electron in the ground state absorbs a photon. Which of the following could NOT be the energy of the absorbed photon?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "9.8 eV"
+        },
+        {
+          "letter": "B",
+          "text": "10.2 eV"
+        },
+        {
+          "letter": "C",
+          "text": "12.09 eV"
+        },
+        {
+          "letter": "D",
+          "text": "12.75 eV"
+        }
+      ],
+      "answers": [
+        "A"
+      ]
+    },
+    {
+      "id": "QP_06_MCQ_3",
+      "parentId": "QP_06",
+      "partLabel": "MCQ_3",
+      "topic": "Quantum Physics",
+      "source": "Edexcel IAL Physics WPH12 Multiple Choice Collection",
+      "questionType": "Multiple Choice",
+      "marks": 1,
+      "difficulty": "easy",
+      "markScheme": [
+        "Correct Answer: C (Since c = f * λ, f = c / λ, so f is inversely proportional to λ)."
+      ],
+      "sampleAnswer": "C",
+      "type": "mcq",
+      "question": "Which of the following graphs correctly represents the relationship between photon frequency f and photon wavelength λ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Straight line through origin with positive gradient"
+        },
+        {
+          "letter": "B",
+          "text": "Horizontal line"
+        },
+        {
+          "letter": "C",
+          "text": "Curve showing inverse proportionality (hyperbola f ∝ 1/λ)"
+        },
+        {
+          "letter": "D",
+          "text": "Parabola with upward curve"
+        }
+      ],
+      "answers": [
+        "C"
+      ]
+    },
+    {
+      "id": "QP_06_MCQ_4",
+      "parentId": "QP_06",
+      "partLabel": "MCQ_4",
+      "topic": "Quantum Physics",
+      "source": "Edexcel IAL Physics WPH12 Multiple Choice Collection",
+      "questionType": "Multiple Choice",
+      "marks": 1,
+      "difficulty": "easy",
+      "markScheme": [
+        "Correct Answer: C (E_k,max = hf - Φ, which depends on frequency f, whereas intensity determines emission rate)."
+      ],
+      "sampleAnswer": "C",
+      "type": "mcq",
+      "question": "Which of the following statements regarding the photoelectric effect is CORRECT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The maximum kinetic energy of photoelectrons depends on incident light intensity."
+        },
+        {
+          "letter": "B",
+          "text": "The rate of photoelectron emission depends on incident light frequency."
+        },
+        {
+          "letter": "C",
+          "text": "The maximum kinetic energy of photoelectrons depends on incident light frequency."
+        },
+        {
+          "letter": "D",
+          "text": "The rate of photoelectron emission depends on the work function of the metal."
+        }
+      ],
+      "answers": [
+        "C"
+      ]
     }
   ]
 }

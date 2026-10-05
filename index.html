@@ -21,7 +21,7 @@
     <section id="screen-setup" class="screen active">
       <div class="card">
         <h1>Set up your session</h1>
-        <p class="muted">Each question is timed based on its difficulty. Answer before the clock runs out!</p>
+        <p class="muted">Past-paper questions timed by difficulty. Difficulty comes from the marks: <strong>1–2 easy</strong>, <strong>3–4 medium</strong>, <strong>5+ hard</strong>. Answer before the clock runs out!</p>
 
         <div class="field">
           <label>Topics</label>
@@ -34,6 +34,15 @@
             <label class="chip chip-easy"><input type="checkbox" value="easy" checked /> Easy <small id="count-easy"></small></label>
             <label class="chip chip-medium"><input type="checkbox" value="medium" checked /> Medium <small id="count-medium"></small></label>
             <label class="chip chip-hard"><input type="checkbox" value="hard" checked /> Hard <small id="count-hard"></small></label>
+          </div>
+        </div>
+
+        <div class="field">
+          <label>Question types</label>
+          <div class="chip-group" id="type-list">
+            <label class="chip"><input type="checkbox" value="open" checked /> Written / calculation <small id="count-open"></small></label>
+            <label class="chip"><input type="checkbox" value="mcq" checked /> Multiple choice <small id="count-mcq"></small></label>
+            <label class="chip"><input type="checkbox" value="short" checked /> Flashcards <small id="count-short"></small></label>
           </div>
         </div>
 
@@ -104,10 +113,23 @@
           </div>
         </div>
 
+        <div id="q-source" class="q-source"></div>
+
+        <details id="q-context" class="context" hidden>
+          <summary>Earlier parts of this question (for context)</summary>
+          <ol id="q-context-list"></ol>
+        </details>
+
         <h2 id="q-text" class="question-text"></h2>
 
         <form id="answer-form" autocomplete="off">
+          <!-- short answer -->
           <input type="text" id="answer-input" placeholder="Type your answer…" autocomplete="off" spellcheck="false" />
+          <!-- open response -->
+          <textarea id="answer-textarea" rows="6" placeholder="Write your answer / working here…" hidden></textarea>
+          <!-- multiple choice -->
+          <div id="mcq-options" class="mcq-options" hidden></div>
+
           <div class="actions">
             <button type="submit" id="submit-btn" class="btn btn-primary">Submit</button>
             <button type="button" id="skip-btn" class="btn btn-ghost">Skip</button>
@@ -117,6 +139,26 @@
         <div id="feedback" class="feedback" hidden>
           <div id="feedback-title" class="feedback-title"></div>
           <div id="feedback-body" class="feedback-body"></div>
+
+          <!-- self-marking panel for open-response questions -->
+          <div id="marking" class="marking" hidden>
+            <div class="marking-cols">
+              <div class="marking-col">
+                <h4>Your answer</h4>
+                <pre id="marking-your-answer" class="your-answer"></pre>
+              </div>
+              <div class="marking-col">
+                <h4>Mark scheme — tick each point you got</h4>
+                <ul id="mark-scheme-list" class="mark-scheme"></ul>
+              </div>
+            </div>
+            <details class="sample">
+              <summary>Show model answer</summary>
+              <pre id="sample-answer"></pre>
+            </details>
+            <div class="marking-total">Marks awarded: <strong id="marks-awarded">0</strong> / <span id="marks-max">0</span></div>
+          </div>
+
           <button id="next-btn" class="btn btn-primary">Next question →</button>
         </div>
 
@@ -129,7 +171,7 @@
       <div class="card">
         <h1>Session complete</h1>
         <div class="result-summary">
-          <div class="stat"><div id="r-score" class="stat-value">0</div><div class="stat-label">points</div></div>
+          <div class="stat"><div id="r-score" class="stat-value">0</div><div class="stat-label">marks</div></div>
           <div class="stat"><div id="r-correct" class="stat-value">0</div><div class="stat-label">correct</div></div>
           <div class="stat"><div id="r-accuracy" class="stat-value">0%</div><div class="stat-label">accuracy</div></div>
           <div class="stat"><div id="r-avg-time" class="stat-value">0s</div><div class="stat-label">avg time</div></div>
@@ -151,7 +193,7 @@
   </main>
 
   <footer class="footer">
-    <span>Edit <code>questions.json</code> to add your own questions.</span>
+    <span>Questions are built from <code>data/</code> by <code>scripts/build_questions.py</code>.</span>
   </footer>
 
   <script src="app.js"></script>

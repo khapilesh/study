@@ -1,68 +1,61 @@
-# Timed Study Quiz
+# Timed Study Quiz — Quantum Physics & Polarization
 
-An interactive study website that gives you typed-answer questions on a timer.
-The time you get depends on the difficulty of the question:
+An interactive past-paper practice site (Edexcel IAL Physics WPH12) where every
+question part is on a timer that depends on its difficulty.
 
-| Difficulty | Default time | Points |
-|------------|--------------|--------|
-| Easy       | 60 s         | 1      |
-| Medium     | 120 s        | 2      |
-| Hard       | 180 s        | 3      |
+| Difficulty | Based on marks | Default time |
+|------------|----------------|--------------|
+| Easy       | 1–2 marks      | 60 s         |
+| Medium     | 3–4 marks      | 120 s        |
+| Hard       | 5+ marks       | 180 s        |
 
-Timers can be changed from the setup screen or in `questions.json`.
+Timers can be changed on the setup screen.
 
-## Features
+## How it works
 
-- Filter by topic and difficulty, choose how many questions and the order (shuffled / easy→hard / file order)
-- Countdown ring coloured by difficulty, turns red and pulses when time is nearly up
-- Type your answer and press **Enter** — answers are checked case-insensitively, ignoring spaces/punctuation and leading "the/a/an"; numbers compare numerically (`6` = `6.0`)
-- Instant feedback with the correct answer and an explanation
-- Results screen with score, accuracy, average time, per-difficulty breakdown and a full review
-- "Retry wrong ones" mode, best-score tracking, dark mode
+- **Written / calculation parts** – type your answer or working in the box. When you
+  submit (or the time runs out) the official mark scheme is revealed next to what you
+  wrote; tick each marking point you hit and the marks are added to your score. A model
+  answer is available under "Show model answer".
+- **Multiple choice** – click A/B/C/D; auto-marked, with the explanation shown.
+- **Flashcards** (if a CSV is added to `data/`) – short typed answers, auto-marked with
+  forgiving matching.
+- Later parts of a multi-part question show the earlier parts in a collapsible
+  "context" panel, so calculations that depend on an earlier result still make sense.
+- Scores are in **marks**. The results screen shows marks per difficulty, a full review,
+  and offers "Retry wrong ones" (anything that didn't get full marks).
+- Keyboard: `Ctrl/⌘ + Enter` submits a written answer, `Enter` moves on.
 
 ## Running it
 
-It's a static site — no build step. Because the questions are loaded with `fetch`, serve the folder over HTTP:
+Static site, no build step. The questions are loaded with `fetch`, so serve the folder:
 
 ```bash
 python3 -m http.server 8000
-# then open http://localhost:8000
+# open http://localhost:8000
 ```
 
-It also works out of the box on GitHub Pages (Settings → Pages → deploy from `main`, root folder).
+Works as-is on GitHub Pages (Settings → Pages → deploy from `main`, root folder).
 
-## Adding your own questions
+## Adding / updating questions
 
-Edit `questions.json`. Each question looks like this:
+Source files live in `data/`; `questions.json` is **generated** from them:
 
-```json
-{
-  "id": 3,
-  "topic": "Maths",
-  "difficulty": "medium",
-  "question": "Solve for x: 2x − 7 = 11",
-  "answers": ["9", "x=9"],
-  "explanation": "Add 7 to both sides: 2x = 18, so x = 9.",
-  "timeLimit": 90
-}
+```bash
+python3 scripts/build_questions.py
 ```
 
-- `difficulty` must be `easy`, `medium` or `hard`
-- `answers` is a list of accepted answers — the first one is shown as "the" answer
-- `explanation` and `timeLimit` (per-question override, in seconds) are optional
-
-Global defaults live under `settings` at the top of the file:
-
-```json
-"settings": {
-  "timeLimits": { "easy": 60, "medium": 120, "hard": 180 },
-  "points":     { "easy": 1,  "medium": 2,   "hard": 3 }
-}
-```
+- `data/*.json` – past-paper files. Each question has `parts`, and every part becomes one
+  timed question. Parts labelled `MCQ_*` (or in a "Multiple Choice" question) are parsed
+  into options from lines like `A. …`, `B. …`; the correct letter comes from
+  `sample_answer`.
+- `data/*.csv` – flashcards. Recognised columns: `question`/`front`, `answer`/`back`,
+  optional `topic` and `difficulty` (`easy|medium|hard`). Multiple accepted answers can be
+  separated with `|`.
 
 ## Files
 
-- `index.html` – page structure (setup, quiz and results screens)
-- `styles.css` – styling and dark theme
-- `app.js` – quiz logic, timer and answer checking
-- `questions.json` – the question bank
+- `index.html`, `styles.css`, `app.js` – the site
+- `questions.json` – generated question bank (24 parts from 10 past-paper questions)
+- `data/quantum_and_polarization_past_papers.json` – source past papers
+- `scripts/build_questions.py` – converter
