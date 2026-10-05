@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Timed Study Quiz</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-icon">⏱</span>
+      <span>Timed Study Quiz</span>
+    </div>
+    <button id="theme-toggle" class="icon-btn" title="Toggle dark mode" aria-label="Toggle dark mode">🌙</button>
+  </header>
+
+  <main id="app">
+
+    <!-- ============ SETUP SCREEN ============ -->
+    <section id="screen-setup" class="screen active">
+      <div class="card">
+        <h1>Set up your session</h1>
+        <p class="muted">Past-paper questions timed by difficulty. Difficulty comes from the marks: <strong>1–2 easy</strong>, <strong>3–4 medium</strong>, <strong>5+ hard</strong>. Answer before the clock runs out!</p>
+
+        <div class="field">
+          <label>Source</label>
+          <div id="set-list" class="chip-group"></div>
+        </div>
+
+        <div class="field">
+          <label>Topics</label>
+          <div id="topic-list" class="chip-group"></div>
+        </div>
+
+        <div class="field">
+          <label>Difficulty</label>
+          <div class="chip-group" id="difficulty-list">
+            <label class="chip chip-easy"><input type="checkbox" value="easy" checked /> Easy <small id="count-easy"></small></label>
+            <label class="chip chip-medium"><input type="checkbox" value="medium" checked /> Medium <small id="count-medium"></small></label>
+            <label class="chip chip-hard"><input type="checkbox" value="hard" checked /> Hard <small id="count-hard"></small></label>
+          </div>
+        </div>
+
+        <div class="field">
+          <label>Question types</label>
+          <div class="chip-group" id="type-list">
+            <label class="chip"><input type="checkbox" value="open" checked /> Written / calculation <small id="count-open"></small></label>
+            <label class="chip"><input type="checkbox" value="mcq" checked /> Multiple choice <small id="count-mcq"></small></label>
+            <label class="chip"><input type="checkbox" value="short" checked /> Short / numeric answer <small id="count-short"></small></label>
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="num-questions">Number of questions</label>
+            <input type="number" id="num-questions" min="1" value="10" />
+          </div>
+          <div class="field">
+            <label for="order">Order</label>
+            <select id="order">
+              <option value="shuffle">Shuffled</option>
+              <option value="ascending">Easy → Hard</option>
+              <option value="original">File order</option>
+            </select>
+          </div>
+        </div>
+
+        <details class="advanced">
+          <summary>Timer settings (seconds per question)</summary>
+          <div class="field-row">
+            <div class="field">
+              <label for="time-easy">Easy</label>
+              <input type="number" id="time-easy" min="5" />
+            </div>
+            <div class="field">
+              <label for="time-medium">Medium</label>
+              <input type="number" id="time-medium" min="5" />
+            </div>
+            <div class="field">
+              <label for="time-hard">Hard</label>
+              <input type="number" id="time-hard" min="5" />
+            </div>
+          </div>
+        </details>
+
+        <p id="setup-error" class="error" hidden></p>
+
+        <div class="actions">
+          <button id="start-btn" class="btn btn-primary">Start quiz</button>
+        </div>
+
+        <div id="best-score" class="best-score" hidden></div>
+      </div>
+    </section>
+
+    <!-- ============ QUIZ SCREEN ============ -->
+    <section id="screen-quiz" class="screen">
+      <div class="card quiz-card">
+        <div class="quiz-header">
+          <div class="progress-text"><span id="q-index">1</span> / <span id="q-total">10</span></div>
+          <div class="tags">
+            <span id="q-topic" class="tag"></span>
+            <span id="q-difficulty" class="tag tag-difficulty"></span>
+          </div>
+          <div class="score-text">Score: <strong id="live-score">0</strong></div>
+        </div>
+
+        <div class="progress-bar"><div id="progress-fill" class="progress-fill"></div></div>
+
+        <div class="timer-wrap">
+          <div class="timer-ring">
+            <svg viewBox="0 0 120 120">
+              <circle class="ring-bg" cx="60" cy="60" r="52" />
+              <circle id="ring-fg" class="ring-fg" cx="60" cy="60" r="52" />
+            </svg>
+            <div id="timer-text" class="timer-text">60</div>
+          </div>
+        </div>
+
+        <div id="q-source" class="q-source"></div>
+
+        <details id="q-context" class="context" hidden>
+          <summary>Earlier parts of this question (for context)</summary>
+          <ol id="q-context-list"></ol>
+        </details>
+
+        <h2 id="q-text" class="question-text"></h2>
+
+        <form id="answer-form" autocomplete="off">
+          <!-- short answer -->
+          <input type="text" id="answer-input" placeholder="Type your answer… (e.g. 5.23e-19 or 5.23 x 10^-19)" autocomplete="off" spellcheck="false" />
+          <!-- open response -->
+          <textarea id="answer-textarea" rows="6" placeholder="Write your answer / working here…" hidden></textarea>
+          <!-- multiple choice -->
+          <div id="mcq-options" class="mcq-options" hidden></div>
+
+          <div class="actions">
+            <button type="submit" id="submit-btn" class="btn btn-primary">Submit</button>
+            <button type="button" id="skip-btn" class="btn btn-ghost">Skip</button>
+          </div>
+        </form>
+
+        <div id="feedback" class="feedback" hidden>
+          <div id="feedback-title" class="feedback-title"></div>
+          <div id="feedback-body" class="feedback-body"></div>
+
+          <!-- self-marking panel for open-response questions -->
+          <div id="marking" class="marking" hidden>
+            <div class="marking-cols">
+              <div class="marking-col">
+                <h4>Your answer</h4>
+                <pre id="marking-your-answer" class="your-answer"></pre>
+              </div>
+              <div class="marking-col">
+                <h4>Mark scheme — tick each point you got</h4>
+                <ul id="mark-scheme-list" class="mark-scheme"></ul>
+              </div>
+            </div>
+            <details class="sample">
+              <summary>Show model answer</summary>
+              <pre id="sample-answer"></pre>
+            </details>
+            <div class="marking-total">Marks awarded: <strong id="marks-awarded">0</strong> / <span id="marks-max">0</span></div>
+          </div>
+
+          <button id="next-btn" class="btn btn-primary">Next question →</button>
+        </div>
+
+        <button id="quit-btn" class="btn btn-link">End session</button>
+      </div>
+    </section>
+
+    <!-- ============ RESULTS SCREEN ============ -->
+    <section id="screen-results" class="screen">
+      <div class="card">
+        <h1>Session complete</h1>
+        <div class="result-summary">
+          <div class="stat"><div id="r-score" class="stat-value">0</div><div class="stat-label">marks</div></div>
+          <div class="stat"><div id="r-correct" class="stat-value">0</div><div class="stat-label">correct</div></div>
+          <div class="stat"><div id="r-accuracy" class="stat-value">0%</div><div class="stat-label">accuracy</div></div>
+          <div class="stat"><div id="r-avg-time" class="stat-value">0s</div><div class="stat-label">avg time</div></div>
+        </div>
+
+        <div id="breakdown" class="breakdown"></div>
+
+        <h3>Review</h3>
+        <ul id="review-list" class="review-list"></ul>
+
+        <div class="actions">
+          <button id="retry-btn" class="btn btn-primary">Same settings again</button>
+          <button id="retry-wrong-btn" class="btn btn-secondary">Retry wrong ones</button>
+          <button id="home-btn" class="btn btn-ghost">Change settings</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <span>Questions are built from <code>data/</code> by <code>scripts/build_questions.py</code>.</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
