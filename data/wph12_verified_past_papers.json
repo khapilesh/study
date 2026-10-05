@@ -192,6 +192,91 @@
     ]
   },
   {
+    "id": "POL_08",
+    "topic": "Polarisation",
+    "paper_source": "Edexcel IAL WPH12 Oct 2019 Q18",
+    "spec_points": [
+      "49"
+    ],
+    "question_type": "Structured Open Response / Calculation",
+    "total_marks": 11,
+    "parts": [
+      {
+        "part_label": "(a)",
+        "marks": 2,
+        "question_text": "When an incident ray of light meets a boundary between air and glass, some of the light is reflected and some is refracted. The reflected light is partially plane polarised.\nState what is meant by plane polarised.",
+        "mark_scheme": [
+          "Vibrations / oscillations (of the wave) in one plane (only).",
+          "The plane includes the direction of wave travel (or: the vibrations are in one direction perpendicular to the direction of wave travel)."
+        ],
+        "sample_answer": "Plane polarised light has its vibrations (oscillations) in one plane only. That plane contains the direction in which the wave travels — equivalently, the oscillations are all in one direction perpendicular to the direction of travel."
+      },
+      {
+        "part_label": "(b)",
+        "marks": 2,
+        "question_text": "Deduce whether the refracted ray is unpolarised or partially plane polarised.",
+        "mark_scheme": [
+          "The refracted ray lacks the planes of oscillation that are in the reflected light (or: the refracted ray has a plane of polarisation perpendicular to the plane of polarisation of the reflected light).",
+          "So the refracted ray must also be partially plane polarised. [MP2 dependent on MP1]"
+        ],
+        "sample_answer": "The reflected light is partially plane polarised, so it contains more of one plane of oscillation than the others. The refracted ray carries the rest of the light, so it lacks those planes of oscillation (its plane of polarisation is perpendicular to that of the reflected light). The refracted ray must therefore also be partially plane polarised."
+      },
+      {
+        "part_label": "(c)(i)",
+        "marks": 3,
+        "question_text": "At the Brewster angle θB, the reflected light is completely plane polarised. This occurs when the reflected ray and the refracted ray are at right angles to each other, so θB + r = 90°.\nShow that tan θB = ng / na, where na is the refractive index of air and ng is the refractive index of glass.",
+        "mark_scheme": [
+          "Use of na sin θa = ng sin θg (or: na sin θB = ng sin r).",
+          "Substitute r = 90° − θB, giving na sin θB = ng sin(90° − θB) = ng cos θB (or: sin r = cos θB).",
+          "Divide sin θB by cos θB to give tan θB, leading to tan θB = ng / na."
+        ],
+        "sample_answer": "Snell's law at the air–glass boundary gives na sin θB = ng sin r. At the Brewster angle the reflected and refracted rays are at right angles, so r = 90° − θB and na sin θB = ng sin(90° − θB) = ng cos θB. Dividing both sides by cos θB gives na tan θB = ng, so tan θB = ng / na."
+      },
+      {
+        "part_label": "(c)(ii)",
+        "marks": 2,
+        "question_text": "Calculate θB for light passing from air into glass.\nrefractive index of air = 1.00\nrefractive index of glass = 1.50",
+        "mark_scheme": [
+          "Substitution of values into tan θB = ng / na (tan θB = 1.50 / 1.00).",
+          "θB = 56°"
+        ],
+        "sample_answer": "tan θB = ng / na = 1.50 / 1.00 = 1.50, so θB = tan⁻¹(1.50) = 56°."
+      },
+      {
+        "part_label": "(c)(iii)",
+        "marks": 2,
+        "question_text": "Different colours of visible light are refracted as they pass through a prism: violet light is refracted the most and red light the least.\nA student suggests that the Brewster angle for violet light would be smaller than that for red light, as violet is refracted more than red.\nCriticise this suggestion.",
+        "mark_scheme": [
+          "The refractive index (of the glass) is greater for violet than for red (or: ng / na is greater for violet).",
+          "Clearly links this to the student being incorrect: since tan θB = ng / na, a greater refractive index gives a greater θB, so the Brewster angle for violet is larger than for red."
+        ],
+        "sample_answer": "The student is incorrect. Since tan θB = ng / na, a colour with a larger refractive index has a larger Brewster angle. Violet is refracted more than red, so the refractive index of the glass is greater for violet; therefore tan θB — and hence θB — is greater for violet than for red, not smaller."
+      }
+    ]
+  },
+  {
+    "id": "POL_09",
+    "topic": "Polarisation",
+    "paper_source": "Edexcel IAL WPH12 Jan 2022 Q16(c)",
+    "spec_points": [
+      "49"
+    ],
+    "question_type": "Short Answer",
+    "total_marks": 2,
+    "parts": [
+      {
+        "part_label": "(c)",
+        "marks": 2,
+        "question_text": "The light emerging from prism B is observed through a polarising filter. The polarising filter is rotated gradually, and the light transmitted by the filter varies in intensity.\nExplain how this observation demonstrates that light waves are transverse.",
+        "mark_scheme": [
+          "The light (emerging from prism B) is polarised (its intensity changes as the polarising filter is rotated).",
+          "Only transverse waves can be polarised."
+        ],
+        "sample_answer": "As the polarising filter is rotated the transmitted intensity varies, which shows that the emerging light is (plane) polarised. Only transverse waves can be polarised, because their oscillations are perpendicular to the direction of travel (a longitudinal wave cannot be polarised). Light must therefore be a transverse wave."
+      }
+    ]
+  },
+  {
     "id": "POL_MCQ",
     "topic": "Polarisation",
     "paper_source": "Edexcel IAL WPH12 past paper multiple choice (Diffraction & Polarisation topic pack)",
@@ -706,7 +791,7 @@
   {
     "id": "QP_11",
     "topic": "Particle Nature of Light",
-    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q5)",
+    "paper_source": "Edexcel IAL WPH12 June 2022 Q17",
     "spec_points": [
       "54",
       "58",
@@ -714,7 +799,7 @@
       "61"
     ],
     "question_type": "Structured",
-    "total_marks": 7,
+    "total_marks": 11,
     "parts": [
       {
         "part_label": "(a)",
@@ -738,6 +823,23 @@
           "λ = 250 nm, so UVC."
         ],
         "sample_answer": "The minimum de Broglie wavelength corresponds to the fastest electrons: p = h/λ = 6.63 × 10⁻³⁴ / 1.50 × 10⁻⁹ = 4.42 × 10⁻²⁵ kg m s⁻¹, so v = p/m = 4.85 × 10⁵ m s⁻¹ and Ek,max = ½mv² = 1.07 × 10⁻¹⁹ J. Φ = 4.30 × 1.60 × 10⁻¹⁹ = 6.88 × 10⁻¹⁹ J. Photon energy hf = Φ + Ek,max = 7.95 × 10⁻¹⁹ J, so f = 1.20 × 10¹⁵ Hz and λ = c/f = 2.50 × 10⁻⁷ m = 250 nm. This lies in the 100–280 nm range, so the light is UVC."
+      },
+      {
+        "part_label": "(c)",
+        "marks": 4,
+        "question_text": "The student's graph of maximum kinetic energy of the released electrons against the frequency of the incident UV light is a straight line. The graph has a y-intercept of −10.0 eV and it crosses the frequency axis (x-intercept) at 7.5 × 10¹⁴ Hz; the line also passes through the point (15.0 × 10¹⁴ Hz, 10.0 eV).\nEinstein's photoelectric equation applies to this situation.\nDescribe two ways that the graph is not consistent with the values known for a zinc plate. Your answer should include calculations.\nwork function of zinc = 4.30 eV",
+        "mark_scheme": [
+          "Any two of the three ways below (each way is worth 2 marks, i.e. two marking points).",
+          "Way 1, MP1 (work function): the y-intercept of the graph should be (the negative of) the work function.",
+          "Way 1, MP2 (work function): the y-intercept is approximately −10.0 eV, not −4.30 eV, so the plate cannot be zinc.",
+          "Way 1 alternative MP1: hf₀ should equal the work function.",
+          "Way 1 alternative MP2: hf₀ read from the graph = 6.63 × 10⁻³⁴ J s × 7.5 × 10¹⁴ Hz = 5.0 × 10⁻¹⁹ J = 3.1 eV, not 4.30 eV.",
+          "Way 2, MP1 (threshold frequency): the threshold frequency is the x-intercept of the graph (7.5 × 10¹⁴ Hz).",
+          "Way 2, MP2 (threshold frequency): for zinc the threshold frequency should be f₀ = Φ/h = 6.88 × 10⁻¹⁹ J / 6.63 × 10⁻³⁴ J s = 1.0 × 10¹⁵ Hz, so the plate cannot be zinc.",
+          "Way 3, MP1 (Planck constant): the gradient of the graph should be equal to the Planck constant.",
+          "Way 3, MP2 (Planck constant): the gradient is (10.0 eV × 1.60 × 10⁻¹⁹ J eV⁻¹)/(7.5 × 10¹⁴ Hz) = 2.1 × 10⁻³³ J s, not 6.63 × 10⁻³⁴ J s."
+        ],
+        "sample_answer": "For zinc the threshold frequency should be f₀ = Φ/h = (4.30 eV × 1.60 × 10⁻¹⁹ J eV⁻¹)/(6.63 × 10⁻³⁴ J s) = 1.0 × 10¹⁵ Hz, but the graph's x-intercept is only 7.5 × 10¹⁴ Hz. The gradient of the graph should equal the Planck constant, but its gradient is (10.0 eV − 0)/(15.0 − 7.5) × 10¹⁴ Hz = 2.1 × 10⁻³³ J s, which is about three times larger than h. (Equivalently, the y-intercept should be −4.30 eV, but the graph's y-intercept is about −10.0 eV.) The graph is therefore not consistent with a zinc plate."
       }
     ]
   },
@@ -825,7 +927,7 @@
   {
     "id": "QP_15",
     "topic": "Particle Nature of Light",
-    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q18)",
+    "paper_source": "Edexcel IAL WPH12 Jan 2023 Q18",
     "spec_points": [
       "59",
       "60",
@@ -833,7 +935,7 @@
       "62"
     ],
     "question_type": "Structured",
-    "total_marks": 9,
+    "total_marks": 13,
     "parts": [
       {
         "part_label": "(a)(i)",
@@ -845,6 +947,18 @@
           "Energy = 0.35 eV."
         ],
         "sample_answer": "Ek = ½ × 9.11 × 10⁻³¹ × (3.51 × 10⁵)² = 5.60 × 10⁻²⁰ J = 5.60 × 10⁻²⁰ / 1.60 × 10⁻¹⁹ = 0.35 eV."
+      },
+      {
+        "part_label": "(a)(ii)",
+        "marks": 4,
+        "question_text": "The table shows typical values of work function for four different metals.\nMagnesium: 5.89 × 10⁻¹⁹ J\nAluminium: 6.53 × 10⁻¹⁹ J\nZinc: 6.88 × 10⁻¹⁹ J\nIron: 7.20 × 10⁻¹⁹ J\nThe ultraviolet light used in the experiment had a wavelength of 310 nm.\nDeduce which of the metals was most likely to have been used as the metal plate.",
+        "mark_scheme": [
+          "Use of v = fλ with v = 3.00 × 10⁸ m s⁻¹ (f = 3.00 × 10⁸ / 310 × 10⁻⁹ = 9.68 × 10¹⁴ Hz).",
+          "Use of E = hf (E = 6.63 × 10⁻³⁴ × 9.68 × 10¹⁴ = 6.42 × 10⁻¹⁹ J).",
+          "Use of hf = Φ + ½mv²max (Φ = 6.42 × 10⁻¹⁹ − 5.60 × 10⁻²⁰).",
+          "Φ = 5.86 × 10⁻¹⁹ J, so the metal is magnesium."
+        ],
+        "sample_answer": "The photon energy of the ultraviolet light is E = hc/λ = (6.63 × 10⁻³⁴ J s × 3.00 × 10⁸ m s⁻¹)/(310 × 10⁻⁹ m) = 6.42 × 10⁻¹⁹ J. From part (a)(i) the photoelectrons have Ek,max = 5.60 × 10⁻²⁰ J. Rearranging hf = Φ + ½mv²max gives Φ = 6.42 × 10⁻¹⁹ − 5.60 × 10⁻²⁰ = 5.86 × 10⁻¹⁹ J. This is closest to the work function of magnesium (5.89 × 10⁻¹⁹ J), so the plate was magnesium."
       },
       {
         "part_label": "(b)",
@@ -1017,13 +1131,13 @@
   {
     "id": "QP_19",
     "topic": "Particle Nature of Light",
-    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q24(a))",
+    "paper_source": "Edexcel IAL WPH12 Oct 2022 Q14",
     "spec_points": [
       "59",
       "60"
     ],
-    "question_type": "Open Response",
-    "total_marks": 3,
+    "question_type": "Structured",
+    "total_marks": 7,
     "parts": [
       {
         "part_label": "(a)",
@@ -1035,6 +1149,18 @@
           "The remaining photon energy is transferred to kinetic energy of the electron, so it is lower than the photon energy (photon energy is shared between the work function and the kinetic energy)."
         ],
         "sample_answer": "Each electron absorbs the energy of a single photon. Part of that energy – at least the work function – is used to free the electron from the surface, and only what is left over becomes kinetic energy. So even the most energetic electron has kinetic energy hf − Φ, which is less than the photon energy hf."
+      },
+      {
+        "part_label": "(b)",
+        "marks": 4,
+        "question_text": "The frequencies of three different sources of light, A, B and C, are shown below.\nLight source A: 1.11 × 10¹⁵ Hz\nLight source B: 1.23 × 10¹⁵ Hz\nLight source C: 1.34 × 10¹⁵ Hz\nThe light from one of these sources was incident on the magnesium plate, and electrons were released with a maximum speed of 5.70 × 10⁵ m s⁻¹.\nDeduce which of the three sources of light was used.\nwork function of magnesium = 3.68 eV",
+        "mark_scheme": [
+          "Use of Ek = ½mv² (Ek = ½ × 9.11 × 10⁻³¹ × (5.70 × 10⁵)² = 1.48 × 10⁻¹⁹ J).",
+          "Use of hf = Φ + ½mv²max.",
+          "Conversion of the work function from eV into J (Φ = 3.68 × 1.60 × 10⁻¹⁹ = 5.89 × 10⁻¹⁹ J).",
+          "f = 1.1 × 10¹⁵ Hz, so source A."
+        ],
+        "sample_answer": "Ek,max = ½mv² = ½ × 9.11 × 10⁻³¹ kg × (5.70 × 10⁵ m s⁻¹)² = 1.48 × 10⁻¹⁹ J. The work function in joules is Φ = 3.68 × 1.60 × 10⁻¹⁹ = 5.89 × 10⁻¹⁹ J. So hf = Φ + Ek,max = 5.89 × 10⁻¹⁹ + 1.48 × 10⁻¹⁹ = 7.37 × 10⁻¹⁹ J, giving f = 7.37 × 10⁻¹⁹ / 6.63 × 10⁻³⁴ = 1.11 × 10¹⁵ Hz. This matches source A."
       }
     ]
   },
@@ -1442,6 +1568,64 @@
           "Energy per photon = 3.7 × 10⁻⁶ eV."
         ],
         "sample_answer": "E = hf = 6.63 × 10⁻³⁴ × 902 × 10⁶ = 5.98 × 10⁻²⁵ J = 5.98 × 10⁻²⁵ / 1.60 × 10⁻¹⁹ = 3.7 × 10⁻⁶ eV."
+      }
+    ]
+  },
+  {
+    "id": "QP_30",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 Oct 2019 Q12",
+    "spec_points": [
+      "53",
+      "54"
+    ],
+    "question_type": "Structured",
+    "total_marks": 4,
+    "parts": [
+      {
+        "part_label": "(a)",
+        "marks": 3,
+        "question_text": "A student is reading about the wave nature of electrons. He writes a statement about wave-particle duality:\n\"If every particle has a de Broglie wavelength, it should be possible for a moving car to have the same de Broglie wavelength as a fast moving electron, although the car would be moving very slowly.\"\nDetermine whether the student's statement about the speed of the car is mathematically correct.\nspeed of electron = 1.5 × 10⁷ m s⁻¹\nmass of car = 900 kg",
+        "mark_scheme": [
+          "Use of p = mv for the electron (m = 9.11 × 10⁻³¹ kg used), giving p = 1.37 × 10⁻²³ kg m s⁻¹.",
+          "Use of λ = h/p (λ = 6.63 × 10⁻³⁴ / 1.37 × 10⁻²³ = 4.8 × 10⁻¹¹ m).",
+          "Speed of car = 1.5 × 10⁻²⁶ m s⁻¹ (which is very small), so the student's suggestion is correct."
+        ],
+        "sample_answer": "For the electron, p = mv = (9.11 × 10⁻³¹ kg)(1.5 × 10⁷ m s⁻¹) = 1.37 × 10⁻²³ kg m s⁻¹, so λ = h/p = (6.63 × 10⁻³⁴ J s)/(1.37 × 10⁻²³ kg m s⁻¹) = 4.8 × 10⁻¹¹ m. For the car to have this de Broglie wavelength: 4.8 × 10⁻¹¹ m = (6.63 × 10⁻³⁴ J s)/(900 kg × v), so v = 1.5 × 10⁻²⁶ m s⁻¹. The car would indeed have to move extremely slowly, so the student's statement is mathematically correct."
+      },
+      {
+        "part_label": "(b)",
+        "marks": 1,
+        "question_text": "Suggest why the de Broglie wavelength is not a useful property for a car.",
+        "mark_scheme": [
+          "The car is not a single particle / does not behave like a wave or particle (or: the de Broglie equation has only been demonstrated for microscopic particles)."
+        ],
+        "sample_answer": "The car is not a single particle and is far too large (macroscopic) for wave behaviour to be observed; the de Broglie relationship has only been demonstrated for microscopic particles such as electrons."
+      }
+    ]
+  },
+  {
+    "id": "QP_33",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 Jan 2024 Q19(a)",
+    "spec_points": [
+      "58",
+      "60",
+      "61"
+    ],
+    "question_type": "Calculation",
+    "total_marks": 3,
+    "parts": [
+      {
+        "part_label": "(a)",
+        "marks": 3,
+        "question_text": "Solar cells are made from semiconductor materials. One type of solar cell has two layers of semiconducting material, layer 1 and layer 2. Photons of light are incident on the solar cell. The minimum energy to release an electron from a semiconductor layer is the work function.\nThe work function of layer 1 is 1.86 eV.\nCalculate the minimum frequency of light needed to release an electron from layer 1.",
+        "mark_scheme": [
+          "Substitution into hf = φ (a photon must have energy equal to the work function).",
+          "Use of 1 eV = 1.6 × 10⁻¹⁹ J (φ = 1.86 × 1.6 × 10⁻¹⁹ = 2.98 × 10⁻¹⁹ J).",
+          "Minimum (threshold) frequency = 4.5 × 10¹⁴ Hz."
+        ],
+        "sample_answer": "The minimum photon energy needed is the work function: φ = 1.86 eV × 1.6 × 10⁻¹⁹ J eV⁻¹ = 2.98 × 10⁻¹⁹ J. Using hf = φ: f = 2.98 × 10⁻¹⁹ J / 6.63 × 10⁻³⁴ J s = 4.5 × 10¹⁴ Hz."
       }
     ]
   },
