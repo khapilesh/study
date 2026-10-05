@@ -18,9 +18,10 @@ Timers can be changed on the setup screen.
   wrote; tick each marking point you hit and the marks are added to your score. A model
   answer is available under "Show model answer".
 - **Multiple choice** – click A/B/C/D; auto-marked, with the explanation shown.
-- **Question bank** – 99 parts from 39 verified WPH12 questions across both topics:
-  Polarisation (8 questions, 32 marks) and Particle Nature of Light (31 questions,
-  239 marks). Questions are taken from real papers (June 2025, Jan 2025, Jan 2026) and
+- **Question bank** – 111 parts from 43 verified WPH12 questions across both topics:
+  Polarisation (10 questions, 45 marks) and Particle Nature of Light (33 questions,
+  258 marks). Questions are taken from real papers (Oct 2019, Jan 2022, June 2022,
+  Oct 2022, Jan 2023, Jan 2024, Jan 2025, June 2025 and Jan 2026) and
   from the WPH12 topic packs; each part carries its official mark scheme and a model
   answer.
 - The setup screen lets you filter by source, topic, difficulty and question type.
@@ -63,6 +64,6 @@ cards with `answers`, optional `answerDisplay` and `tolerance` are auto-marked) 
 ## Files
 
 - `index.html`, `styles.css`, `app.js` – the site
-- `questions.json` – generated question bank (99 past-paper parts from 39 questions)
+- `questions.json` – generated question bank (111 past-paper parts from 43 questions)
 - `data/wph12_verified_past_papers.json` – source past papers
 - `scripts/build_questions.py` – converter
