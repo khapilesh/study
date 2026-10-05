@@ -2,7 +2,8 @@
 """Build questions.json for the quiz site from the source files in data/.
 
 Sources handled:
-  * data/*.json  – past-paper files (list of questions, each with "parts")
+  * data/*.json  – past-paper files (a list of questions, each with "parts"), or
+                   flashcard files ({"kind": "flashcards", "cards": [...]})
   * data/*.csv   – flashcards (columns: question/front, answer/back, optional topic, difficulty)
 
 Each past-paper *part* becomes one timed question. Difficulty is derived from
@@ -65,6 +66,7 @@ def convert_past_papers(path):
 
             item = {
                 "id": f"{q['id']}_{label}".replace(" ", ""),
+                "set": "Past papers",
                 "parentId": q["id"],
                 "partLabel": label,
                 "topic": q.get("topic", "General"),
@@ -91,6 +93,38 @@ def convert_past_papers(path):
             out.append(item)
             if not is_mcq:
                 earlier.append(f"{label} {text}".strip())
+    return out
+
+
+def convert_flashcard_json(path, data):
+    """{"kind": "flashcards", "cards": [...]} -> open (self-marked) or short (auto-marked) questions."""
+    out = []
+    set_name = data.get("set", "Flashcards")
+    for i, c in enumerate(data.get("cards", []), 1):
+        if c.get("answers"):
+            qtype = "short"
+            marks = int(c.get("marks", 1))
+        else:
+            qtype = "open"
+            marks = int(c.get("marks", len(c.get("markScheme", [])) or 1))
+        item = {
+            "id": c.get("id", f"FC_{i:03d}"),
+            "set": set_name,
+            "topic": c.get("topic", "Flashcards"),
+            "source": c.get("source", "Flashcard"),
+            "type": qtype,
+            "marks": marks,
+            "difficulty": c.get("difficulty") or difficulty_from_marks(marks),
+            "question": c["question"],
+            "answers": c.get("answers", []),
+            "markScheme": c.get("markScheme", []),
+            "sampleAnswer": c.get("sampleAnswer", " ".join(c.get("markScheme", []))),
+            "explanation": c.get("explanation", ""),
+        }
+        for k in ("answerDisplay", "tolerance", "timeLimit", "reconstructed"):
+            if k in c:
+                item[k] = c[k]
+        out.append(item)
     return out
 
 
@@ -123,6 +157,7 @@ def convert_flashcards(path):
                 difficulty = "easy"
             out.append({
                 "id": f"FC_{i:03d}",
+                "set": "Flashcards",
                 "topic": pick(row, "topic", "subject", "deck", "category") or "Flashcards",
                 "source": os.path.basename(path),
                 "type": "short",
@@ -138,8 +173,14 @@ def convert_flashcards(path):
 def main():
     questions = []
     for path in sorted(glob.glob(os.path.join(DATA_DIR, "*.json"))):
-        items = convert_past_papers(path)
-        print(f"{os.path.basename(path)}: {len(items)} question parts")
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        if isinstance(data, dict) and data.get("kind") == "flashcards":
+            items = convert_flashcard_json(path, data)
+            print(f"{os.path.basename(path)}: {len(items)} flashcards")
+        else:
+            items = convert_past_papers(path)
+            print(f"{os.path.basename(path)}: {len(items)} question parts")
         questions.extend(items)
     for path in sorted(glob.glob(os.path.join(DATA_DIR, "*.csv"))):
         items = convert_flashcards(path)

@@ -18,7 +18,889 @@
   },
   "questions": [
     {
+      "id": "FC_POL_01",
+      "set": "Flashcards",
+      "topic": "Polarization",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "Explain the difference between unpolarised light and plane polarised light.",
+      "answers": [],
+      "markScheme": [
+        "Unpolarised light has oscillations (or vibrations) in all or many planes / directions.",
+        "Plane polarised light has oscillations (or vibrations) in one single plane / direction, which is perpendicular to the direction of wave travel."
+      ],
+      "sampleAnswer": "Unpolarised light has oscillations (or vibrations) in all or many planes / directions. Plane polarised light has oscillations (or vibrations) in one single plane / direction, which is perpendicular to the direction of wave travel.",
+      "explanation": ""
+    },
+    {
+      "id": "FC_POL_02",
+      "set": "Flashcards",
+      "topic": "Polarization",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "Unpolarised light is passed through a single polarising filter. Explain why rotating the filter does not change the intensity of the transmitted light.",
+      "answers": [],
+      "markScheme": [
+        "The polarising filter only transmits light in one plane (or direction).",
+        "As the filter is rotated, a different single plane (or direction) of oscillation passes through, so the transmitted intensity stays constant."
+      ],
+      "sampleAnswer": "The polarising filter only transmits light in one plane (or direction). As the filter is rotated, a different single plane (or direction) of oscillation passes through, so the transmitted intensity stays constant.",
+      "explanation": ""
+    },
+    {
+      "id": "FC_POL_03",
+      "set": "Flashcards",
+      "topic": "Polarization",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 3,
+      "difficulty": "medium",
+      "question": "Three polarising filters are in series: Filter 1 vertical, Filter 3 horizontal, and Filter 2 initially aligned with Filter 1. Explain what happens to the light through Filter 3 when Filter 2 is rotated by 45°.",
+      "answers": [],
+      "markScheme": [
+        "Initially: light leaving Filter 2 is polarised vertically, i.e. perpendicular to Filter 3's transmission axis, so no light passes through Filter 3.",
+        "After 45° rotation: some light transmitted by Filter 2 now has a component parallel to Filter 3's transmission axis.",
+        "Therefore light is transmitted through Filter 3 and its intensity increases."
+      ],
+      "sampleAnswer": "Initially: light leaving Filter 2 is polarised vertically, i.e. perpendicular to Filter 3's transmission axis, so no light passes through Filter 3. After 45° rotation: some light transmitted by Filter 2 now has a component parallel to Filter 3's transmission axis. Therefore light is transmitted through Filter 3 and its intensity increases.",
+      "explanation": "",
+      "reconstructed": true
+    },
+    {
+      "id": "FC_POL_04",
+      "set": "Flashcards",
+      "topic": "Polarization",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "Radio waves are detected by a vertical aerial. When the aerial is rotated by 90° to the horizontal, the waves are no longer detected. Explain this observation.",
+      "answers": [],
+      "markScheme": [
+        "Oscillations of the radio waves occur in only one plane (or direction), meaning the radio waves are plane polarised.",
+        "When rotated by 90°, the horizontal aerial cannot absorb or detect waves polarised in the vertical plane."
+      ],
+      "sampleAnswer": "Oscillations of the radio waves occur in only one plane (or direction), meaning the radio waves are plane polarised. When rotated by 90°, the horizontal aerial cannot absorb or detect waves polarised in the vertical plane.",
+      "explanation": ""
+    },
+    {
+      "id": "FC_POL_05",
+      "set": "Flashcards",
+      "topic": "Polarization",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "A student views light reflected from a glass block through a polarising filter and rotates the filter through 360°. Describe what is observed.",
+      "answers": [],
+      "markScheme": [
+        "The intensity of the light varies between a maximum and a minimum every 90° of rotation.",
+        "Maximum intensity occurs when the filter's transmission plane aligns with the plane of oscillation of the reflected light; minimum occurs when they are perpendicular."
+      ],
+      "sampleAnswer": "The intensity of the light varies between a maximum and a minimum every 90° of rotation. Maximum intensity occurs when the filter's transmission plane aligns with the plane of oscillation of the reflected light; minimum occurs when they are perpendicular.",
+      "explanation": "",
+      "reconstructed": true
+    },
+    {
+      "id": "FC_POL_06",
+      "set": "Flashcards",
+      "topic": "Polarization",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "State why sound waves cannot be polarised.",
+      "answers": [],
+      "markScheme": [
+        "Sound waves are longitudinal waves (oscillations are parallel to the direction of energy transfer).",
+        "Only transverse waves can be polarised."
+      ],
+      "sampleAnswer": "Sound waves are longitudinal waves (oscillations are parallel to the direction of energy transfer). Only transverse waves can be polarised.",
+      "explanation": ""
+    },
+    {
+      "id": "FC_POL_07",
+      "set": "Flashcards",
+      "topic": "Polarization",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "Define plane polarisation.",
+      "answers": [],
+      "markScheme": [
+        "Plane polarisation is when all the oscillations (or vibrations) of a transverse wave occur in a single plane",
+        "which is perpendicular to the direction of wave propagation."
+      ],
+      "sampleAnswer": "Plane polarisation is when all the oscillations (or vibrations) of a transverse wave occur in a single plane which is perpendicular to the direction of wave propagation.",
+      "explanation": ""
+    },
+    {
+      "id": "FC_POL_08",
+      "set": "Flashcards",
+      "topic": "Polarization",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "Explain how Polaroid sunglasses reduce glare from light reflected off a horizontal surface.",
+      "answers": [],
+      "markScheme": [
+        "Reflected light from horizontal surfaces is partially horizontally plane-polarised.",
+        "Polaroid sunglasses have vertically oriented transmission axes, which block the horizontally polarised reflected light."
+      ],
+      "sampleAnswer": "Reflected light from horizontal surfaces is partially horizontally plane-polarised. Polaroid sunglasses have vertically oriented transmission axes, which block the horizontally polarised reflected light.",
+      "explanation": ""
+    },
+    {
+      "id": "FC_POL_09",
+      "set": "Flashcards",
+      "topic": "Polarization",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "What are 'crossed Polaroids'?",
+      "answers": [],
+      "markScheme": [
+        "Two polarising filters placed with their transmission axes oriented at 90° to each other.",
+        "They block all light, resulting in zero transmitted light intensity."
+      ],
+      "sampleAnswer": "Two polarising filters placed with their transmission axes oriented at 90° to each other. They block all light, resulting in zero transmitted light intensity.",
+      "explanation": ""
+    },
+    {
+      "id": "FC_POL_10",
+      "set": "Flashcards",
+      "topic": "Polarization",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "What fraction of the intensity of unpolarised light is transmitted by a single ideal polarising filter? Explain why.",
+      "answers": [],
+      "markScheme": [
+        "Half (50% or 1/2).",
+        "The components of the oscillations parallel to the transmission axis are transmitted while the perpendicular components are absorbed."
+      ],
+      "sampleAnswer": "Half (50% or 1/2). The components of the oscillations parallel to the transmission axis are transmitted while the perpendicular components are absorbed.",
+      "explanation": ""
+    },
+    {
+      "id": "FC_POL_11",
+      "set": "Flashcards",
+      "topic": "Polarization",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 3,
+      "difficulty": "medium",
+      "question": "State Malus's law for plane polarised light passing through a polarising filter, and define each term.",
+      "answers": [],
+      "markScheme": [
+        "I = I₀ cos²θ",
+        "I: transmitted intensity; I₀: initial intensity of the plane polarised light.",
+        "θ: angle between the plane of polarisation and the filter's transmission axis."
+      ],
+      "sampleAnswer": "I = I₀ cos²θ I: transmitted intensity; I₀: initial intensity of the plane polarised light. θ: angle between the plane of polarisation and the filter's transmission axis.",
+      "explanation": ""
+    },
+    {
+      "id": "FC_POL_12",
+      "set": "Flashcards",
+      "topic": "Polarization",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "Explain how polarising filters are used in stress analysis of plastic (Perspex) models.",
+      "answers": [],
+      "markScheme": [
+        "Stressed plastic is optically active (birefringent) and rotates the plane of polarisation of light passing through it.",
+        "When viewed between crossed Polaroids, light passes through regions of stress, creating colourful fringe patterns that identify areas of high stress concentration."
+      ],
+      "sampleAnswer": "Stressed plastic is optically active (birefringent) and rotates the plane of polarisation of light passing through it. When viewed between crossed Polaroids, light passes through regions of stress, creating colourful fringe patterns that identify areas of high stress concentration.",
+      "explanation": "",
+      "reconstructed": true
+    },
+    {
+      "id": "FC_POL_13",
+      "set": "Flashcards",
+      "topic": "Polarization",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "Explain why the light from a filament bulb is unpolarised.",
+      "answers": [],
+      "markScheme": [
+        "Light is emitted independently by countless randomly oriented atomic transitions,",
+        "resulting in electromagnetic waves oscillating in all possible planes perpendicular to the direction of propagation."
+      ],
+      "sampleAnswer": "Light is emitted independently by countless randomly oriented atomic transitions, resulting in electromagnetic waves oscillating in all possible planes perpendicular to the direction of propagation.",
+      "explanation": ""
+    },
+    {
+      "id": "FC_QP_01",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 5,
+      "difficulty": "hard",
+      "question": "Explain the photoelectric effect using the photon model of light.",
+      "answers": [],
+      "markScheme": [
+        "Light consists of photons (discrete packets / quanta of energy).",
+        "Each photon interacts with a single electron (one-to-one interaction).",
+        "Photon energy is proportional to frequency (E = hf).",
+        "Some energy is used to release the electron from the surface / overcome the work function (Φ).",
+        "Remaining energy is transferred as kinetic energy of the released electron."
+      ],
+      "sampleAnswer": "Light consists of photons (discrete packets / quanta of energy). Each photon interacts with a single electron (one-to-one interaction). Photon energy is proportional to frequency (E = hf). Some energy is used to release the electron from the surface / overcome the work function (Φ). Remaining energy is transferred as kinetic energy of the released electron.",
+      "explanation": "",
+      "reconstructed": true
+    },
+    {
+      "id": "FC_QP_02",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 3,
+      "difficulty": "medium",
+      "question": "State the photoelectric equation hf = Φ + ½mv²max and define each term.",
+      "answers": [],
+      "markScheme": [
+        "hf: energy of the incident photon (h = Planck constant, f = frequency).",
+        "Φ: work function of the metal (minimum energy required to release an electron from the surface).",
+        "½mv²max: maximum kinetic energy of the released photoelectron."
+      ],
+      "sampleAnswer": "hf: energy of the incident photon (h = Planck constant, f = frequency). Φ: work function of the metal (minimum energy required to release an electron from the surface). ½mv²max: maximum kinetic energy of the released photoelectron.",
+      "explanation": "",
+      "reconstructed": true
+    },
+    {
+      "id": "FC_QP_03",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "short",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "Calculate the energy, in J, of a photon of wavelength 380 nm. (c = 3.00 × 10⁸ m s⁻¹, h = 6.63 × 10⁻³⁴ J s)",
+      "answers": [
+        "5.23e-19"
+      ],
+      "markScheme": [],
+      "sampleAnswer": "",
+      "explanation": "f = c/λ = 3.00 × 10⁸ / (380 × 10⁻⁹) = 7.89 × 10¹⁴ Hz; E = hf = 6.63 × 10⁻³⁴ × 7.89 × 10¹⁴ = 5.23 × 10⁻¹⁹ J.",
+      "answerDisplay": "5.23 × 10⁻¹⁹ J",
+      "tolerance": 0.02
+    },
+    {
+      "id": "FC_QP_04",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "short",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "Photons of energy 5.23 × 10⁻¹⁹ J are incident on a metal with work function 2.2 eV. Calculate the maximum kinetic energy of the photoelectrons, in eV.",
+      "answers": [
+        "1.07",
+        "1.1"
+      ],
+      "markScheme": [],
+      "sampleAnswer": "",
+      "explanation": "Convert photon energy to eV: 5.23 × 10⁻¹⁹ / 1.60 × 10⁻¹⁹ = 3.27 eV. Then Ek,max = hf − Φ = 3.27 − 2.2 = 1.07 eV.",
+      "answerDisplay": "1.07 eV (≈ 1.1 eV)",
+      "tolerance": 0.05
+    },
+    {
+      "id": "FC_QP_05",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "short",
+      "marks": 3,
+      "difficulty": "medium",
+      "question": "Light of intensity 8000 W m⁻² falls on a surface of area 0.020 m². The photon energy is 5.23 × 10⁻¹⁹ J. Calculate the number of photons arriving per second.",
+      "answers": [
+        "3.06e20",
+        "3.1e20"
+      ],
+      "markScheme": [],
+      "sampleAnswer": "",
+      "explanation": "P = I × A = 8000 × 0.020 = 160 W. N = P/E = 160 / 5.23 × 10⁻¹⁹ = 3.06 × 10²⁰ photons per second.",
+      "answerDisplay": "3.06 × 10²⁰ s⁻¹",
+      "tolerance": 0.03,
+      "reconstructed": true
+    },
+    {
+      "id": "FC_QP_06",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 3,
+      "difficulty": "medium",
+      "question": "Light above the threshold frequency is incident on a photocell. Explain the effect of increasing the intensity of the light on the current.",
+      "answers": [],
+      "markScheme": [
+        "Number of incident photons per second increases.",
+        "Number of photoelectrons released per second increases.",
+        "Therefore the electrical current in the circuit increases."
+      ],
+      "sampleAnswer": "Number of incident photons per second increases. Number of photoelectrons released per second increases. Therefore the electrical current in the circuit increases.",
+      "explanation": ""
+    },
+    {
+      "id": "FC_QP_07",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "A metal's threshold frequency equals that of green light. Explain why a smaller percentage of photons release electrons when white light is used instead of UV.",
+      "answers": [],
+      "markScheme": [
+        "Only frequencies equal to or higher than the threshold frequency (green, blue, violet) have photon energy E ≥ Φ to release electrons.",
+        "Red and yellow photons lack sufficient energy, so a smaller percentage of the total incident photons release electrons."
+      ],
+      "sampleAnswer": "Only frequencies equal to or higher than the threshold frequency (green, blue, violet) have photon energy E ≥ Φ to release electrons. Red and yellow photons lack sufficient energy, so a smaller percentage of the total incident photons release electrons.",
+      "explanation": ""
+    },
+    {
+      "id": "FC_QP_08",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 3,
+      "difficulty": "medium",
+      "question": "State the de Broglie equation and define each term.",
+      "answers": [],
+      "markScheme": [
+        "λ = h/p = h/(mv)",
+        "λ: de Broglie wavelength; h: Planck constant (6.63 × 10⁻³⁴ J s).",
+        "p: momentum of the particle (p = mv); m: mass of the particle; v: velocity of the particle."
+      ],
+      "sampleAnswer": "λ = h/p = h/(mv) λ: de Broglie wavelength; h: Planck constant (6.63 × 10⁻³⁴ J s). p: momentum of the particle (p = mv); m: mass of the particle; v: velocity of the particle.",
+      "explanation": ""
+    },
+    {
+      "id": "FC_QP_09",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "short",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "Calculate the de Broglie wavelength of an electron travelling at 2.0 × 10⁷ m s⁻¹. (mₑ = 9.11 × 10⁻³¹ kg)",
+      "answers": [
+        "3.64e-11"
+      ],
+      "markScheme": [],
+      "sampleAnswer": "",
+      "explanation": "λ = h/(mv) = 6.63 × 10⁻³⁴ / (9.11 × 10⁻³¹ × 2 × 10⁷) = 3.64 × 10⁻¹¹ m.",
+      "answerDisplay": "3.64 × 10⁻¹¹ m",
+      "tolerance": 0.02
+    },
+    {
+      "id": "FC_QP_10",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "short",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "Calculate the kinetic energy, in J, gained by an electron accelerated from rest through 4800 V.",
+      "answers": [
+        "7.68e-16",
+        "7.7e-16"
+      ],
+      "markScheme": [],
+      "sampleAnswer": "",
+      "explanation": "Use W = VQ: Ek = 4800 V × 1.60 × 10⁻¹⁹ C = 7.68 × 10⁻¹⁶ J.",
+      "answerDisplay": "7.68 × 10⁻¹⁶ J",
+      "tolerance": 0.02
+    },
+    {
+      "id": "FC_QP_11",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "short",
+      "marks": 3,
+      "difficulty": "medium",
+      "question": "An electron has kinetic energy 7.68 × 10⁻¹⁶ J. Calculate its de Broglie wavelength.",
+      "answers": [
+        "1.77e-11",
+        "1.8e-11"
+      ],
+      "markScheme": [],
+      "sampleAnswer": "",
+      "explanation": "v = √(2Ek/m) = √(2 × 7.68 × 10⁻¹⁶ / 9.11 × 10⁻³¹) = 4.11 × 10⁷ m s⁻¹. λ = h/(mv) = 6.63 × 10⁻³⁴ / (9.11 × 10⁻³¹ × 4.11 × 10⁷) = 1.77 × 10⁻¹¹ m.",
+      "answerDisplay": "1.77 × 10⁻¹¹ m",
+      "tolerance": 0.03,
+      "reconstructed": true
+    },
+    {
+      "id": "FC_QP_12",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "Explain why the mercury atoms in a UV lamp emit photons when a potential difference is applied across the tube.",
+      "answers": [],
+      "markScheme": [
+        "Accelerated electrons collide with mercury atoms and energy is transferred to atomic electrons, exciting them to higher energy levels.",
+        "When the excited electrons de-excite (fall back to lower energy levels / ground state), they emit photons with energy equal to the energy difference between the levels (ΔE = hf)."
+      ],
+      "sampleAnswer": "Accelerated electrons collide with mercury atoms and energy is transferred to atomic electrons, exciting them to higher energy levels. When the excited electrons de-excite (fall back to lower energy levels / ground state), they emit photons with energy equal to the energy difference between the levels (ΔE = hf).",
+      "explanation": "",
+      "reconstructed": true
+    },
+    {
+      "id": "FC_QP_13",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "Hydrogen energy levels are −13.60, −3.40, −1.51, −0.85, −0.54 eV. Which of 9.8 eV, 10.2 eV, 12.09 eV and 12.75 eV could NOT be absorbed by a ground-state electron? Explain.",
+      "answers": [],
+      "markScheme": [
+        "Transitions from the ground state require 10.2 eV (n = 1 → 2), 12.09 eV (n = 1 → 3), 12.75 eV (n = 1 → 4).",
+        "9.8 eV does not correspond to any valid energy level transition from the ground state."
+      ],
+      "sampleAnswer": "Transitions from the ground state require 10.2 eV (n = 1 → 2), 12.09 eV (n = 1 → 3), 12.75 eV (n = 1 → 4). 9.8 eV does not correspond to any valid energy level transition from the ground state.",
+      "explanation": "",
+      "reconstructed": true
+    },
+    {
+      "id": "FC_QP_14",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "In an energy level diagram, which transition produces the photon with the shortest wavelength? Explain.",
+      "answers": [],
+      "markScheme": [
+        "The transition with the largest energy difference (ΔE).",
+        "Since E = hc/λ, energy is inversely proportional to wavelength (λ ∝ 1/ΔE), so the maximum energy drop yields the minimum wavelength."
+      ],
+      "sampleAnswer": "The transition with the largest energy difference (ΔE). Since E = hc/λ, energy is inversely proportional to wavelength (λ ∝ 1/ΔE), so the maximum energy drop yields the minimum wavelength.",
+      "explanation": ""
+    },
+    {
+      "id": "FC_QP_15",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "Describe the shape of a graph of photon frequency f against wavelength λ.",
+      "answers": [],
+      "markScheme": [
+        "A rectangular hyperbola decreasing towards the x-axis,",
+        "corresponding to the inverse proportional relationship f = c/λ (f ∝ 1/λ)."
+      ],
+      "sampleAnswer": "A rectangular hyperbola decreasing towards the x-axis, corresponding to the inverse proportional relationship f = c/λ (f ∝ 1/λ).",
+      "explanation": ""
+    },
+    {
+      "id": "FC_QP_16",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "Give experimental evidence for (a) the wave nature and (b) the particle nature of electromagnetic radiation.",
+      "answers": [],
+      "markScheme": [
+        "Wave nature: two-slit interference patterns, diffraction through narrow slits / gratings, polarisation.",
+        "Particle nature: photoelectric effect, atomic line absorption / emission spectra."
+      ],
+      "sampleAnswer": "Wave nature: two-slit interference patterns, diffraction through narrow slits / gratings, polarisation. Particle nature: photoelectric effect, atomic line absorption / emission spectra.",
+      "explanation": ""
+    },
+    {
+      "id": "FC_QP_17",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 1,
+      "difficulty": "easy",
+      "question": "Give experimental evidence that electrons have wave properties.",
+      "answers": [],
+      "markScheme": [
+        "Electron diffraction patterns observed when an electron beam passes through a thin graphite film / crystal lattice."
+      ],
+      "sampleAnswer": "Electron diffraction patterns observed when an electron beam passes through a thin graphite film / crystal lattice.",
+      "explanation": ""
+    },
+    {
+      "id": "FC_QP_18",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "Explain why the wave model of light cannot explain the instantaneous emission of photoelectrons, and how the particle model does.",
+      "answers": [],
+      "markScheme": [
+        "In the wave model, energy is spread out over the whole wavefront, so low intensity light would require time for an electron to accumulate enough energy to escape.",
+        "Particle theory explains that energy is delivered in concentrated localised packets (photons), allowing instantaneous one-to-one energy transfer."
+      ],
+      "sampleAnswer": "In the wave model, energy is spread out over the whole wavefront, so low intensity light would require time for an electron to accumulate enough energy to escape. Particle theory explains that energy is delivered in concentrated localised packets (photons), allowing instantaneous one-to-one energy transfer.",
+      "explanation": "",
+      "reconstructed": true
+    },
+    {
+      "id": "FC_QP_19",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "A graph of maximum kinetic energy of photoelectrons against frequency of incident light is plotted. What do the gradient and x-intercept represent?",
+      "answers": [],
+      "markScheme": [
+        "Gradient = Planck constant (h).",
+        "x-intercept = threshold frequency (f₀) of the metal."
+      ],
+      "sampleAnswer": "Gradient = Planck constant (h). x-intercept = threshold frequency (f₀) of the metal.",
+      "explanation": ""
+    },
+    {
+      "id": "FC_QP_20",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "On a graph of Ek,max against frequency, how does the line change for a metal with a smaller work function?",
+      "answers": [],
+      "markScheme": [
+        "The new line is parallel to the original line (same gradient h),",
+        "but shifted to the left with a smaller x-intercept (lower threshold frequency f₀) and a smaller magnitude y-intercept (−Φ)."
+      ],
+      "sampleAnswer": "The new line is parallel to the original line (same gradient h), but shifted to the left with a smaller x-intercept (lower threshold frequency f₀) and a smaller magnitude y-intercept (−Φ).",
+      "explanation": ""
+    },
+    {
+      "id": "FC_QP_21",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "short",
+      "marks": 1,
+      "difficulty": "easy",
+      "question": "Convert 3.27 eV to joules.",
+      "answers": [
+        "5.23e-19"
+      ],
+      "markScheme": [],
+      "sampleAnswer": "",
+      "explanation": "3.27 eV × 1.60 × 10⁻¹⁹ J eV⁻¹ = 5.23 × 10⁻¹⁹ J.",
+      "answerDisplay": "5.23 × 10⁻¹⁹ J",
+      "tolerance": 0.02
+    },
+    {
+      "id": "FC_QP_22",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "short",
+      "marks": 1,
+      "difficulty": "easy",
+      "question": "Convert 7.68 × 10⁻¹⁶ J to electronvolts.",
+      "answers": [
+        "4800",
+        "4.8e3",
+        "4.8"
+      ],
+      "markScheme": [],
+      "sampleAnswer": "",
+      "explanation": "7.68 × 10⁻¹⁶ J / 1.60 × 10⁻¹⁹ J eV⁻¹ = 4800 eV = 4.8 keV.",
+      "answerDisplay": "4800 eV = 4.8 keV",
+      "tolerance": 0.02
+    },
+    {
+      "id": "FC_QP_23",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 1,
+      "difficulty": "easy",
+      "question": "Define the work function of a metal.",
+      "answers": [],
+      "markScheme": [
+        "The minimum energy required to liberate / release an electron from the surface of the metal."
+      ],
+      "sampleAnswer": "The minimum energy required to liberate / release an electron from the surface of the metal.",
+      "explanation": ""
+    },
+    {
+      "id": "FC_QP_24",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 1,
+      "difficulty": "easy",
+      "question": "Define threshold frequency.",
+      "answers": [],
+      "markScheme": [
+        "The minimum frequency of incident radiation required to cause the emission of photoelectrons from a metal surface (f₀ = Φ/h)."
+      ],
+      "sampleAnswer": "The minimum frequency of incident radiation required to cause the emission of photoelectrons from a metal surface (f₀ = Φ/h).",
+      "explanation": ""
+    },
+    {
+      "id": "FC_QP_25",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "Explain how dark absorption lines are formed in the spectrum of light from the Sun.",
+      "answers": [],
+      "markScheme": [
+        "Photons of specific energies / wavelengths are absorbed by gas atoms in the Sun's atmosphere, exciting electrons to higher energy levels.",
+        "When these excited electrons de-excite, photons are re-emitted in all random directions (rather than continuing in the original direction toward Earth), causing a deficit in intensity at those wavelengths."
+      ],
+      "sampleAnswer": "Photons of specific energies / wavelengths are absorbed by gas atoms in the Sun's atmosphere, exciting electrons to higher energy levels. When these excited electrons de-excite, photons are re-emitted in all random directions (rather than continuing in the original direction toward Earth), causing a deficit in intensity at those wavelengths.",
+      "explanation": "",
+      "reconstructed": true
+    },
+    {
+      "id": "FC_QP_26",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "short",
+      "marks": 3,
+      "difficulty": "medium",
+      "question": "A CCD pixel receives 1.24 × 10⁻¹⁶ W of UV light (photon energy 5.23 × 10⁻¹⁹ J) and emits 195 electrons per second. Calculate the percentage of photons that release an electron.",
+      "answers": [
+        "82",
+        "80"
+      ],
+      "markScheme": [],
+      "sampleAnswer": "",
+      "explanation": "Incident photons per second = 1.24 × 10⁻¹⁶ / 5.23 × 10⁻¹⁹ = 238 s⁻¹. Percentage = 195/238 × 100 = 82% (≈ 80%).",
+      "answerDisplay": "82% (≈ 80%)",
+      "tolerance": 0.03,
+      "reconstructed": true
+    },
+    {
+      "id": "FC_QP_27",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "Explain why electrons used to investigate the structure of the nucleus must have very high energies.",
+      "answers": [],
+      "markScheme": [
+        "To be diffracted by the nucleus, the de Broglie wavelength λ must be of the same order of magnitude as nuclear dimensions (≈ 10⁻¹⁵ m).",
+        "Since λ = h/p, a very small wavelength requires a very high momentum p, and thus high kinetic energy."
+      ],
+      "sampleAnswer": "To be diffracted by the nucleus, the de Broglie wavelength λ must be of the same order of magnitude as nuclear dimensions (≈ 10⁻¹⁵ m). Since λ = h/p, a very small wavelength requires a very high momentum p, and thus high kinetic energy.",
+      "explanation": "",
+      "reconstructed": true
+    },
+    {
+      "id": "FC_QP_28",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 3,
+      "difficulty": "medium",
+      "question": "Explain the effect of increasing the frequency of the incident light on the maximum speed of the photoelectrons emitted from a metal.",
+      "answers": [],
+      "markScheme": [
+        "Higher frequency means greater photon energy (E = hf).",
+        "Work function Φ remains constant for the metal.",
+        "Excess energy transferred to kinetic energy (Ek,max = hf − Φ) increases, so vmax = √(2Ek,max/m) increases."
+      ],
+      "sampleAnswer": "Higher frequency means greater photon energy (E = hf). Work function Φ remains constant for the metal. Excess energy transferred to kinetic energy (Ek,max = hf − Φ) increases, so vmax = √(2Ek,max/m) increases.",
+      "explanation": "",
+      "reconstructed": true
+    },
+    {
+      "id": "FC_QP_29",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "What is meant by wave-particle duality?",
+      "answers": [],
+      "markScheme": [
+        "The model in which matter (e.g. electrons) and electromagnetic radiation (e.g. light) exhibit both wave-like behaviours (interference, diffraction)",
+        "and particle-like behaviours (collisions, photoelectric effect, localised momentum), depending on the experimental setup."
+      ],
+      "sampleAnswer": "The model in which matter (e.g. electrons) and electromagnetic radiation (e.g. light) exhibit both wave-like behaviours (interference, diffraction) and particle-like behaviours (collisions, photoelectric effect, localised momentum), depending on the experimental setup.",
+      "explanation": ""
+    },
+    {
+      "id": "FC_QP_30",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "short",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "An electron falls from energy level E₄ = −1.36 × 10⁻¹⁹ J to E₁ = −2.18 × 10⁻¹⁸ J. Calculate the energy of the photon emitted, in J.",
+      "answers": [
+        "2.044e-18",
+        "2.04e-18"
+      ],
+      "markScheme": [],
+      "sampleAnswer": "",
+      "explanation": "ΔE = E₄ − E₁ = (−1.36 × 10⁻¹⁹) − (−2.18 × 10⁻¹⁸) = 2.044 × 10⁻¹⁸ J.",
+      "answerDisplay": "2.044 × 10⁻¹⁸ J",
+      "tolerance": 0.02
+    },
+    {
+      "id": "FC_QP_31",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "short",
+      "marks": 1,
+      "difficulty": "easy",
+      "question": "Calculate the frequency of a photon of energy 2.044 × 10⁻¹⁸ J.",
+      "answers": [
+        "3.08e15"
+      ],
+      "markScheme": [],
+      "sampleAnswer": "",
+      "explanation": "f = E/h = 2.044 × 10⁻¹⁸ / 6.63 × 10⁻³⁴ = 3.08 × 10¹⁵ Hz.",
+      "answerDisplay": "3.08 × 10¹⁵ Hz",
+      "tolerance": 0.02
+    },
+    {
+      "id": "FC_QP_32",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 3,
+      "difficulty": "medium",
+      "question": "Explain why light below the threshold frequency releases no photoelectrons, however high its intensity.",
+      "answers": [],
+      "markScheme": [
+        "Photon energy depends solely on frequency (E = hf).",
+        "Below f₀, each individual photon has energy E < Φ.",
+        "Since electron absorption is a one-to-one interaction with individual photons, increasing intensity increases the photon flux but no single photon has enough energy to free an electron."
+      ],
+      "sampleAnswer": "Photon energy depends solely on frequency (E = hf). Below f₀, each individual photon has energy E < Φ. Since electron absorption is a one-to-one interaction with individual photons, increasing intensity increases the photon flux but no single photon has enough energy to free an electron.",
+      "explanation": "",
+      "reconstructed": true
+    },
+    {
+      "id": "FC_QP_33",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "short",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "A metal has threshold frequency 1.00 × 10¹⁵ Hz. Calculate its work function in eV.",
+      "answers": [
+        "4.14",
+        "4.1"
+      ],
+      "markScheme": [],
+      "sampleAnswer": "",
+      "explanation": "Φ = hf₀ = 6.63 × 10⁻³⁴ × 1.00 × 10¹⁵ = 6.63 × 10⁻¹⁹ J. Convert: 6.63 × 10⁻¹⁹ / 1.60 × 10⁻¹⁹ = 4.14 eV.",
+      "answerDisplay": "4.14 eV",
+      "tolerance": 0.02
+    },
+    {
+      "id": "FC_QP_34",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "short",
+      "marks": 3,
+      "difficulty": "medium",
+      "question": "An electron transition has an energy difference of 1.89 eV. Calculate the wavelength of the photon emitted, in nm.",
+      "answers": [
+        "657",
+        "6.57e-7"
+      ],
+      "markScheme": [],
+      "sampleAnswer": "",
+      "explanation": "ΔE = 1.89 × 1.60 × 10⁻¹⁹ = 3.024 × 10⁻¹⁹ J. λ = hc/ΔE = (6.63 × 10⁻³⁴ × 3.00 × 10⁸) / 3.024 × 10⁻¹⁹ = 6.57 × 10⁻⁷ m = 657 nm.",
+      "answerDisplay": "657 nm (6.57 × 10⁻⁷ m)",
+      "tolerance": 0.02,
+      "reconstructed": true
+    },
+    {
+      "id": "FC_QP_35",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 2,
+      "difficulty": "easy",
+      "question": "How does the de Broglie wavelength of a particle change if its momentum is doubled? Explain.",
+      "answers": [],
+      "markScheme": [
+        "The de Broglie wavelength is halved (λ₂ = λ₁/2),",
+        "because wavelength is inversely proportional to momentum (λ = h/p)."
+      ],
+      "sampleAnswer": "The de Broglie wavelength is halved (λ₂ = λ₁/2), because wavelength is inversely proportional to momentum (λ = h/p).",
+      "explanation": ""
+    },
+    {
+      "id": "FC_QP_36",
+      "set": "Flashcards",
+      "topic": "Quantum Physics",
+      "source": "Flashcard",
+      "type": "open",
+      "marks": 3,
+      "difficulty": "medium",
+      "question": "Describe what happens to the energy of a photon that is absorbed by an electron in the photoelectric effect.",
+      "answers": [],
+      "markScheme": [
+        "The whole photon energy (E = hf) is transferred to a single electron.",
+        "An amount Φ (work function) is consumed to overcome the atomic binding forces and escape the metal surface.",
+        "The remainder (E − Φ) becomes the kinetic energy of the emitted photoelectron."
+      ],
+      "sampleAnswer": "The whole photon energy (E = hf) is transferred to a single electron. An amount Φ (work function) is consumed to overcome the atomic binding forces and escape the metal surface. The remainder (E − Φ) becomes the kinetic energy of the emitted photoelectron.",
+      "explanation": "",
+      "reconstructed": true
+    },
+    {
       "id": "POL_01_(i)",
+      "set": "Past papers",
       "parentId": "POL_01",
       "partLabel": "(i)",
       "topic": "Polarization",
@@ -38,6 +920,7 @@
     },
     {
       "id": "POL_01_(ii)",
+      "set": "Past papers",
       "parentId": "POL_01",
       "partLabel": "(ii)",
       "topic": "Polarization",
@@ -60,6 +943,7 @@
     },
     {
       "id": "POL_02_(a)(i)",
+      "set": "Past papers",
       "parentId": "POL_02",
       "partLabel": "(a)(i)",
       "topic": "Polarization",
@@ -79,6 +963,7 @@
     },
     {
       "id": "POL_02_(a)(ii)",
+      "set": "Past papers",
       "parentId": "POL_02",
       "partLabel": "(a)(ii)",
       "topic": "Polarization",
@@ -100,6 +985,7 @@
     },
     {
       "id": "POL_02_(b)",
+      "set": "Past papers",
       "parentId": "POL_02",
       "partLabel": "(b)",
       "topic": "Polarization",
@@ -125,6 +1011,7 @@
     },
     {
       "id": "POL_03_(c)",
+      "set": "Past papers",
       "parentId": "POL_03",
       "partLabel": "(c)",
       "topic": "Polarization",
@@ -143,6 +1030,7 @@
     },
     {
       "id": "POL_04_(a)",
+      "set": "Past papers",
       "parentId": "POL_04",
       "partLabel": "(a)",
       "topic": "Polarization",
@@ -160,6 +1048,7 @@
     },
     {
       "id": "POL_04_(b)",
+      "set": "Past papers",
       "parentId": "POL_04",
       "partLabel": "(b)",
       "topic": "Polarization",
@@ -180,6 +1069,7 @@
     },
     {
       "id": "QP_01_(a)",
+      "set": "Past papers",
       "parentId": "QP_01",
       "partLabel": "(a)",
       "topic": "Quantum Physics",
@@ -199,6 +1089,7 @@
     },
     {
       "id": "QP_01_(b)",
+      "set": "Past papers",
       "parentId": "QP_01",
       "partLabel": "(b)",
       "topic": "Quantum Physics",
@@ -223,6 +1114,7 @@
     },
     {
       "id": "QP_01_(c)",
+      "set": "Past papers",
       "parentId": "QP_01",
       "partLabel": "(c)",
       "topic": "Quantum Physics",
@@ -248,6 +1140,7 @@
     },
     {
       "id": "QP_02_(a)(i)",
+      "set": "Past papers",
       "parentId": "QP_02",
       "partLabel": "(a)(i)",
       "topic": "Quantum Physics",
@@ -267,6 +1160,7 @@
     },
     {
       "id": "QP_02_(a)(ii)",
+      "set": "Past papers",
       "parentId": "QP_02",
       "partLabel": "(a)(ii)",
       "topic": "Quantum Physics",
@@ -291,6 +1185,7 @@
     },
     {
       "id": "QP_02_(b)",
+      "set": "Past papers",
       "parentId": "QP_02",
       "partLabel": "(b)",
       "topic": "Quantum Physics",
@@ -315,6 +1210,7 @@
     },
     {
       "id": "QP_03_(a)",
+      "set": "Past papers",
       "parentId": "QP_03",
       "partLabel": "(a)",
       "topic": "Quantum Physics",
@@ -333,6 +1229,7 @@
     },
     {
       "id": "QP_03_(b)(i)",
+      "set": "Past papers",
       "parentId": "QP_03",
       "partLabel": "(b)(i)",
       "topic": "Quantum Physics",
@@ -356,6 +1253,7 @@
     },
     {
       "id": "QP_03_(b)(ii)",
+      "set": "Past papers",
       "parentId": "QP_03",
       "partLabel": "(b)(ii)",
       "topic": "Quantum Physics",
@@ -379,6 +1277,7 @@
     },
     {
       "id": "QP_04_(a)",
+      "set": "Past papers",
       "parentId": "QP_04",
       "partLabel": "(a)",
       "topic": "Quantum Physics",
@@ -397,6 +1296,7 @@
     },
     {
       "id": "QP_04_(b)",
+      "set": "Past papers",
       "parentId": "QP_04",
       "partLabel": "(b)",
       "topic": "Quantum Physics",
@@ -419,6 +1319,7 @@
     },
     {
       "id": "QP_05_(a)",
+      "set": "Past papers",
       "parentId": "QP_05",
       "partLabel": "(a)",
       "topic": "Quantum Physics",
@@ -439,6 +1340,7 @@
     },
     {
       "id": "QP_06_MCQ_1",
+      "set": "Past papers",
       "parentId": "QP_06",
       "partLabel": "MCQ_1",
       "topic": "Quantum Physics",
@@ -476,6 +1378,7 @@
     },
     {
       "id": "QP_06_MCQ_2",
+      "set": "Past papers",
       "parentId": "QP_06",
       "partLabel": "MCQ_2",
       "topic": "Quantum Physics",
@@ -513,6 +1416,7 @@
     },
     {
       "id": "QP_06_MCQ_3",
+      "set": "Past papers",
       "parentId": "QP_06",
       "partLabel": "MCQ_3",
       "topic": "Quantum Physics",
@@ -550,6 +1454,7 @@
     },
     {
       "id": "QP_06_MCQ_4",
+      "set": "Past papers",
       "parentId": "QP_06",
       "partLabel": "MCQ_4",
       "topic": "Quantum Physics",

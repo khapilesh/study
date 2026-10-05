@@ -24,6 +24,11 @@
         <p class="muted">Past-paper questions timed by difficulty. Difficulty comes from the marks: <strong>1–2 easy</strong>, <strong>3–4 medium</strong>, <strong>5+ hard</strong>. Answer before the clock runs out!</p>
 
         <div class="field">
+          <label>Source</label>
+          <div id="set-list" class="chip-group"></div>
+        </div>
+
+        <div class="field">
           <label>Topics</label>
           <div id="topic-list" class="chip-group"></div>
         </div>
@@ -42,7 +47,7 @@
           <div class="chip-group" id="type-list">
             <label class="chip"><input type="checkbox" value="open" checked /> Written / calculation <small id="count-open"></small></label>
             <label class="chip"><input type="checkbox" value="mcq" checked /> Multiple choice <small id="count-mcq"></small></label>
-            <label class="chip"><input type="checkbox" value="short" checked /> Flashcards <small id="count-short"></small></label>
+            <label class="chip"><input type="checkbox" value="short" checked /> Short / numeric answer <small id="count-short"></small></label>
           </div>
         </div>
 
@@ -124,7 +129,7 @@
 
         <form id="answer-form" autocomplete="off">
           <!-- short answer -->
-          <input type="text" id="answer-input" placeholder="Type your answer…" autocomplete="off" spellcheck="false" />
+          <input type="text" id="answer-input" placeholder="Type your answer… (e.g. 5.23e-19 or 5.23 x 10^-19)" autocomplete="off" spellcheck="false" />
           <!-- open response -->
           <textarea id="answer-textarea" rows="6" placeholder="Write your answer / working here…" hidden></textarea>
           <!-- multiple choice -->

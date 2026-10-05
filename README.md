@@ -1,6 +1,6 @@
 # Timed Study Quiz — Quantum Physics & Polarization
 
-An interactive past-paper practice site (Edexcel IAL Physics WPH12) where every
+An interactive past-paper and flashcard practice site (Edexcel IAL Physics WPH12) where every
 question part is on a timer that depends on its difficulty.
 
 | Difficulty | Based on marks | Default time |
@@ -18,8 +18,12 @@ Timers can be changed on the setup screen.
   wrote; tick each marking point you hit and the marks are added to your score. A model
   answer is available under "Show model answer".
 - **Multiple choice** – click A/B/C/D; auto-marked, with the explanation shown.
-- **Flashcards** (if a CSV is added to `data/`) – short typed answers, auto-marked with
-  forgiving matching.
+- **Flashcards** (`data/flashcards.json`, 49 cards) – definition/explanation cards are
+  self-marked like the past papers; calculation cards take a typed numeric answer, which
+  is auto-marked with a small tolerance and accepts `5.23e-19`, `5.23 x 10^-19`,
+  `5.23×10⁻¹⁹`, units, etc.
+- The setup screen lets you filter by **source** (Past papers / Flashcards), topic,
+  difficulty and question type.
 - Later parts of a multi-part question show the earlier parts in a collapsible
   "context" panel, so calculations that depend on an earlier result still make sense.
 - Scores are in **marks**. The results screen shows marks per difficulty, a full review,
@@ -49,6 +53,11 @@ python3 scripts/build_questions.py
   timed question. Parts labelled `MCQ_*` (or in a "Multiple Choice" question) are parsed
   into options from lines like `A. …`, `B. …`; the correct letter comes from
   `sample_answer`.
+- `data/flashcards.json` – flashcards in the form `{"kind": "flashcards", "cards": [...]}`.
+  A card with `markScheme` is self-marked; a card with `answers` (plus optional
+  `answerDisplay` and `tolerance`) is auto-marked. The current file was reconstructed from
+  the text of `flashcards.pdf`; cards flagged `"reconstructed": true` had a truncated
+  answer whose opening was filled in from context – worth a quick check against the PDF.
 - `data/*.csv` – flashcards. Recognised columns: `question`/`front`, `answer`/`back`,
   optional `topic` and `difficulty` (`easy|medium|hard`). Multiple accepted answers can be
   separated with `|`.
@@ -56,6 +65,7 @@ python3 scripts/build_questions.py
 ## Files
 
 - `index.html`, `styles.css`, `app.js` – the site
-- `questions.json` – generated question bank (24 parts from 10 past-paper questions)
+- `questions.json` – generated question bank (24 past-paper parts + 49 flashcards)
 - `data/quantum_and_polarization_past_papers.json` – source past papers
+- `data/flashcards.json` – source flashcards
 - `scripts/build_questions.py` – converter

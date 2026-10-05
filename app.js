@@ -60,6 +60,7 @@
         const type = TYPES.includes(q.type) ? q.type : (q.options?.length ? 'mcq' : (q.markScheme?.length ? 'open' : 'short'));
         return {
           id: q.id ?? i + 1,
+          set: q.set || 'Questions',
           parentId: q.parentId || null,
           partLabel: q.partLabel || '',
           topic: q.topic || 'General',
@@ -73,6 +74,8 @@
           markScheme: Array.isArray(q.markScheme) ? q.markScheme : [],
           sampleAnswer: q.sampleAnswer || '',
           explanation: q.explanation || '',
+          answerDisplay: q.answerDisplay || '',
+          tolerance: Number.isFinite(q.tolerance) ? q.tolerance : 0,
           marks: Number.isFinite(q.marks) ? q.marks : settings.points[difficulty],
           timeLimit: q.timeLimit,
         };
@@ -90,6 +93,12 @@
 
   // ---------- Setup screen ----------
   function buildSetup() {
+    const sets = [...new Set(bank.map((q) => q.set))].sort();
+    $('#set-list').innerHTML = sets.map((t) => {
+      const n = bank.filter((q) => q.set === t).length;
+      return `<label class="chip"><input type="checkbox" value="${escapeHtml(t)}" checked /> ${escapeHtml(t)} <small>(${n})</small></label>`;
+    }).join('');
+
     const topics = [...new Set(bank.map((q) => q.topic))].sort();
     $('#topic-list').innerHTML = topics.map((t) => {
       const n = bank.filter((q) => q.topic === t).length;
@@ -126,6 +135,7 @@
       timeLimits[d] = Number.isFinite(v) && v >= 5 ? v : settings.timeLimits[d];
     });
     return {
+      sets: checked('#set-list'),
       topics: checked('#topic-list'),
       difficulties: checked('#difficulty-list'),
       types: checked('#type-list'),
@@ -136,7 +146,7 @@
   }
 
   function filterPool(cfg) {
-    return bank.filter((q) => cfg.topics.includes(q.topic) && cfg.difficulties.includes(q.difficulty) && cfg.types.includes(q.type));
+    return bank.filter((q) => cfg.sets.includes(q.set) && cfg.topics.includes(q.topic) && cfg.difficulties.includes(q.difficulty) && cfg.types.includes(q.type));
   }
 
   $('#start-btn').addEventListener('click', () => {
@@ -145,7 +155,7 @@
     const err = $('#setup-error');
     if (!pool.length) {
       err.hidden = false;
-      err.textContent = 'No questions match the selected topics, difficulties and types.';
+      err.textContent = 'No questions match the selected source, topics, difficulties and types.';
       return;
     }
     err.hidden = true;
@@ -327,7 +337,7 @@
     }
 
     // auto-marked types
-    const correct = !timedOut && !skipped && isCorrect(given, q.answers, q.type);
+    const correct = !timedOut && !skipped && isCorrect(given, q.answers, q.type, q.tolerance);
     result.correct = correct;
     result.marksAwarded = correct ? q.marks : 0;
     commitResult(result);
@@ -344,7 +354,7 @@
         else if (b.dataset.letter === given) b.classList.add('is-wrong');
       });
     }
-    const ansLine = correct ? '' : `Answer: <span class="ans">${escapeHtml(q.answers[0] ?? '')}</span>`;
+    const ansLine = correct ? '' : `Answer: <span class="ans">${escapeHtml(q.answerDisplay || q.answers[0] || '')}</span>`;
     const expl = q.explanation || (q.type === 'mcq' ? q.markScheme.join(' ') : '');
     body.innerHTML = ansLine + (expl ? `<div class="muted">${escapeHtml(expl)}</div>` : '');
 
@@ -415,18 +425,35 @@
       .trim();
   }
 
-  function isCorrect(given, answers, type) {
+  // Parse "5.23e-19", "5.23 x 10^-19", "5.23×10⁻¹⁹", "5.23*10^(-19)", "4.8 keV" -> number (first numeric token)
+  const SUP = { '⁰': '0', '¹': '1', '²': '2', '³': '3', '⁴': '4', '⁵': '5', '⁶': '6', '⁷': '7', '⁸': '8', '⁹': '9', '⁻': '-', '⁺': '+' };
+  function parseNumber(str) {
+    let s = String(str).trim()
+      .replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺]/g, (c) => SUP[c])
+      .replace(/−/g, '-').replace(/[×∗*]/g, 'x').replace(/\s+/g, '')
+      .replace(/10\^\(?([-+]?\d+)\)?/g, '10^$1');
+    // a x 10^b  |  a x 10b (after superscript conversion)  |  10^b alone
+    let m = s.match(/^([-+]?\d*\.?\d+)x10\^?([-+]?\d+)/) || s.match(/^([-+]?\d*\.?\d+)e([-+]?\d+)/i);
+    if (m) return parseFloat(m[1]) * Math.pow(10, parseInt(m[2], 10));
+    m = s.match(/^10\^([-+]?\d+)/);
+    if (m) return Math.pow(10, parseInt(m[1], 10));
+    m = s.match(/^([-+]?\d*\.?\d+)/);
+    return m ? parseFloat(m[1]) : NaN;
+  }
+
+  function isCorrect(given, answers, type, tolerance = 0) {
     if (type === 'mcq') return answers.map((a) => String(a).toUpperCase()).includes(String(given).toUpperCase());
     const g = normalize(given);
     if (!g) return false;
     return answers.some((a) => {
       const n = normalize(a);
       if (n === g) return true;
-      const gn = parseFloat(g), an = parseFloat(n);
-      if (!Number.isNaN(gn) && !Number.isNaN(an) && /^-?\d*\.?\d+$/.test(g) && /^-?\d*\.?\d+$/.test(n)) {
-        return Math.abs(gn - an) < 1e-9;
-      }
-      return false;
+      const an = parseNumber(a);
+      if (Number.isNaN(an)) return false;
+      const gn = parseNumber(given);
+      if (Number.isNaN(gn)) return false;
+      const tol = Math.max(tolerance, 0.005); // always allow rounding to ~3 s.f.
+      return Math.abs(gn - an) <= Math.abs(an) * tol + 1e-12;
     });
   }
 
@@ -463,7 +490,7 @@
       else if (x.q.type === 'open') status = x.correct ? 'Full marks' : x.marksAwarded ? 'Partial marks' : 'No marks';
       else status = x.correct ? 'Correct' : `You answered "${escapeHtml(x.given)}"`;
       const cls = x.correct ? 'correct' : 'wrong';
-      const answerBit = x.q.type !== 'open' && !x.correct ? `<span>Answer: <strong>${escapeHtml(x.q.answers[0] ?? '')}</strong></span>` : '';
+      const answerBit = x.q.type !== 'open' && !x.correct ? `<span>Answer: <strong>${escapeHtml(x.q.answerDisplay || x.q.answers[0] || '')}</strong></span>` : '';
       return `<li class="review-item ${cls}">
         <div class="q">${i + 1}. ${escapeHtml(x.q.question.split('\n')[0])}</div>
         <div class="meta">
