@@ -1,0 +1,1601 @@
+[
+  {
+    "id": "POL_01",
+    "topic": "Polarisation",
+    "paper_source": "Edexcel IAL WPH12 June 2025 Q12(b)",
+    "spec_points": [
+      "49"
+    ],
+    "question_type": "Open Response",
+    "total_marks": 6,
+    "parts": [
+      {
+        "part_label": "(i)",
+        "marks": 3,
+        "question_text": "Light from the Sun is unpolarised. Explain the difference between unpolarised light and plane polarised light.",
+        "mark_scheme": [
+          "Unpolarised light has oscillations / vibrations in all / many planes (or directions).",
+          "Plane polarised light has oscillations / vibrations in one plane (or direction).",
+          "The plane includes the direction of wave travel (or: the direction of oscillation is perpendicular to the direction of wave travel). [MP3 dependent on MP2]"
+        ],
+        "sample_answer": "Unpolarised light has oscillations in many different planes, whereas plane polarised light has oscillations in only one plane. This single plane contains the direction in which the wave travels – equivalently, the oscillations are in one direction perpendicular to the direction of travel."
+      },
+      {
+        "part_label": "(ii)",
+        "marks": 3,
+        "question_text": "A student uses a polarising filter to view light reflected from a glass block. Explain what she would observe as she rotates the filter through 360°.",
+        "mark_scheme": [
+          "The intensity (brightness) of the light varies.",
+          "From a maximum to a minimum every 90° of rotation.",
+          "Maximum intensity occurs when the (plane of the) polarising filter is in the same direction as the plane of oscillation of the light (or minimum when they are perpendicular)."
+        ],
+        "sample_answer": "The brightness of the reflected light changes as the filter is rotated, going from a maximum to a minimum every 90°. The light is brightest when the filter's plane of polarisation is aligned with the plane of oscillation of the (partially polarised) reflected light, and dimmest when the two are perpendicular."
+      }
+    ]
+  },
+  {
+    "id": "POL_02",
+    "topic": "Polarisation",
+    "paper_source": "Edexcel IAL WPH12 Jan 2025 Q18",
+    "spec_points": [
+      "49"
+    ],
+    "question_type": "Structured Open Response",
+    "total_marks": 10,
+    "parts": [
+      {
+        "part_label": "(a)(i)",
+        "marks": 3,
+        "question_text": "A student directs unpolarised light through a polarising filter. After passing through the polarising filter, the light is plane polarised. Explain the difference between unpolarised light and plane polarised light.",
+        "mark_scheme": [
+          "Unpolarised light has oscillations / vibrations in all / many planes (or directions).",
+          "Plane polarised light has oscillations / vibrations in one plane (or direction).",
+          "Which includes the direction of wave travel (or: which is perpendicular to the direction of wave travel). [MP3 dependent on MP1 and MP2]"
+        ],
+        "sample_answer": "Unpolarised light oscillates in all possible planes; plane polarised light oscillates in a single plane, which contains the direction of travel of the wave (the oscillations are perpendicular to the direction of travel)."
+      },
+      {
+        "part_label": "(a)(ii)",
+        "marks": 2,
+        "question_text": "The student rotates the polarising filter. Explain why rotating the polarising filter will not change the intensity of the light that passes through the filter.",
+        "mark_scheme": [
+          "The polarising filter only transmits light (oscillating) in one plane / direction.",
+          "As the filter is rotated, a different single plane / direction of oscillation passes through, so the intensity stays the same."
+        ],
+        "sample_answer": "The filter only transmits oscillations in one plane. Because unpolarised light contains oscillations in every plane equally, whichever way the filter is turned it transmits one plane's worth of oscillations, so the transmitted intensity is unchanged."
+      },
+      {
+        "part_label": "(b)",
+        "marks": 5,
+        "question_text": "The student arranges three polarising filters in series. Initially filter 1 and filter 2 have the same (vertical) plane of polarisation and filter 3 is horizontal, at 90° to filter 2. The student rotates filter 2 by 45°. The intensity of light that passes through filter 3 changes.\nExplain how rotating filter 2 by 45° from its initial orientation affects the intensity of light passing through filter 3.",
+        "mark_scheme": [
+          "Initial orientation: filter 1 is aligned with filter 2, so light is transmitted through filter 2 (filter 2 transmits the light transmitted by filter 1).",
+          "Filter 3 is perpendicular to filter 2,",
+          "so no light passes through filter 3.",
+          "After rotation: some light transmitted through filter 2 is also transmitted through filter 3.",
+          "So the intensity of light transmitted through filter 3 increases."
+        ],
+        "sample_answer": "Initially filter 1 and filter 2 are aligned, so the plane polarised light from filter 1 passes through filter 2. Filter 3 is perpendicular to filter 2, so none of that light passes through filter 3 and the intensity after filter 3 is zero. When filter 2 is rotated by 45°, the light leaving filter 2 is now polarised at 45°, which is no longer perpendicular to filter 3, so some of it is transmitted through filter 3. The intensity of light passing through filter 3 therefore increases from zero."
+      }
+    ]
+  },
+  {
+    "id": "POL_03",
+    "topic": "Polarisation",
+    "paper_source": "Edexcel IAL WPH12 Jan 2026 Q18(c)",
+    "spec_points": [
+      "49"
+    ],
+    "question_type": "Short Answer",
+    "total_marks": 2,
+    "parts": [
+      {
+        "part_label": "(c)",
+        "marks": 2,
+        "question_text": "Radio waves from a transmitter are detected by a vertical aerial. When the teacher rotated the aerial by 90° so that it was horizontal, the radio waves were no longer detected. Explain this observation.",
+        "mark_scheme": [
+          "The oscillations of the radio waves are in one plane / direction only, i.e. the radio waves are plane polarised.",
+          "The horizontal aerial cannot absorb / detect waves whose oscillations are in the vertical plane."
+        ],
+        "sample_answer": "The radio waves are plane polarised, with their oscillations in the vertical plane. A horizontal aerial cannot absorb oscillations that are perpendicular to it, so when the aerial is turned horizontal no signal is detected."
+      }
+    ]
+  },
+  {
+    "id": "POL_04",
+    "topic": "Polarisation",
+    "paper_source": "Edexcel IAL WPH12 past paper (Diffraction & Polarisation topic pack Q1(b)(ii))",
+    "spec_points": [
+      "49"
+    ],
+    "question_type": "Short Answer",
+    "total_marks": 2,
+    "parts": [
+      {
+        "part_label": "(b)(ii)",
+        "marks": 2,
+        "question_text": "Light from the Sun arriving at a panel of solar cells is unpolarised. Describe how a student can demonstrate that light from the Sun is unpolarised.",
+        "mark_scheme": [
+          "Direct the light through a polarising filter (and rotate the filter).",
+          "There is no change in intensity as the filter is rotated (or: if it were polarised, the intensity would change as the filter is rotated)."
+        ],
+        "sample_answer": "View the sunlight through a single polarising filter and rotate the filter. If the light is unpolarised, the brightness of the transmitted light does not change as the filter is rotated; polarised light would show a change in intensity."
+      }
+    ]
+  },
+  {
+    "id": "POL_05",
+    "topic": "Polarisation",
+    "paper_source": "Edexcel IAL WPH12 past paper (Diffraction & Polarisation topic pack Q2(a))",
+    "spec_points": [
+      "49"
+    ],
+    "question_type": "Short Answer",
+    "total_marks": 2,
+    "parts": [
+      {
+        "part_label": "(a)",
+        "marks": 2,
+        "question_text": "A teacher has a laser pointer. The laser pointer emits a narrow beam of plane polarised light. Describe how the teacher can demonstrate that the light from the laser pointer is plane polarised.",
+        "mark_scheme": [
+          "Direct the light through one polarising filter.",
+          "Rotate the filter until no light passes through (or: rotate the filter and the light changes intensity)."
+        ],
+        "sample_answer": "Shine the laser beam through a single polarising filter and rotate the filter. Because the light is plane polarised, the transmitted intensity changes as the filter rotates and falls to zero when the filter's plane of polarisation is perpendicular to that of the light."
+      }
+    ]
+  },
+  {
+    "id": "POL_06",
+    "topic": "Polarisation",
+    "paper_source": "Edexcel IAL WPH12 past paper (Diffraction & Polarisation topic pack Q3)",
+    "spec_points": [
+      "49"
+    ],
+    "question_type": "Open Response",
+    "total_marks": 3,
+    "parts": [
+      {
+        "part_label": "",
+        "marks": 3,
+        "question_text": "A student wearing polarising sunglasses observes a mobile phone screen. The student rotates the mobile phone through 90°. The screen then appears completely black.\nExplain why the screen appears completely black when the student rotates the mobile phone through 90°.",
+        "mark_scheme": [
+          "Light emitted from the mobile phone screen is (plane) polarised.",
+          "When the phone is rotated, the plane of polarisation of the light and the plane of polarisation of the polarising filter in the sunglasses are perpendicular.",
+          "So the sunglasses / polarising filter absorb the light."
+        ],
+        "sample_answer": "The light from the phone screen is plane polarised. Rotating the phone through 90° makes the plane of polarisation of the screen's light perpendicular to the plane of polarisation of the filters in the sunglasses, so the filters absorb all of the light and the screen looks black."
+      }
+    ]
+  },
+  {
+    "id": "POL_07",
+    "topic": "Polarisation",
+    "paper_source": "Edexcel IAL WPH12 past paper (Diffraction & Polarisation topic pack Q4(c))",
+    "spec_points": [
+      "49"
+    ],
+    "question_type": "Open Response",
+    "total_marks": 3,
+    "parts": [
+      {
+        "part_label": "(c)",
+        "marks": 3,
+        "question_text": "Polarisation can be used to identify when some materials are under stress. Placing the material under stress causes the plane of polarisation of the light passing through the material to be rotated. The greater the stress, the greater the rotation of the plane of polarisation of the light.\nA piece of transparent material under stress is positioned between two polarising filters. There is an angle of 90° between the planes of polarisation of the two polarising filters. A photograph taken through the second filter shows bright and dark regions.\nExplain how this photograph can be used to identify areas of the material with different amounts of stress.",
+        "mark_scheme": [
+          "(Polarising) filters at 90° to each other do not allow light to pass through.",
+          "Rotation of the plane of polarisation (due to stress) allows light to pass.",
+          "Darker areas represent less stress (or brighter areas represent greater stress)."
+        ],
+        "sample_answer": "With the two filters crossed at 90°, no light would normally get through. Where the material is stressed it rotates the plane of polarisation of the light, so some light is no longer perpendicular to the second filter and is transmitted. Brighter regions in the photograph therefore correspond to greater stress and darker regions to less stress."
+      }
+    ]
+  },
+  {
+    "id": "POL_MCQ",
+    "topic": "Polarisation",
+    "paper_source": "Edexcel IAL WPH12 past paper multiple choice (Diffraction & Polarisation topic pack)",
+    "spec_points": [
+      "49"
+    ],
+    "question_type": "Multiple Choice",
+    "total_marks": 4,
+    "parts": [
+      {
+        "part_label": "MCQ_1",
+        "marks": 1,
+        "question_text": "A filament lamp is a source of unpolarised light. A polarising filter is placed between a filament lamp and an observer. The filter is rotated in the plane perpendicular to the direction of travel of the light.\nWhich of the following is observed as the filter is rotated through an angle of 90°?\nA. The light intensity changes from maximum to minimum.\nB. The light intensity changes from minimum to maximum.\nC. The light intensity does not change.\nD. The light intensity is zero throughout the rotation.",
+        "mark_scheme": [
+          "Correct answer: C. The intensity transmitted by a single polarising filter from an unpolarised source does not vary as the filter is rotated."
+        ],
+        "sample_answer": "C"
+      },
+      {
+        "part_label": "MCQ_2",
+        "marks": 1,
+        "question_text": "Which of the following describes the oscillations in polarised waves?\nA. In a single plane which is perpendicular to the direction of wave travel\nB. In many planes, which include the direction of wave travel\nC. In many directions and parallel to the direction of wave travel\nD. In one direction and perpendicular to the direction of wave travel",
+        "mark_scheme": [
+          "Correct answer: D. Polarised waves have oscillations in one direction, perpendicular to the direction of wave travel. (A is wrong because the single plane of polarisation includes the direction of travel; it is not perpendicular to it.)"
+        ],
+        "sample_answer": "D"
+      },
+      {
+        "part_label": "MCQ_3",
+        "marks": 1,
+        "question_text": "Which of the following statements about waves is correct?\nA. Both longitudinal and transverse waves can be polarised.\nB. Neither longitudinal nor transverse waves can be polarised.\nC. Only longitudinal waves can be polarised.\nD. Only transverse waves can be polarised.",
+        "mark_scheme": [
+          "Correct answer: D. Only transverse waves can be polarised."
+        ],
+        "sample_answer": "D"
+      },
+      {
+        "part_label": "MCQ_4",
+        "marks": 1,
+        "question_text": "Which of the following can not be demonstrated in experiments using sound waves?\nA. diffraction\nB. polarisation\nC. refraction\nD. superposition",
+        "mark_scheme": [
+          "Correct answer: B. Polarisation only occurs in transverse waves; sound is longitudinal. Diffraction, refraction and superposition can be demonstrated for all waves."
+        ],
+        "sample_answer": "B"
+      }
+    ]
+  },
+  {
+    "id": "QP_01",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 June 2025 Q19",
+    "spec_points": [
+      "58",
+      "59",
+      "60",
+      "61",
+      "62"
+    ],
+    "question_type": "Structured Open Response / Calculation",
+    "total_marks": 13,
+    "parts": [
+      {
+        "part_label": "(a)",
+        "marks": 3,
+        "question_text": "A scientist used a photocell to investigate the photoelectric effect. A photocell consists of a metal plate and an electrode. A beam of monochromatic light is directed onto the metal plate and causes the photoelectric effect. All photons in the beam have the same energy.\nExplain why the beam produces photoelectrons with a range of kinetic energies.",
+        "mark_scheme": [
+          "Each photon (absorbed) transfers all of its energy to one electron.",
+          "The energy is shared between the kinetic energy of the electron and the energy needed to break free.",
+          "Electrons need different amounts of energy to escape the surface (so the kinetic energy of the photoelectrons varies)."
+        ],
+        "sample_answer": "Each photon gives all of its energy to a single electron. Part of that energy is used by the electron to escape from the metal and the rest becomes its kinetic energy. Electrons at the surface need only the work function to escape, but electrons deeper in the metal need more energy to reach the surface, so the photoelectrons emerge with a range of kinetic energies up to a maximum."
+      },
+      {
+        "part_label": "(b)",
+        "marks": 5,
+        "question_text": "The scientist connected the photocell to an ammeter and battery. Photoelectrons are attracted to the electrode, causing a current in the circuit. The scientist directed different frequencies and intensities of light onto the photocell and made the following observations:\n• white light with a low intensity caused no current\n• white light with a high intensity caused no current\n• ultraviolet light with a low intensity caused a current.\nExplain what these observations show about the nature of light.",
+        "mark_scheme": [
+          "In the wave model, more intense light has greater amplitude waves (or each wave transfers more energy).",
+          "(So) in the wave model light of any intensity would (eventually) release photoelectrons.",
+          "(In the particle model) intensity affects the number of photons per second, not the energy of each photon.",
+          "(But) ultraviolet photons have more energy than visible-light photons, so ultraviolet would cause the release of photoelectrons.",
+          "(So) this demonstrates the particle nature of light."
+        ],
+        "sample_answer": "If light were a wave, increasing the intensity would increase the energy delivered, so high-intensity white light should release electrons – yet it produces no current. In the photon model each photon's energy depends only on frequency (E = hf), and intensity only changes the number of photons per second. White-light photons do not have enough energy to overcome the work function however many there are, while higher-frequency ultraviolet photons do, even at low intensity. The observations therefore show that light behaves as particles (photons)."
+      },
+      {
+        "part_label": "(c)",
+        "marks": 5,
+        "question_text": "The scientist reversed the connections to the battery (the battery has negligible internal resistance), so that a potential difference of 1.5 V now opposes the photoelectrons. When photoelectrons have enough kinetic energy to overcome the potential difference across the photocell, there is a current in the circuit.\nUltraviolet light of wavelength 250 nm is incident on the photocell. Deduce whether there is a current in the circuit.\nwork function of metal plate in photocell = 6.9 × 10⁻¹⁹ J",
+        "mark_scheme": [
+          "Use of c = fλ (f = 3.00 × 10⁸ / 250 × 10⁻⁹ = 1.2 × 10¹⁵ Hz).",
+          "Use of E = hf (E = 7.96 × 10⁻¹⁹ J).",
+          "Use of hf = Φ + Ek,max (Ek,max = 7.96 × 10⁻¹⁹ − 6.9 × 10⁻¹⁹ = 1.06 × 10⁻¹⁹ J).",
+          "Converts from J to eV, or use of V = W/Q to find the energy needed (2.4 × 10⁻¹⁹ J).",
+          "Ek,max = 0.66 eV < 1.5 eV (or 1.1 × 10⁻¹⁹ J < 2.4 × 10⁻¹⁹ J) so no current is detected."
+        ],
+        "sample_answer": "f = c/λ = 3.00 × 10⁸ / 250 × 10⁻⁹ = 1.20 × 10¹⁵ Hz, so photon energy E = hf = 6.63 × 10⁻³⁴ × 1.20 × 10¹⁵ = 7.96 × 10⁻¹⁹ J. Ek,max = hf − Φ = 7.96 × 10⁻¹⁹ − 6.9 × 10⁻¹⁹ = 1.06 × 10⁻¹⁹ J = 0.66 eV. The opposing p.d. of 1.5 V requires 1.5 eV (2.4 × 10⁻¹⁹ J). Since 0.66 eV < 1.5 eV, the photoelectrons cannot reach the electrode and there is no current."
+      }
+    ]
+  },
+  {
+    "id": "QP_02",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 Jan 2026 Q21",
+    "spec_points": [
+      "44",
+      "58",
+      "59",
+      "60"
+    ],
+    "question_type": "Structured Calculation / Deduction",
+    "total_marks": 12,
+    "parts": [
+      {
+        "part_label": "(a)(i)",
+        "marks": 3,
+        "question_text": "A camera detects light using a charge-coupled device (CCD). One CCD has an array of metal pixels. The pixels release electrons when exposed to ultraviolet (UV) light. The pixels are exposed to UV light of wavelength 380 nm.\nShow that the energy of a photon of this light is about 5.2 × 10⁻¹⁹ J.",
+        "mark_scheme": [
+          "Use of v = fλ (f = 3.00 × 10⁸ / 380 × 10⁻⁹ = 7.89 × 10¹⁴ Hz).",
+          "Use of E = hf.",
+          "E = 5.23 × 10⁻¹⁹ J (given to at least 3 s.f.)."
+        ],
+        "sample_answer": "f = c/λ = 3.00 × 10⁸ / 380 × 10⁻⁹ = 7.89 × 10¹⁴ Hz. E = hf = 6.63 × 10⁻³⁴ × 7.89 × 10¹⁴ = 5.23 × 10⁻¹⁹ J ≈ 5.2 × 10⁻¹⁹ J."
+      },
+      {
+        "part_label": "(a)(ii)",
+        "marks": 5,
+        "question_text": "The manufacturer states that about 80% of these photons incident on a pixel will cause the emission of an electron.\nDeduce whether the manufacturer's statement is accurate.\nintensity of incident light = 1.1 μW m⁻²\ndiameter of pixel = 1.2 × 10⁻⁵ m\nnumber of electrons emitted by each pixel per second = 195",
+        "mark_scheme": [
+          "Calculates area of pixel (A = π(1.2 × 10⁻⁵)²/4 = 1.13 × 10⁻¹⁰ m²).",
+          "Use of I = P/A (P = 1.1 × 10⁻⁶ × 1.13 × 10⁻¹⁰ = 1.24 × 10⁻¹⁶ W).",
+          "Calculates number of photons incident each second (1.24 × 10⁻¹⁶ / 5.23 × 10⁻¹⁹ = 238 s⁻¹).",
+          "Percentage of photons that release an electron = 195/238 = 82%.",
+          "82% ≈ 80% so the statement is accurate (or calculated percentage compared to 80% with a consistent conclusion)."
+        ],
+        "sample_answer": "Pixel area A = π × (1.2 × 10⁻⁵)² / 4 = 1.13 × 10⁻¹⁰ m². Power on pixel P = IA = 1.1 × 10⁻⁶ × 1.13 × 10⁻¹⁰ = 1.24 × 10⁻¹⁶ W. Photons per second = 1.24 × 10⁻¹⁶ / 5.23 × 10⁻¹⁹ = 238. Percentage releasing an electron = 195/238 × 100 = 82%, which is approximately 80%, so the manufacturer's statement is accurate."
+      },
+      {
+        "part_label": "(b)",
+        "marks": 4,
+        "question_text": "The threshold frequency of the metal in the pixels is equal to the frequency of green light. The pixels were exposed to white light with the same intensity as the UV light. The UV light source was removed.\nExplain how this changed the percentage of photons that released electrons.",
+        "mark_scheme": [
+          "There is a range of frequencies / wavelengths (colours) in white light.",
+          "Only some frequencies will be higher than the threshold frequency.",
+          "Only some photons will have enough energy to release an electron (or energy greater than the work function).",
+          "So only a smaller percentage of photons would release electrons."
+        ],
+        "sample_answer": "White light contains a range of frequencies. Only the frequencies at or above the threshold frequency (green and higher: blue, violet) have photon energies greater than the work function; red, orange and yellow photons do not. So only some of the incident photons can release an electron and the percentage of photons releasing electrons decreases."
+      }
+    ]
+  },
+  {
+    "id": "QP_03",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 June 2025 Q15",
+    "spec_points": [
+      "50",
+      "51",
+      "53",
+      "54"
+    ],
+    "question_type": "de Broglie Wavelength & Diffraction",
+    "total_marks": 9,
+    "parts": [
+      {
+        "part_label": "(a)",
+        "marks": 2,
+        "question_text": "Apparatus is used to demonstrate the diffraction of an electron beam in a school laboratory. A beam of electrons is accelerated by a high potential difference towards a piece of graphite. The graphite diffracts the electron beam, producing a diffraction pattern on the fluorescent screen.\nState what is meant by diffraction.",
+        "mark_scheme": [
+          "(Diffraction is) the spreading out of waves",
+          "when passing through a gap (slit) or around an object."
+        ],
+        "sample_answer": "Diffraction is the spreading out of waves as they pass through a gap or around an obstacle."
+      },
+      {
+        "part_label": "(b)(i)",
+        "marks": 4,
+        "question_text": "An electron is accelerated through a potential difference of 4.9 kV. Show that the de Broglie wavelength for the electron is about 1.8 × 10⁻¹¹ m.",
+        "mark_scheme": [
+          "Use of V = W/Q (W = 4.9 × 10³ × 1.6 × 10⁻¹⁹ = 7.84 × 10⁻¹⁶ J).",
+          "Use of Ek = ½mv² (v = 4.15 × 10⁷ m s⁻¹).",
+          "Use of λ = h/p.",
+          "λ = 1.75 × 10⁻¹¹ m."
+        ],
+        "sample_answer": "W = QV = 1.6 × 10⁻¹⁹ × 4.9 × 10³ = 7.84 × 10⁻¹⁶ J. v = √(2 × 7.84 × 10⁻¹⁶ / 9.11 × 10⁻³¹) = 4.15 × 10⁷ m s⁻¹. λ = h/(mv) = 6.63 × 10⁻³⁴ / (9.11 × 10⁻³¹ × 4.15 × 10⁷) = 1.75 × 10⁻¹¹ m ≈ 1.8 × 10⁻¹¹ m."
+      },
+      {
+        "part_label": "(b)(ii)",
+        "marks": 3,
+        "question_text": "A student suggests that the beam of electrons would produce a diffraction pattern if a diffraction grating with 5000 lines per cm was used. Deduce whether a second order maximum would be clearly visible on a screen placed about a metre away from the grating.\nλ = 1.8 × 10⁻¹¹ m",
+        "mark_scheme": [
+          "Converts 5000 lines per cm to slit separation in m (d = 10⁻² / 5000 = 2 × 10⁻⁶ m).",
+          "Use of nλ = d sin θ (sin θ = 2 × 1.8 × 10⁻¹¹ / 2 × 10⁻⁶ = 1.8 × 10⁻⁵).",
+          "θ = 0.001° – this angle is very small, so the maximum would not be clearly visible."
+        ],
+        "sample_answer": "d = 1 cm / 5000 = 2.0 × 10⁻⁶ m. For n = 2: sin θ = 2 × 1.8 × 10⁻¹¹ / 2.0 × 10⁻⁶ = 1.8 × 10⁻⁵, so θ ≈ 0.001°. This angle is far too small to separate the second order maximum from the central maximum on a screen a metre away, so it would not be clearly visible."
+      }
+    ]
+  },
+  {
+    "id": "QP_04",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 Jan 2026 Q14",
+    "spec_points": [
+      "54",
+      "65"
+    ],
+    "question_type": "Calculation",
+    "total_marks": 5,
+    "parts": [
+      {
+        "part_label": "(a)",
+        "marks": 2,
+        "question_text": "An electron is accelerated from rest through a potential difference of 4.8 kV in a cathode ray tube. Show that the kinetic energy gained by the electron is about 7.7 × 10⁻¹⁶ J.",
+        "mark_scheme": [
+          "Use of V = W/Q.",
+          "W = 7.68 × 10⁻¹⁶ J (answer to at least 3 s.f.)."
+        ],
+        "sample_answer": "W = QV = 1.6 × 10⁻¹⁹ C × 4800 V = 7.68 × 10⁻¹⁶ J ≈ 7.7 × 10⁻¹⁶ J."
+      },
+      {
+        "part_label": "(b)",
+        "marks": 3,
+        "question_text": "Calculate the de Broglie wavelength of the electron.",
+        "mark_scheme": [
+          "Use of Ek = ½mv² (or Ek = p²/2m).",
+          "Use of λ = h/(mv).",
+          "λ = 1.8 × 10⁻¹¹ m."
+        ],
+        "sample_answer": "v = √(2 × 7.68 × 10⁻¹⁶ / 9.11 × 10⁻³¹) = 4.11 × 10⁷ m s⁻¹. λ = h/(mv) = 6.63 × 10⁻³⁴ / (9.11 × 10⁻³¹ × 4.11 × 10⁷) = 1.77 × 10⁻¹¹ m."
+      }
+    ]
+  },
+  {
+    "id": "QP_05",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q21)",
+    "spec_points": [
+      "44",
+      "58",
+      "63"
+    ],
+    "question_type": "Structured",
+    "total_marks": 14,
+    "parts": [
+      {
+        "part_label": "(a)",
+        "marks": 2,
+        "question_text": "Some types of glue can be hardened by exposure to ultraviolet (UV) light. One type of UV lamp contains mercury atoms in an evacuated glass tube. When a large potential difference is applied between two electrodes in the tube, electrons move between the two electrodes. These electrons collide with the mercury atoms in the tube. These mercury atoms then emit photons.\nExplain why the mercury atoms emit photons.",
+        "mark_scheme": [
+          "Electrons (in the mercury atoms) move to higher energy levels (are excited).",
+          "They fall back to lower energy levels (de-excite), emitting a photon."
+        ],
+        "sample_answer": "The collisions transfer energy to electrons in the mercury atoms, exciting them to higher energy levels. These excited electrons then fall back to lower energy levels and the energy difference is emitted as a photon."
+      },
+      {
+        "part_label": "(b)(i)",
+        "marks": 4,
+        "question_text": "A technician is replacing the screen on a mobile phone. He spreads a layer of glue over the phone surface and attaches the glass screen, which measures 7.15 cm by 14.7 cm. The glue is then hardened when exposed to UV light. The intensity of the UV light received on the screen is 50 mW cm⁻². The glue takes 25 s to harden.\nShow that the total energy incident on the glass screen during this time is about 130 J.",
+        "mark_scheme": [
+          "Calculates area of screen (A = 7.15 × 14.7 = 105 cm²).",
+          "Use of I = P/A (P = 50 × 10⁻³ × 105 = 5.25 W).",
+          "Use of P = W/t.",
+          "W = 131 J."
+        ],
+        "sample_answer": "A = 7.15 cm × 14.7 cm = 105 cm². P = IA = 50 × 10⁻³ W cm⁻² × 105 cm² = 5.25 W. W = Pt = 5.25 × 25 = 131 J ≈ 130 J."
+      },
+      {
+        "part_label": "(b)(ii)",
+        "marks": 4,
+        "question_text": "Determine the number of photons incident on the glass screen in this time.\nwavelength of UV light = 395 nm",
+        "mark_scheme": [
+          "Use of v = fλ with v = 3 × 10⁸ m s⁻¹ (f = 7.59 × 10¹⁴ Hz).",
+          "Use of E = hf (E = 5.03 × 10⁻¹⁹ J).",
+          "Divides total energy by energy of one photon.",
+          "N = 2.6 × 10²⁰ photons."
+        ],
+        "sample_answer": "f = 3 × 10⁸ / 395 × 10⁻⁹ = 7.59 × 10¹⁴ Hz. Photon energy E = hf = 6.63 × 10⁻³⁴ × 7.59 × 10¹⁴ = 5.03 × 10⁻¹⁹ J. N = 131 J / 5.03 × 10⁻¹⁹ J = 2.6 × 10²⁰ photons."
+      },
+      {
+        "part_label": "(c)",
+        "marks": 2,
+        "question_text": "The potential difference applied between the electrodes in the UV lamp is increased. Explain the effect this would have on the frequency of the UV light produced by the lamp.",
+        "mark_scheme": [
+          "EITHER: The energy levels in mercury atoms are fixed, so the frequency of the UV light would stay the same.",
+          "OR: Electrons could move to higher energy levels (as the p.d. supplies more energy), so the frequency of the UV light would increase. [Either argument scores both marks]"
+        ],
+        "sample_answer": "The energy levels in the mercury atoms are fixed, so the energy – and hence frequency – of the photons emitted in a given transition does not change. (Alternatively: the extra energy can excite electrons to higher levels, allowing transitions of larger energy and therefore higher-frequency photons.)"
+      },
+      {
+        "part_label": "(d)",
+        "marks": 2,
+        "question_text": "Suggest why the hardening time of the glue is reduced if the UV lamp is moved closer to the mobile phone screen.",
+        "mark_scheme": [
+          "The intensity (of the UV light incident on the screen) is increased.",
+          "So the number of photons arriving per second is increased (or the energy transferred per second to the glue is increased)."
+        ],
+        "sample_answer": "Moving the lamp closer increases the intensity of UV light on the screen, so more photons (more energy) arrive each second and the glue receives the energy it needs to harden in a shorter time."
+      }
+    ]
+  },
+  {
+    "id": "QP_06",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q7)",
+    "spec_points": [
+      "54",
+      "58",
+      "60",
+      "61",
+      "63"
+    ],
+    "question_type": "Structured",
+    "total_marks": 13,
+    "parts": [
+      {
+        "part_label": "(a)(i)",
+        "marks": 2,
+        "question_text": "A discharge tube is a glass tube containing gas. When the discharge tube is connected into an electrical circuit, the gas atoms emit photons. The photons have specific frequencies. One of the emitted photons has an energy of 3.44 × 10⁻¹⁹ J.\nCalculate the frequency of this photon.",
+        "mark_scheme": [
+          "Use of E = hf.",
+          "f = 5.19 × 10¹⁴ Hz."
+        ],
+        "sample_answer": "f = E/h = 3.44 × 10⁻¹⁹ / 6.63 × 10⁻³⁴ = 5.19 × 10¹⁴ Hz."
+      },
+      {
+        "part_label": "(a)(ii)",
+        "marks": 6,
+        "question_text": "*The electrical circuit applies a large potential difference (p.d.) across the discharge tube. Explain how the p.d. across the discharge tube causes photons to be emitted by the gas atoms.\n(6-mark extended response: marks for indicative content and for a coherent, logically structured answer.)",
+        "mark_scheme": [
+          "IC1: The potential difference causes a current in the gas / tube.",
+          "IC2: So energy is transferred to the gas atoms.",
+          "IC3: An electron / atom gains (sufficient) energy to move up energy levels.",
+          "IC4: An (excited) electron is unstable and falls back down, emitting a photon.",
+          "IC5: With a wavelength / frequency corresponding to the difference in the energy levels (E = hf).",
+          "IC6: Electrons / atoms exist in discrete / fixed energy levels so only certain frequencies / wavelengths are emitted.",
+          "Linkage: answer has a coherent, logical structure with sustained lines of reasoning (up to 2 marks; 6 IC points = 4 marks + 2 linkage)."
+        ],
+        "sample_answer": "The p.d. accelerates free electrons through the gas, producing a current, and these electrons collide with gas atoms, transferring energy to them. An atomic electron that gains enough energy is excited to a higher energy level. Excited states are unstable, so the electron falls back to a lower level and the energy it loses is emitted as a photon whose energy, and hence frequency, equals the difference between the levels (E = hf). Because the energy levels are discrete, only certain energy differences are possible, so photons of only specific frequencies are emitted."
+      },
+      {
+        "part_label": "(b)(i)",
+        "marks": 3,
+        "question_text": "Photons with energy 4.75 eV are incident on a metal surface. These photons cause electrons to be emitted from the metal surface.\nShow that the maximum speed of the emitted electrons is about 5.3 × 10⁵ m s⁻¹.\nwork function of metal = 6.30 × 10⁻¹⁹ J",
+        "mark_scheme": [
+          "Use of 1 eV = 1.6 × 10⁻¹⁹ J (4.75 eV = 7.6 × 10⁻¹⁹ J).",
+          "Use of hf = Φ + ½mv²max.",
+          "vmax = 5.34 × 10⁵ m s⁻¹."
+        ],
+        "sample_answer": "Photon energy = 4.75 × 1.6 × 10⁻¹⁹ = 7.6 × 10⁻¹⁹ J. ½mv²max = 7.6 × 10⁻¹⁹ − 6.3 × 10⁻¹⁹ = 1.3 × 10⁻¹⁹ J. vmax = √(2 × 1.3 × 10⁻¹⁹ / 9.11 × 10⁻³¹) = 5.34 × 10⁵ m s⁻¹ ≈ 5.3 × 10⁵ m s⁻¹."
+      },
+      {
+        "part_label": "(b)(ii)",
+        "marks": 2,
+        "question_text": "Calculate the de Broglie wavelength of electrons moving at 5.3 × 10⁵ m s⁻¹.",
+        "mark_scheme": [
+          "Use of p = mv and λ = h/p.",
+          "λ = 1.4 × 10⁻⁹ m."
+        ],
+        "sample_answer": "λ = h/(mv) = 6.63 × 10⁻³⁴ / (9.11 × 10⁻³¹ × 5.3 × 10⁵) = 1.37 × 10⁻⁹ m."
+      }
+    ]
+  },
+  {
+    "id": "QP_07",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q8)",
+    "spec_points": [
+      "54"
+    ],
+    "question_type": "Calculation",
+    "total_marks": 3,
+    "parts": [
+      {
+        "part_label": "",
+        "marks": 3,
+        "question_text": "An electron is moving with velocity 3.6 × 10⁷ m s⁻¹. Calculate the de Broglie wavelength of this electron.",
+        "mark_scheme": [
+          "Use of p = mv (p = 9.11 × 10⁻³¹ × 3.6 × 10⁷ = 3.28 × 10⁻²³ kg m s⁻¹).",
+          "Use of λ = h/p.",
+          "λ = 2.0 × 10⁻¹¹ m."
+        ],
+        "sample_answer": "p = mv = 9.11 × 10⁻³¹ × 3.6 × 10⁷ = 3.28 × 10⁻²³ kg m s⁻¹. λ = h/p = 6.63 × 10⁻³⁴ / 3.28 × 10⁻²³ = 2.02 × 10⁻¹¹ m."
+      }
+    ]
+  },
+  {
+    "id": "QP_08",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q9)",
+    "spec_points": [
+      "54"
+    ],
+    "question_type": "Calculation / Deduction",
+    "total_marks": 3,
+    "parts": [
+      {
+        "part_label": "",
+        "marks": 3,
+        "question_text": "A particle travelling at a speed of 9.89 × 10⁵ m s⁻¹ has a de Broglie wavelength of 7.37 × 10⁻¹⁰ m. Deduce whether this particle has a mass equal to the electron mass.",
+        "mark_scheme": [
+          "Use of λ = h/p (p = 6.63 × 10⁻³⁴ / 7.37 × 10⁻¹⁰ = 9.00 × 10⁻²⁵ kg m s⁻¹).",
+          "Use of p = mv.",
+          "m = 9.1 × 10⁻³¹ kg, so the mass is that of an electron."
+        ],
+        "sample_answer": "p = h/λ = 6.63 × 10⁻³⁴ / 7.37 × 10⁻¹⁰ = 9.00 × 10⁻²⁵ kg m s⁻¹. m = p/v = 9.00 × 10⁻²⁵ / 9.89 × 10⁵ = 9.10 × 10⁻³¹ kg, which equals the electron mass, so yes."
+      }
+    ]
+  },
+  {
+    "id": "QP_09",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q11)",
+    "spec_points": [
+      "53",
+      "54",
+      "65"
+    ],
+    "question_type": "Structured",
+    "total_marks": 11,
+    "parts": [
+      {
+        "part_label": "(a)",
+        "marks": 4,
+        "question_text": "A teacher demonstrated the behaviour of electrons travelling through graphite. An electron beam was directed through a thin piece of graphite towards a fluorescent screen. The electrons produced a pattern of concentric rings on the fluorescent screen.\nThis demonstration can be used to make conclusions about the behaviour of the electrons and the structure of the graphite. State these conclusions.",
+        "mark_scheme": [
+          "Electrons can exhibit wave behaviour.",
+          "Electrons diffract as they pass through the graphite (or graphite acts as a diffraction grating).",
+          "The structure of graphite must be ordered / regular / layered.",
+          "The (de Broglie) wavelength of the electrons is similar to the spacing of the gaps between atoms."
+        ],
+        "sample_answer": "The ring pattern is a diffraction pattern, so electrons behave as waves and are diffracted by the graphite, which acts like a diffraction grating. For this to happen the atoms in graphite must be arranged in a regular, ordered structure, and the spacing between the atoms must be similar to the de Broglie wavelength of the electrons."
+      },
+      {
+        "part_label": "(b)(i)",
+        "marks": 2,
+        "question_text": "The electrons were accelerated through a potential difference (p.d.) of 2400 V before interacting with the graphite. Show that the work done on each electron is about 4 × 10⁻¹⁶ J.",
+        "mark_scheme": [
+          "Use of V = W/Q.",
+          "W = 3.8 × 10⁻¹⁶ J."
+        ],
+        "sample_answer": "W = QV = 1.6 × 10⁻¹⁹ × 2400 = 3.84 × 10⁻¹⁶ J ≈ 4 × 10⁻¹⁶ J."
+      },
+      {
+        "part_label": "(b)(ii)",
+        "marks": 2,
+        "question_text": "Calculate the maximum velocity of the electrons.",
+        "mark_scheme": [
+          "Use of Ek = ½mv².",
+          "v = 2.9 × 10⁷ m s⁻¹."
+        ],
+        "sample_answer": "½ × 9.11 × 10⁻³¹ × v² = 3.84 × 10⁻¹⁶ J, so v = √(2 × 3.84 × 10⁻¹⁶ / 9.11 × 10⁻³¹) = 2.9 × 10⁷ m s⁻¹."
+      },
+      {
+        "part_label": "(b)(iii)",
+        "marks": 3,
+        "question_text": "The accelerating p.d. was then increased. Explain how the pattern on the screen would change.",
+        "mark_scheme": [
+          "Increasing the accelerating p.d. would increase the (maximum) momentum / velocity of the electrons.",
+          "Use of λ = h/p, so the (de Broglie) wavelength of the electrons decreases.",
+          "So the spacing between the maxima (rings) decreases – the rings become closer together / smaller."
+        ],
+        "sample_answer": "A larger p.d. gives the electrons more kinetic energy and therefore more momentum. Since λ = h/p, their de Broglie wavelength decreases. Less diffraction occurs, so the rings move closer to the centre – the spacing between the rings decreases."
+      }
+    ]
+  },
+  {
+    "id": "QP_10a",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q4)",
+    "spec_points": [
+      "53"
+    ],
+    "question_type": "Short Answer",
+    "total_marks": 2,
+    "parts": [
+      {
+        "part_label": "",
+        "marks": 2,
+        "question_text": "A beam of electrons passes through a thin layer of graphite. The electrons are then incident on a fluorescent screen, causing a series of rings to form. Explain what the rings show about the nature of electrons.",
+        "mark_scheme": [
+          "Electrons can behave as waves,",
+          "because the rings show diffraction / interference."
+        ],
+        "sample_answer": "The rings are a diffraction (interference) pattern, and diffraction is a wave property, so the pattern shows that electrons can behave as waves."
+      }
+    ]
+  },
+  {
+    "id": "QP_10b",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q13)",
+    "spec_points": [
+      "53"
+    ],
+    "question_type": "Short Answer",
+    "total_marks": 3,
+    "parts": [
+      {
+        "part_label": "",
+        "marks": 3,
+        "question_text": "A beam of electrons is directed at a thin metal foil. After passing through the foil the electrons are detected by a fluorescent screen, where a pattern of concentric bright and dark rings is produced.\nExplain how the pattern produced on the screen is evidence for wave behaviour, rather than particle behaviour, of the electrons.",
+        "mark_scheme": [
+          "(The pattern shows that) diffraction is taking place.",
+          "(The pattern shows that) interference / superposition is taking place.",
+          "Bright rings / maxima are due to constructive interference (or dark rings / minima are due to destructive interference)."
+        ],
+        "sample_answer": "The electrons spread out (diffract) as they pass through the foil and then superpose. The bright rings are where the electron waves interfere constructively and the dark rings where they interfere destructively. Diffraction and interference are wave properties – particles would simply produce a single spot – so the pattern is evidence of wave behaviour."
+      }
+    ]
+  },
+  {
+    "id": "QP_11",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q5)",
+    "spec_points": [
+      "54",
+      "58",
+      "60",
+      "61"
+    ],
+    "question_type": "Structured",
+    "total_marks": 7,
+    "parts": [
+      {
+        "part_label": "(a)",
+        "marks": 1,
+        "question_text": "Ultraviolet light is incident on a zinc plate. If the photon energy is greater than the work function of the zinc, electrons are released. State what is meant by work function.",
+        "mark_scheme": [
+          "The minimum energy required to release an electron from the surface of a metal."
+        ],
+        "sample_answer": "The work function is the minimum energy needed to release an electron from the surface of the metal."
+      },
+      {
+        "part_label": "(b)",
+        "marks": 6,
+        "question_text": "The ultraviolet (UV) section of the electromagnetic spectrum can be split into three parts: UVA (wavelength 315 nm to 400 nm), UVB (280 nm to 315 nm) and UVC (100 nm to 280 nm).\nThe minimum de Broglie wavelength of the released electrons is 1.50 × 10⁻⁹ m. Deduce whether the ultraviolet light incident upon the zinc plate is UVA, UVB or UVC.\nwork function of zinc = 4.30 eV",
+        "mark_scheme": [
+          "Use of λ = h/p with λ = 1.50 × 10⁻⁹ m (p = 4.42 × 10⁻²⁵ kg m s⁻¹).",
+          "Use of p = mv with m = 9.11 × 10⁻³¹ kg (v = 4.85 × 10⁵ m s⁻¹; Ek = 1.07 × 10⁻¹⁹ J).",
+          "Converts work function from eV into J (Φ = 6.88 × 10⁻¹⁹ J).",
+          "Use of hf = Φ + ½mv²max to find hf (hf = 7.95 × 10⁻¹⁹ J).",
+          "Use of E = hf and v = fλ to find λ (f = 1.20 × 10¹⁵ Hz).",
+          "λ = 250 nm, so UVC."
+        ],
+        "sample_answer": "The minimum de Broglie wavelength corresponds to the fastest electrons: p = h/λ = 6.63 × 10⁻³⁴ / 1.50 × 10⁻⁹ = 4.42 × 10⁻²⁵ kg m s⁻¹, so v = p/m = 4.85 × 10⁵ m s⁻¹ and Ek,max = ½mv² = 1.07 × 10⁻¹⁹ J. Φ = 4.30 × 1.60 × 10⁻¹⁹ = 6.88 × 10⁻¹⁹ J. Photon energy hf = Φ + Ek,max = 7.95 × 10⁻¹⁹ J, so f = 1.20 × 10¹⁵ Hz and λ = c/f = 2.50 × 10⁻⁷ m = 250 nm. This lies in the 100–280 nm range, so the light is UVC."
+      }
+    ]
+  },
+  {
+    "id": "QP_12",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q16)",
+    "spec_points": [
+      "57",
+      "62"
+    ],
+    "question_type": "Extended Open Response",
+    "total_marks": 6,
+    "parts": [
+      {
+        "part_label": "",
+        "marks": 6,
+        "question_text": "*In 1921, Albert Einstein was awarded the Nobel Prize for Physics \"for his discovery of the law of the photoelectric effect\". To explain this effect, Einstein proposed that electromagnetic radiation should be modelled as a particle rather than as a wave.\nExplain why, when considering the photoelectric effect, treating electromagnetic radiation as a particle is a more successful model than treating electromagnetic radiation as a wave.\n(6-mark extended response.)",
+        "mark_scheme": [
+          "IC: A minimum / threshold frequency is required to release electrons.",
+          "IC: For waves, any frequency would (eventually) be able to release electrons.",
+          "IC: Release of electrons is instantaneous.",
+          "IC: If the wave model were correct, energy would take time to build up before electrons were released.",
+          "IC: The (kinetic) energy of released electrons depends on frequency.",
+          "IC: If the wave model were correct, the (kinetic) energy of the released electrons would depend on the intensity.",
+          "Linkage: coherent, logically structured answer (up to 2 marks; 6 IC points = 4 marks + 2 linkage)."
+        ],
+        "sample_answer": "In the photoelectric effect electrons are only released if the radiation is above a threshold frequency; a wave of any frequency should be able to deliver enough energy given time, so the wave model cannot explain this. Emission is also instantaneous, whereas in the wave model energy would have to build up before an electron could escape. Finally, the maximum kinetic energy of the photoelectrons depends on the frequency, not the intensity, of the radiation, but a wave model predicts that more intense (larger amplitude) waves should give electrons more energy. The particle model – where each photon of energy hf interacts with one electron – explains all three observations, so it is the more successful model."
+      }
+    ]
+  },
+  {
+    "id": "QP_13",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q19)",
+    "spec_points": [
+      "57",
+      "62"
+    ],
+    "question_type": "Extended Open Response",
+    "total_marks": 6,
+    "parts": [
+      {
+        "part_label": "",
+        "marks": 6,
+        "question_text": "*In the early 20th century, observations of the photoelectric effect demonstrated that light behaves as a particle.\nExplain how observations from the photoelectric effect demonstrate the particle nature of light.\n(6-mark extended response.)",
+        "mark_scheme": [
+          "IC: Photon energy is related to frequency (E = hf).",
+          "IC: One-to-one interaction between photons and electrons.",
+          "IC: A minimum energy / frequency is required for electron release.",
+          "IC: Release of electrons is instantaneous.",
+          "IC: Frequency affects the kinetic energy of the released electrons.",
+          "IC: Intensity affects the number of electrons released per second.",
+          "Linkage: coherent, logically structured answer (up to 2 marks)."
+        ],
+        "sample_answer": "Light is made up of photons, each with energy E = hf, and each photon interacts with a single electron, giving it all of its energy. An electron is only released if this energy exceeds the work function, which explains why there is a threshold frequency below which no electrons are emitted regardless of intensity. Because the energy is delivered in one packet, emission is instantaneous. Increasing the frequency increases the energy of each photon and hence the maximum kinetic energy of the electrons, while increasing the intensity only increases the number of photons per second and therefore the number of electrons released per second. These observations cannot be explained by a continuous wave, so they demonstrate the particle nature of light."
+      }
+    ]
+  },
+  {
+    "id": "QP_14",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q17)",
+    "spec_points": [
+      "58",
+      "61",
+      "63"
+    ],
+    "question_type": "Calculation",
+    "total_marks": 3,
+    "parts": [
+      {
+        "part_label": "",
+        "marks": 3,
+        "question_text": "Some of the energy levels for an atom of hydrogen are: −0.54 eV, −0.85 eV, −1.51 eV, −3.40 eV and −13.60 eV.\nDetermine the transition between energy levels that would result in the release of a photon with a frequency of 7.48 × 10¹³ Hz.",
+        "mark_scheme": [
+          "Use of E = hf (E = 6.63 × 10⁻³⁴ × 7.48 × 10¹³ = 4.96 × 10⁻²⁰ J).",
+          "Converts J to eV (0.31 eV).",
+          "Transition from −0.54 eV to −0.85 eV."
+        ],
+        "sample_answer": "E = hf = 6.63 × 10⁻³⁴ × 7.48 × 10¹³ = 4.96 × 10⁻²⁰ J = 4.96 × 10⁻²⁰ / 1.60 × 10⁻¹⁹ = 0.31 eV. The only pair of levels 0.31 eV apart is −0.54 eV and −0.85 eV, so the transition is from −0.54 eV to −0.85 eV."
+      }
+    ]
+  },
+  {
+    "id": "QP_15",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q18)",
+    "spec_points": [
+      "59",
+      "60",
+      "61",
+      "62"
+    ],
+    "question_type": "Structured",
+    "total_marks": 9,
+    "parts": [
+      {
+        "part_label": "(a)(i)",
+        "marks": 3,
+        "question_text": "In an experiment to demonstrate the photoelectric effect, ultraviolet light is incident on a metal plate. Photoelectrons are released from the plate with a maximum speed of 3.51 × 10⁵ m s⁻¹.\nCalculate the energy of these photoelectrons in eV.",
+        "mark_scheme": [
+          "Use of Ek = ½mv² with m = 9.11 × 10⁻³¹ kg (Ek = 5.60 × 10⁻²⁰ J).",
+          "Conversion of J to eV.",
+          "Energy = 0.35 eV."
+        ],
+        "sample_answer": "Ek = ½ × 9.11 × 10⁻³¹ × (3.51 × 10⁵)² = 5.60 × 10⁻²⁰ J = 5.60 × 10⁻²⁰ / 1.60 × 10⁻¹⁹ = 0.35 eV."
+      },
+      {
+        "part_label": "(b)",
+        "marks": 4,
+        "question_text": "Photoelectrons are only emitted from a given metal surface if the frequency of the incident radiation is above a particular value. Explain why.",
+        "mark_scheme": [
+          "Each photon only interacts with one electron.",
+          "Electrons absorb energy from photons (photons transfer energy to electrons).",
+          "A minimum energy is required for an electron to be emitted (the work function).",
+          "Higher photon energy is related to higher frequency (E = hf), so the frequency of the radiation has to be above a particular value."
+        ],
+        "sample_answer": "Each photon transfers all its energy to one electron. The electron needs a minimum amount of energy – the work function – to escape the surface. Since photon energy is proportional to frequency (E = hf), only photons above a certain frequency (the threshold frequency) carry enough energy to release an electron."
+      },
+      {
+        "part_label": "(c)",
+        "marks": 2,
+        "question_text": "A student makes the following statement: 'It does not matter what the value of the work function is for a particular metal. Photoelectrons can always be released if the intensity of the incident light is high enough.'\nCriticise the student's statement.",
+        "mark_scheme": [
+          "Any two from: Intensity is related to the number of photons (per second).",
+          "Intensity is related to the number of photoelectrons (per second).",
+          "Intensity does not affect the energy of the photons / photoelectrons."
+        ],
+        "sample_answer": "The student is wrong. Increasing intensity only increases the number of photons arriving per second (and hence the number of electrons released per second); it does not change the energy of each photon. If the photon energy is below the work function, no electrons are released however high the intensity."
+      }
+    ]
+  },
+  {
+    "id": "QP_16",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q20)",
+    "spec_points": [
+      "63"
+    ],
+    "question_type": "Open Response",
+    "total_marks": 4,
+    "parts": [
+      {
+        "part_label": "",
+        "marks": 4,
+        "question_text": "An atom of hydrogen has energy levels including −13.6 eV (ground state) and −1.5 eV.\nWhen an electron with a kinetic energy of 12.3 eV interacts with this atom, an electron in the atom moves from the −13.6 eV level to the −1.5 eV level.\nWhen a photon with a photon energy of 12.3 eV is incident on this atom, the electron in the atom at the −13.6 eV level remains at the −13.6 eV level.\nExplain these observations.",
+        "mark_scheme": [
+          "For the electron in the atom to move from −13.6 eV to −1.5 eV requires 12.1 eV.",
+          "0.2 eV remains as kinetic energy of the incoming electron (an electron can transfer part of its energy).",
+          "The energy of a photon is transferred to a single electron / a photon gives all of its energy or none at all / a photon can only excite an electron if it matches the energy difference between levels.",
+          "Photon energy is not exactly 12.1 eV so the electron remains at the −13.6 eV level (there is no transition equivalent to 12.3 eV)."
+        ],
+        "sample_answer": "The transition from −13.6 eV to −1.5 eV needs exactly 12.1 eV. A colliding electron can give up just part of its kinetic energy, so it transfers 12.1 eV to the atom and keeps the remaining 0.2 eV. A photon, however, must be absorbed completely or not at all, so it can only cause a transition if its energy exactly matches an energy-level difference. 12.3 eV does not match any difference from the ground state, so the photon is not absorbed and the electron stays at −13.6 eV."
+      }
+    ]
+  },
+  {
+    "id": "QP_17",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q22)",
+    "spec_points": [
+      "58",
+      "60",
+      "61",
+      "62",
+      "63"
+    ],
+    "question_type": "Structured",
+    "total_marks": 14,
+    "parts": [
+      {
+        "part_label": "(a)",
+        "marks": 2,
+        "question_text": "The energy levels of an atom of hydrogen are −13.6 eV (ground state), −3.4 eV, −1.5 eV, −0.85 eV and −0.54 eV. An electron is in the −13.6 eV level of this atom. A photon interacts with this electron.\nExplain why this interaction causes the emission of another photon.",
+        "mark_scheme": [
+          "The electron moves to a higher energy level (is excited).",
+          "Then drops back down (de-excites), releasing a photon."
+        ],
+        "sample_answer": "The electron absorbs the photon and is excited to a higher energy level. It is unstable there and falls back to a lower level, emitting a photon with energy equal to the difference between the levels."
+      },
+      {
+        "part_label": "(b)(i)",
+        "marks": 4,
+        "question_text": "A photon has a wavelength of 218 nm. Determine the energy, in eV, of this photon.",
+        "mark_scheme": [
+          "Use of v = fλ with v = 3.00 × 10⁸ m s⁻¹ (f = 1.38 × 10¹⁵ Hz).",
+          "Use of E = hf (E = 9.12 × 10⁻¹⁹ J).",
+          "Conversion from J to eV.",
+          "Photon energy = 5.7 eV."
+        ],
+        "sample_answer": "f = 3.00 × 10⁸ / 218 × 10⁻⁹ = 1.38 × 10¹⁵ Hz. E = hf = 6.63 × 10⁻³⁴ × 1.38 × 10¹⁵ = 9.12 × 10⁻¹⁹ J = 9.12 × 10⁻¹⁹ / 1.60 × 10⁻¹⁹ = 5.70 eV."
+      },
+      {
+        "part_label": "(b)(ii)",
+        "marks": 2,
+        "question_text": "Explain whether the atom of hydrogen could emit a photon with this energy (5.7 eV).",
+        "mark_scheme": [
+          "(Differences between) energy levels are discrete (only certain transitions are possible).",
+          "There is no difference of 5.7 eV between any two levels, so it is not possible."
+        ],
+        "sample_answer": "Photons can only be emitted with energies equal to the difference between two discrete energy levels. None of the differences between the hydrogen levels equals 5.7 eV (e.g. 13.6 − 3.4 = 10.2 eV, 3.4 − 1.5 = 1.9 eV), so the atom cannot emit a photon of this energy."
+      },
+      {
+        "part_label": "(c)(i)",
+        "marks": 3,
+        "question_text": "Photons with energy 1.63 × 10⁻¹⁸ J are incident upon the surface of a metal plate. The metal surface releases electrons due to the photoelectric effect.\nCalculate the maximum possible speed of the electrons.\nwork function = 5.89 × 10⁻¹⁹ J",
+        "mark_scheme": [
+          "Use of hf = Φ + ½mv²max (Ek = 1.63 × 10⁻¹⁸ − 5.89 × 10⁻¹⁹ = 1.04 × 10⁻¹⁸ J).",
+          "Use of Ek = ½mv² with m = 9.11 × 10⁻³¹ kg.",
+          "Maximum possible speed = 1.5 × 10⁶ m s⁻¹."
+        ],
+        "sample_answer": "Ek,max = hf − Φ = 1.63 × 10⁻¹⁸ − 5.89 × 10⁻¹⁹ = 1.04 × 10⁻¹⁸ J. vmax = √(2 × 1.04 × 10⁻¹⁸ / 9.11 × 10⁻³¹) = 1.5 × 10⁶ m s⁻¹."
+      },
+      {
+        "part_label": "(c)(ii)",
+        "marks": 3,
+        "question_text": "Explain why the photoelectric effect demonstrates light behaving as a particle, rather than a wave.",
+        "mark_scheme": [
+          "MAX 2 from: There is a minimum / threshold frequency for electron release; electrons are released instantaneously; (changing) intensity does not affect the KE / speed / release of an electron.",
+          "MAX 2 from: The energy of a photon increases as frequency increases; photon energy has to be greater than the work function; each photon only interacts with one electron.",
+          "(Total 3 marks from the two groups above.)"
+        ],
+        "sample_answer": "Electrons are only released above a threshold frequency, and they are released instantly with a maximum kinetic energy that does not depend on intensity. This is explained if light arrives as photons, each with energy hf, which interact one-to-one with electrons – an electron is released only if a single photon's energy exceeds the work function. A continuous wave could not explain the threshold or the instantaneous emission."
+      }
+    ]
+  },
+  {
+    "id": "QP_18",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q23)",
+    "spec_points": [
+      "44",
+      "58",
+      "61",
+      "63"
+    ],
+    "question_type": "Structured",
+    "total_marks": 10,
+    "parts": [
+      {
+        "part_label": "(a)",
+        "marks": 4,
+        "question_text": "Sirius A is the brightest star in the night sky and is mostly composed of hydrogen. When light from Sirius A passes through the hydrogen in the outer layers of the star, some light is absorbed. This causes electrons in the hydrogen to be excited from the −3.40 eV level to the −1.50 eV level.\nApproximate wavelength ranges of visible light: violet 400–450 nm, blue 450–490 nm, green 490–570 nm, yellow 570–590 nm, orange 590–620 nm, red 620–700 nm.\nDeduce the colour of the visible light that caused this electron transition.",
+        "mark_scheme": [
+          "Conversion of eV into J (1.9 eV = 3.04 × 10⁻¹⁹ J).",
+          "Use of E = hf (f = 4.59 × 10¹⁴ Hz).",
+          "Use of v = fλ with v = 3.00 × 10⁸ m s⁻¹.",
+          "λ = 654 nm, so the light (for this transition) is red."
+        ],
+        "sample_answer": "ΔE = 3.40 − 1.50 = 1.90 eV = 1.90 × 1.60 × 10⁻¹⁹ = 3.04 × 10⁻¹⁹ J. f = E/h = 3.04 × 10⁻¹⁹ / 6.63 × 10⁻³⁴ = 4.59 × 10¹⁴ Hz. λ = c/f = 3.00 × 10⁸ / 4.59 × 10¹⁴ = 6.54 × 10⁻⁷ m = 654 nm, which is in the red part of the spectrum."
+      },
+      {
+        "part_label": "(b)",
+        "marks": 4,
+        "question_text": "A light year is the distance travelled by light in one year. Sirius A is 8.60 light years from Earth. The intensity of radiation from Sirius A received on Earth is 1.17 × 10⁻⁷ W m⁻².\nCalculate the power of Sirius A.",
+        "mark_scheme": [
+          "Converts 8.60 light years into metres (8.60 × 365 × 24 × 3600 × 3.00 × 10⁸ = 8.14 × 10¹⁶ m).",
+          "Use of I = P/A.",
+          "Use of A = 4πr².",
+          "Power of Sirius A = 9.73 × 10²⁷ W."
+        ],
+        "sample_answer": "r = 8.60 × (365 × 24 × 3600 s) × 3.00 × 10⁸ m s⁻¹ = 8.14 × 10¹⁶ m. P = I × 4πr² = 1.17 × 10⁻⁷ × 4π × (8.14 × 10¹⁶)² = 9.73 × 10²⁷ W."
+      },
+      {
+        "part_label": "(c)",
+        "marks": 2,
+        "question_text": "When hydrogen gas is excited in the laboratory, only certain wavelengths of light are emitted. Explain why.",
+        "mark_scheme": [
+          "Atoms have fixed / discrete energy levels (or emitted photons have discrete energies).",
+          "Only certain transitions (energy differences) are possible in a hydrogen atom."
+        ],
+        "sample_answer": "The electrons in hydrogen atoms can only occupy discrete energy levels, so only certain transitions – with certain energy differences – are possible. Each emitted photon has energy equal to one of these differences (E = hf = hc/λ), so only certain wavelengths are emitted."
+      }
+    ]
+  },
+  {
+    "id": "QP_19",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q24(a))",
+    "spec_points": [
+      "59",
+      "60"
+    ],
+    "question_type": "Open Response",
+    "total_marks": 3,
+    "parts": [
+      {
+        "part_label": "(a)",
+        "marks": 3,
+        "question_text": "Monochromatic light is incident on the surface of a magnesium plate. Electrons are released with a range of kinetic energies.\nExplain why the maximum kinetic energy of a released electron is less than the energy of each photon of light incident on the surface.",
+        "mark_scheme": [
+          "The electron only receives energy from one photon (one-to-one interaction between photons and electrons).",
+          "Some of the photon energy is needed to overcome the work function (a minimum energy is required to release electrons from the surface of the plate).",
+          "The remaining photon energy is transferred to kinetic energy of the electron, so it is lower than the photon energy (photon energy is shared between the work function and the kinetic energy)."
+        ],
+        "sample_answer": "Each electron absorbs the energy of a single photon. Part of that energy – at least the work function – is used to free the electron from the surface, and only what is left over becomes kinetic energy. So even the most energetic electron has kinetic energy hf − Φ, which is less than the photon energy hf."
+      }
+    ]
+  },
+  {
+    "id": "QP_20",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q25)",
+    "spec_points": [
+      "59",
+      "60",
+      "61",
+      "65"
+    ],
+    "question_type": "Structured",
+    "total_marks": 10,
+    "parts": [
+      {
+        "part_label": "(a)",
+        "marks": 1,
+        "question_text": "Photocells make use of the photoelectric effect. A circuit with a variable power supply, voltmeter and ammeter can be used to determine the work function of the metal used in a photocell.\nState what is meant by the work function of a metal.",
+        "mark_scheme": [
+          "The minimum energy required to release / emit a (photo)electron from the surface of the metal."
+        ],
+        "sample_answer": "The minimum energy required to release an electron from the surface of the metal."
+      },
+      {
+        "part_label": "(b)",
+        "marks": 2,
+        "question_text": "This photocell works with ultraviolet light but does not work with visible light. Explain why.",
+        "mark_scheme": [
+          "Ultraviolet has a higher (photon) energy / frequency than visible light.",
+          "Ultraviolet photons have an energy greater than the work function (frequency above the threshold frequency), whereas visible light photons have an energy less than the work function."
+        ],
+        "sample_answer": "Ultraviolet light has a higher frequency, so its photons have more energy than visible-light photons. UV photon energy exceeds the work function of the metal, so electrons are released; visible-light photons have less energy than the work function, so no electrons are released."
+      },
+      {
+        "part_label": "(c)(i)",
+        "marks": 3,
+        "question_text": "The potential difference applied to the photocell opposes the movement of the electrons through the photocell, reducing the current. The variable power supply was initially set at 0 V and the reading on the ammeter was 2.4 μA. The intensity of the ultraviolet light was then increased without changing the frequency.\nExplain what happened to the reading on the ammeter.",
+        "mark_scheme": [
+          "(Increased intensity means) more photons per second.",
+          "(More photons leads to) more electrons emitted per second.",
+          "The reading on the ammeter increases (the current increases)."
+        ],
+        "sample_answer": "Increasing the intensity means more photons arrive at the metal each second. Each photon releases one electron, so more electrons are emitted per second and the current – the ammeter reading – increases."
+      },
+      {
+        "part_label": "(c)(ii)",
+        "marks": 4,
+        "question_text": "The variable power supply was adjusted until the reading on the ammeter became 0 μA. The reading on the voltmeter was 3.59 V.\nCalculate the work function, in joules, of the metal used in the photocell.\nfrequency of ultraviolet used = 2.00 × 10¹⁵ Hz",
+        "mark_scheme": [
+          "Use of E = hf (hf = 6.63 × 10⁻³⁴ × 2.00 × 10¹⁵ = 1.33 × 10⁻¹⁸ J).",
+          "Use of V = W/Q (Ek,max = 1.60 × 10⁻¹⁹ × 3.59 = 5.74 × 10⁻¹⁹ J).",
+          "Use of hf = Φ + ½mv²max.",
+          "Work function = 7.6 × 10⁻¹⁹ J."
+        ],
+        "sample_answer": "Photon energy hf = 6.63 × 10⁻³⁴ × 2.00 × 10¹⁵ = 1.33 × 10⁻¹⁸ J. The stopping p.d. gives Ek,max = eV = 1.60 × 10⁻¹⁹ × 3.59 = 5.74 × 10⁻¹⁹ J. Φ = hf − Ek,max = 1.33 × 10⁻¹⁸ − 5.74 × 10⁻¹⁹ = 7.6 × 10⁻¹⁹ J."
+      }
+    ]
+  },
+  {
+    "id": "QP_21",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q26)",
+    "spec_points": [
+      "58",
+      "69"
+    ],
+    "question_type": "Structured",
+    "total_marks": 6,
+    "parts": [
+      {
+        "part_label": "(a)(ii)",
+        "marks": 4,
+        "question_text": "A red light-emitting diode (LED) in a circuit emits light of wavelength 627 nm and may be assumed to be 100% efficient. The power of the LED is 0.11 W.\nCalculate the number of photons emitted by the LED in one minute.",
+        "mark_scheme": [
+          "Use of E = Pt to calculate energy of LED (E = 0.11 × 60 = 6.6 J).",
+          "Use of v = fλ and E = hf to calculate photon energy (3.17 × 10⁻¹⁹ J).",
+          "Divides total energy in one minute by energy of a photon.",
+          "Number of photons in one minute = 2.1 × 10¹⁹."
+        ],
+        "sample_answer": "Energy in one minute = Pt = 0.11 × 60 = 6.6 J. f = 3.00 × 10⁸ / 627 × 10⁻⁹ = 4.78 × 10¹⁴ Hz, so photon energy = hf = 6.63 × 10⁻³⁴ × 4.78 × 10¹⁴ = 3.17 × 10⁻¹⁹ J. N = 6.6 / 3.17 × 10⁻¹⁹ = 2.1 × 10¹⁹ photons."
+      },
+      {
+        "part_label": "(b)",
+        "marks": 2,
+        "question_text": "The red LED was replaced with a green LED which emits light with a shorter wavelength than the red LED. The current in the circuit (and hence the power) did not change.\nExplain how replacing the LED affected the number of photons emitted in one minute.",
+        "mark_scheme": [
+          "(Shorter wavelength leads to) greater photon energy (hc/λ or hf increases).",
+          "Therefore fewer photons are emitted in one minute."
+        ],
+        "sample_answer": "Green light has a shorter wavelength and therefore a higher frequency, so each photon carries more energy (E = hf = hc/λ). The LED emits the same total energy per minute, so it must emit fewer photons."
+      }
+    ]
+  },
+  {
+    "id": "QP_22",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q28(a))",
+    "spec_points": [
+      "58",
+      "61"
+    ],
+    "question_type": "Calculation",
+    "total_marks": 4,
+    "parts": [
+      {
+        "part_label": "(a)",
+        "marks": 4,
+        "question_text": "A student used two sources, A and B, of electromagnetic radiation to investigate the photoelectric effect. Radiation from A has a photon energy of 2.0 eV. The radiation from B has a wavelength of 280 nm.\nShow that this radiation has a photon energy of about 4.4 eV.",
+        "mark_scheme": [
+          "Use of v = fλ using v = 3.00 × 10⁸ m s⁻¹ (f = 1.07 × 10¹⁵ Hz).",
+          "Use of E = hf (E = 7.09 × 10⁻¹⁹ J).",
+          "Converts from J to eV.",
+          "Photon energy of source B = 4.43 eV (must be given to more s.f. than 4.4)."
+        ],
+        "sample_answer": "f = c/λ = 3.00 × 10⁸ / 280 × 10⁻⁹ = 1.07 × 10¹⁵ Hz. E = hf = 6.63 × 10⁻³⁴ × 1.07 × 10¹⁵ = 7.09 × 10⁻¹⁹ J = 7.09 × 10⁻¹⁹ / 1.60 × 10⁻¹⁹ = 4.43 eV ≈ 4.4 eV."
+      }
+    ]
+  },
+  {
+    "id": "QP_23",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q29)",
+    "spec_points": [
+      "44",
+      "58",
+      "59",
+      "60",
+      "61"
+    ],
+    "question_type": "Structured",
+    "total_marks": 13,
+    "parts": [
+      {
+        "part_label": "(a)",
+        "marks": 4,
+        "question_text": "A 'flame detector' uses the photoelectric effect to detect ultraviolet radiation from fires. Explain how electrons are released in the photoelectric effect.",
+        "mark_scheme": [
+          "MAX 4 from: Photons are incident on the metal surface / plate.",
+          "The energy of one photon is transferred to one electron (one photon interacts with one electron).",
+          "Photon energy is proportional to frequency (E = hf).",
+          "Some energy is used to release the electron from the surface (to overcome the work function).",
+          "The remaining energy is transferred to kinetic energy of the released electron."
+        ],
+        "sample_answer": "Photons of UV radiation strike the metal surface. Each photon, with energy E = hf, transfers all of its energy to a single electron. If this is at least the work function, the electron can escape from the surface; the energy left over becomes the kinetic energy of the released electron."
+      },
+      {
+        "part_label": "(b)(ii)",
+        "marks": 3,
+        "question_text": "A fire emits photons of ultraviolet radiation with a wavelength of 380 nm; each photon has an energy of about 5.2 × 10⁻¹⁹ J.\nCalculate the maximum kinetic energy of the released electrons in eV.\nwork function of metal = 2.2 eV",
+        "mark_scheme": [
+          "Conversion between J and eV (5.23 × 10⁻¹⁹ J / 1.6 × 10⁻¹⁹ = 3.27 eV).",
+          "Use of hf = Φ + ½mv²max.",
+          "Energy of electron = 1.1 eV."
+        ],
+        "sample_answer": "Photon energy = 5.23 × 10⁻¹⁹ / 1.60 × 10⁻¹⁹ = 3.27 eV. Ek,max = 3.27 − 2.2 = 1.07 eV ≈ 1.1 eV."
+      },
+      {
+        "part_label": "(b)(iii)",
+        "marks": 3,
+        "question_text": "Ultraviolet radiation with an intensity of 8000 W m⁻² is incident on the detection surface. The detection surface has an area of 0.020 m².\nDetermine the number of photons incident on the detection surface each second.",
+        "mark_scheme": [
+          "Use of I = P/A (P = 8000 × 0.020 = 160 W).",
+          "Calculates N = P/E with t = 1 s.",
+          "N = 3.1 × 10²⁰ (photons per second)."
+        ],
+        "sample_answer": "P = IA = 8000 × 0.020 = 160 W, so 160 J arrives each second. N = 160 / 5.23 × 10⁻¹⁹ = 3.1 × 10²⁰ photons per second."
+      },
+      {
+        "part_label": "(c)",
+        "marks": 3,
+        "question_text": "The detection surface is part of an electrical circuit. The released electrons cause a current in this circuit. The intensity of ultraviolet radiation incident on the detection surface increases.\nExplain how this will affect the current in the circuit.",
+        "mark_scheme": [
+          "The number of photons incident per second increases.",
+          "The number of electrons released per second increases.",
+          "Therefore the current increases."
+        ],
+        "sample_answer": "A higher intensity means more photons arrive at the surface each second. Since each photon can release one electron, more electrons are released per second, so the current in the circuit increases."
+      }
+    ]
+  },
+  {
+    "id": "QP_24",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q31)",
+    "spec_points": [
+      "57",
+      "60",
+      "61",
+      "62"
+    ],
+    "question_type": "Structured",
+    "total_marks": 9,
+    "parts": [
+      {
+        "part_label": "(a)",
+        "marks": 2,
+        "question_text": "A gold leaf electroscope is used to demonstrate the photoelectric effect. When the zinc plate of the electroscope is given a negative charge, the gold leaf deflects away from the metal stem. A beam of ultraviolet radiation is incident on the zinc plate. The gold leaf immediately begins to fall back to the conducting rod.\nExplain why this observation cannot be explained by the wave model of electromagnetic radiation.",
+        "mark_scheme": [
+          "(In the wave model) energy is built up over time / the energy is spread across the wave.",
+          "So (photo)electrons would not be released immediately – there would be a time delay."
+        ],
+        "sample_answer": "In the wave model the energy of the radiation is spread over the whole wavefront, so an electron would have to accumulate energy over a period of time before it could escape. That predicts a delay before the leaf starts to fall, but the leaf falls immediately."
+      },
+      {
+        "part_label": "(b)(i)",
+        "marks": 4,
+        "question_text": "Photons of ultraviolet radiation with an energy of 9.3 × 10⁻¹⁹ J are directed towards the zinc plate. Calculate the maximum speed with which electrons are released from the plate.\nwork function of zinc = 4.3 eV",
+        "mark_scheme": [
+          "Use of hf = Φ + ½mv²max.",
+          "Converts from eV to J (Φ = 4.3 × 1.6 × 10⁻¹⁹ = 6.9 × 10⁻¹⁹ J).",
+          "Use of Ek = ½mv² with m = 9.11 × 10⁻³¹ kg.",
+          "Maximum speed of electrons = 7.3 × 10⁵ m s⁻¹."
+        ],
+        "sample_answer": "Φ = 4.3 × 1.60 × 10⁻¹⁹ = 6.9 × 10⁻¹⁹ J. ½mv²max = 9.3 × 10⁻¹⁹ − 6.9 × 10⁻¹⁹ = 2.4 × 10⁻¹⁹ J. vmax = √(2 × 2.4 × 10⁻¹⁹ / 9.11 × 10⁻³¹) = 7.3 × 10⁵ m s⁻¹."
+      },
+      {
+        "part_label": "(b)(ii)",
+        "marks": 3,
+        "question_text": "A student suggests that a greater maximum speed of electrons could have been achieved if both:\n– a metal with a lower work function than zinc was used\n– ultraviolet radiation with a greater wavelength was used.\nDiscuss the student's suggestion.",
+        "mark_scheme": [
+          "A lower work function (than zinc) would result in a greater (maximum) speed of electrons.",
+          "A greater wavelength (of ultraviolet) would result in a smaller (maximum) speed of electrons (a smaller wavelength would be needed for greater speed).",
+          "The relative sizes of these changes are not known so no conclusion can be reached (or: the first suggestion is correct, the second is incorrect)."
+        ],
+        "sample_answer": "Using a metal with a lower work function would leave more of the photon energy as kinetic energy, increasing the maximum speed – that part is correct. But a greater wavelength means a lower frequency and lower photon energy, which would reduce the maximum speed – that part is wrong. Since we do not know the size of each change, we cannot say whether the overall maximum speed would be greater."
+      }
+    ]
+  },
+  {
+    "id": "QP_25",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q32)",
+    "spec_points": [
+      "44",
+      "60",
+      "62"
+    ],
+    "question_type": "Structured",
+    "total_marks": 6,
+    "parts": [
+      {
+        "part_label": "(a)",
+        "marks": 1,
+        "question_text": "State what is meant by work function.",
+        "mark_scheme": [
+          "The minimum energy required to release a (photo)electron from the surface of a metal."
+        ],
+        "sample_answer": "The minimum energy required to release an electron from the surface of a metal."
+      },
+      {
+        "part_label": "(c)(i)",
+        "marks": 3,
+        "question_text": "Ultraviolet radiation is incident on a potassium plate. If the radiation behaved as a wave, there would be a time delay before electrons were emitted from the plate.\nCalculate the time taken for a potassium atom to absorb enough energy to release an electron.\nwork function of potassium = 3.62 × 10⁻¹⁹ J\nintensity of ultraviolet radiation = 38.0 mW m⁻²\narea over which a potassium atom absorbs energy = 8.10 × 10⁻²⁰ m²",
+        "mark_scheme": [
+          "Use of I = P/A (P = 38.0 × 10⁻³ × 8.10 × 10⁻²⁰ = 3.08 × 10⁻²¹ W).",
+          "Use of P = W/t with W = 3.62 × 10⁻¹⁹ J.",
+          "t = 118 s."
+        ],
+        "sample_answer": "P = IA = 38.0 × 10⁻³ × 8.10 × 10⁻²⁰ = 3.08 × 10⁻²¹ W. t = W/P = 3.62 × 10⁻¹⁹ / 3.08 × 10⁻²¹ = 118 s (about 2 minutes)."
+      },
+      {
+        "part_label": "(c)(ii)",
+        "marks": 2,
+        "question_text": "In practice, electrons are emitted from the plate as soon as the ultraviolet radiation is incident on the plate. Explain how this provides evidence for the particle nature of electromagnetic radiation.",
+        "mark_scheme": [
+          "One photon releases one electron.",
+          "Photons transfer all of their energy to the electrons (photons are packets / quanta of energy)."
+        ],
+        "sample_answer": "Instant emission means the energy must arrive in concentrated packets rather than spread out over the wavefront. Each photon is a quantum of energy that is transferred in full to a single electron, so an electron can be released as soon as the first photon arrives."
+      }
+    ]
+  },
+  {
+    "id": "QP_26",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q33)",
+    "spec_points": [
+      "58",
+      "60",
+      "61"
+    ],
+    "question_type": "Structured",
+    "total_marks": 9,
+    "parts": [
+      {
+        "part_label": "(a)",
+        "marks": 5,
+        "question_text": "Ultraviolet light of wavelength 20.0 nm is incident on a metal surface. The metal has a work function of 3.68 eV. Electrons are released by the photoelectric effect.\nCalculate the maximum speed of the electrons as they are released from the metal surface.",
+        "mark_scheme": [
+          "Use of v = fλ (f = 3.00 × 10⁸ / 20.0 × 10⁻⁹ = 1.50 × 10¹⁶ Hz).",
+          "Use of E = hf (E = 9.95 × 10⁻¹⁸ J).",
+          "Converts work function from eV to J (Φ = 5.89 × 10⁻¹⁹ J).",
+          "Use of hf = Φ + ½mv²max.",
+          "vmax = 4.5 × 10⁶ m s⁻¹."
+        ],
+        "sample_answer": "f = 3.00 × 10⁸ / 20.0 × 10⁻⁹ = 1.50 × 10¹⁶ Hz, so E = hf = 9.95 × 10⁻¹⁸ J. Φ = 3.68 × 1.60 × 10⁻¹⁹ = 5.89 × 10⁻¹⁹ J. ½mv²max = 9.95 × 10⁻¹⁸ − 5.89 × 10⁻¹⁹ = 9.36 × 10⁻¹⁸ J. vmax = √(2 × 9.36 × 10⁻¹⁸ / 9.11 × 10⁻³¹) = 4.5 × 10⁶ m s⁻¹."
+      },
+      {
+        "part_label": "(b)",
+        "marks": 4,
+        "question_text": "A student suggests that if the wavelength and intensity of the light used are both increased, the maximum speed of the electrons released from the metal surface also increases.\nExplain whether the student's suggestion is correct.",
+        "mark_scheme": [
+          "Increasing intensity leads to more photons / electrons (per second).",
+          "But intensity does not affect the speed / KE of the electrons.",
+          "Increasing λ leads to a decrease in photon energy.",
+          "Leads to a decrease in speed / KE of the electrons, so the student is incorrect."
+        ],
+        "sample_answer": "Increasing the intensity only increases the number of photons arriving per second, and hence the number of electrons released; it has no effect on their maximum speed. Increasing the wavelength lowers the frequency and so lowers the photon energy (E = hc/λ), leaving less energy for the electrons' kinetic energy. The maximum speed would therefore decrease, so the student is incorrect."
+      }
+    ]
+  },
+  {
+    "id": "QP_27",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q34)",
+    "spec_points": [
+      "63"
+    ],
+    "question_type": "Extended Open Response",
+    "total_marks": 8,
+    "parts": [
+      {
+        "part_label": "(a)",
+        "marks": 6,
+        "question_text": "*After an atom of hydrogen has been exposed to suitable electromagnetic radiation, the atom can emit visible light. The emitted light contains a small number of different wavelengths of visible light.\nExplain the process that results in the emission of different wavelengths of visible light. Your answer should include reference to energy levels in atoms.\n(6-mark extended response.)",
+        "mark_scheme": [
+          "IC: Atoms / electrons absorb energy / photons.",
+          "IC: Electrons move to higher energy levels (are excited).",
+          "IC: Then drop down energy levels, releasing photons (de-excite).",
+          "IC: Energy levels are discrete.",
+          "IC: For hydrogen atoms there are only a small number of possible energy level differences (that produce visible light).",
+          "IC: Since E = hf and v = fλ, only certain wavelengths are emitted.",
+          "Linkage: coherent, logically structured answer (up to 2 marks)."
+        ],
+        "sample_answer": "Electrons in the hydrogen atoms absorb energy from the radiation and are excited to higher energy levels. These levels are discrete, so an excited electron can only fall back down by specific amounts, emitting a photon whose energy equals the difference between the two levels. Because E = hf and c = fλ, each energy difference corresponds to one particular wavelength. Hydrogen has only a small number of level differences that fall in the visible range, so only a small number of visible wavelengths are emitted."
+      },
+      {
+        "part_label": "(b)",
+        "marks": 2,
+        "question_text": "It is also possible to make the atoms in a sample of air emit visible light. Explain why the light emitted by the air has a large number of different wavelengths.",
+        "mark_scheme": [
+          "Air contains different gases / elements / atoms.",
+          "Each (different) gas has its own set of energy levels, so light with a large number of wavelengths / frequencies is released."
+        ],
+        "sample_answer": "Air is a mixture of different gases, each made of different atoms. Each type of atom has its own set of energy levels and therefore its own set of possible transitions, so the combined light contains many more wavelengths than light from a single element."
+      }
+    ]
+  },
+  {
+    "id": "QP_28",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Diffraction & Polarisation topic pack Q16(a),(b))",
+    "spec_points": [
+      "58",
+      "61",
+      "63"
+    ],
+    "question_type": "Structured",
+    "total_marks": 6,
+    "parts": [
+      {
+        "part_label": "(a)",
+        "marks": 3,
+        "question_text": "In 1857, Heinrich Geissler invented the first gas discharge tube. When a high potential difference is applied between the electrodes of a sodium gas discharge tube, electrons move through the sodium gas in the tube. The electrons collide with the sodium atoms. The tube then gives out visible light with a wavelength of 589 nm.\nDescribe the process by which visible light is emitted from the sodium atoms.",
+        "mark_scheme": [
+          "(Sodium) electrons / atoms gain / absorb energy (from the collisions).",
+          "And electrons move to higher energy levels (are excited).",
+          "(Sodium) electrons drop to lower energy levels, releasing photons (de-excite)."
+        ],
+        "sample_answer": "The moving electrons collide with sodium atoms and transfer energy to electrons in the atoms, which are excited to higher energy levels. These electrons then drop back to lower energy levels, and the energy difference is released as a photon of visible light."
+      },
+      {
+        "part_label": "(b)",
+        "marks": 3,
+        "question_text": "Calculate the energy, in eV, of a photon of visible light with a wavelength of 589 nm.",
+        "mark_scheme": [
+          "Use of c = fλ and use of E = hf (f = 5.09 × 10¹⁴ Hz; E = 3.38 × 10⁻¹⁹ J).",
+          "Converts J to eV.",
+          "Energy = 2.11 eV."
+        ],
+        "sample_answer": "f = 3.00 × 10⁸ / 589 × 10⁻⁹ = 5.09 × 10¹⁴ Hz. E = hf = 6.63 × 10⁻³⁴ × 5.09 × 10¹⁴ = 3.38 × 10⁻¹⁹ J = 3.38 × 10⁻¹⁹ / 1.60 × 10⁻¹⁹ = 2.11 eV."
+      }
+    ]
+  },
+  {
+    "id": "QP_29",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper (Particle Nature of Light topic pack Q15(b))",
+    "spec_points": [
+      "58",
+      "61"
+    ],
+    "question_type": "Calculation",
+    "total_marks": 3,
+    "parts": [
+      {
+        "part_label": "(b)",
+        "marks": 3,
+        "question_text": "A 'smart meter' transmits information to the electricity company using radio waves of frequency 902 MHz. It is suggested that the energy per photon could be important in determining if the radiation emitted by the smart meter is dangerous.\nCalculate the energy per photon, in eV, of the photons emitted by the smart meter.",
+        "mark_scheme": [
+          "Use of E = hf (E = 6.63 × 10⁻³⁴ × 902 × 10⁶ = 5.98 × 10⁻²⁵ J).",
+          "Conversion from J to eV.",
+          "Energy per photon = 3.7 × 10⁻⁶ eV."
+        ],
+        "sample_answer": "E = hf = 6.63 × 10⁻³⁴ × 902 × 10⁶ = 5.98 × 10⁻²⁵ J = 5.98 × 10⁻²⁵ / 1.60 × 10⁻¹⁹ = 3.7 × 10⁻⁶ eV."
+      }
+    ]
+  },
+  {
+    "id": "QP_MCQ",
+    "topic": "Particle Nature of Light",
+    "paper_source": "Edexcel IAL WPH12 past paper multiple choice (Particle Nature of Light topic pack)",
+    "spec_points": [
+      "53",
+      "54",
+      "57",
+      "58",
+      "60",
+      "62",
+      "63"
+    ],
+    "question_type": "Multiple Choice",
+    "total_marks": 15,
+    "parts": [
+      {
+        "part_label": "MCQ_1",
+        "marks": 1,
+        "question_text": "An electron has a velocity of 2 × 10⁷ m s⁻¹. Which of the following expressions gives the de Broglie wavelength of the electron in metres?\nA. (9.11 × 10⁻³¹ × 2 × 10⁷) / 6.63 × 10⁻³⁴\nB. 6.63 × 10⁻³⁴ / (9.11 × 10⁻³¹ × 2 × 10⁷)\nC. 6.63 × 10⁻³⁴ / (1.67 × 10⁻²⁷ × 2 × 10⁷)\nD. (1.67 × 10⁻²⁷ × 2 × 10⁷) / 6.63 × 10⁻³⁴",
+        "mark_scheme": [
+          "Correct answer: B. λ = h/(mv) using the electron mass. A is upside down; C uses the proton mass; D is upside down and uses the proton mass."
+        ],
+        "sample_answer": "B"
+      },
+      {
+        "part_label": "MCQ_2",
+        "marks": 1,
+        "question_text": "The evidence for the wave nature of electrons came from experiments involving\nA. diffraction.\nB. polarisation.\nC. reflection.\nD. refraction.",
+        "mark_scheme": [
+          "Correct answer: A. Evidence for the wave nature of electrons came from electron diffraction experiments."
+        ],
+        "sample_answer": "A"
+      },
+      {
+        "part_label": "MCQ_3",
+        "marks": 1,
+        "question_text": "In 1927, G P Thomson first demonstrated that electrons passing through a nickel crystal produce a diffraction pattern. Which of the following can be concluded from this observation?\nA. Electrons behave as particles.\nB. Electrons behave as waves.\nC. Electrons behave as both particles and waves.\nD. Electrons behave as neither particles nor waves.",
+        "mark_scheme": [
+          "Correct answer: B. Diffraction is a wave property, so this observation shows electrons behaving as waves."
+        ],
+        "sample_answer": "B"
+      },
+      {
+        "part_label": "MCQ_4",
+        "marks": 1,
+        "question_text": "Which of the following is evidence that electrons can behave like waves?\nA. Electrons are attracted towards positively charged objects.\nB. Electrons can absorb photons and move between energy levels in an atom.\nC. Electrons can be diffracted when passing through a thin sheet of graphite.\nD. Electrons can be released by photons in the photoelectric effect.",
+        "mark_scheme": [
+          "Correct answer: C. Diffraction is wave behaviour; in A, B and D the electrons are behaving as particles."
+        ],
+        "sample_answer": "C"
+      },
+      {
+        "part_label": "MCQ_5",
+        "marks": 1,
+        "question_text": "In 1924 de Broglie suggested that electrons have wave properties. The de Broglie equation states λ = h/p. Which of the following is correct?\nA. The de Broglie wavelength is independent of the mass of the particle.\nB. The de Broglie equation can be used to calculate the momentum of a photon.\nC. The term p represents the mass of an electron multiplied by the speed of light.\nD. The value of h depends on the particle involved.",
+        "mark_scheme": [
+          "Correct answer: B. The momentum of a photon is h/λ. (p = mv depends on mass; p for an electron uses the electron's speed, not c; h is a constant.)"
+        ],
+        "sample_answer": "B"
+      },
+      {
+        "part_label": "MCQ_6",
+        "marks": 1,
+        "question_text": "Which of the following has the largest de Broglie wavelength?\nA. an electron travelling at 3.0 × 10⁵ m s⁻¹\nB. an electron travelling at 4.0 × 10⁵ m s⁻¹\nC. a neutron travelling at 3.0 × 10⁵ m s⁻¹\nD. a neutron travelling at 4.0 × 10⁵ m s⁻¹",
+        "mark_scheme": [
+          "Correct answer: A (λ = 2.43 × 10⁻⁹ m). Smallest momentum gives the largest wavelength: B gives 1.82 × 10⁻⁹ m, C 1.13 × 10⁻¹² m, D 9.93 × 10⁻¹³ m."
+        ],
+        "sample_answer": "A"
+      },
+      {
+        "part_label": "MCQ_7",
+        "marks": 1,
+        "question_text": "Electromagnetic radiation can be described in terms of a photon model. Which of the following demonstrates the photon model of light?\nA. diffraction patterns\nB. Huygens' construction\nC. photoelectric effect\nD. plane polarisation",
+        "mark_scheme": [
+          "Correct answer: C. The photoelectric effect can only be explained using the photon model; diffraction, Huygens' construction and polarisation are wave phenomena."
+        ],
+        "sample_answer": "C"
+      },
+      {
+        "part_label": "MCQ_8",
+        "marks": 1,
+        "question_text": "When monochromatic light is incident on the surface of a metal, photoelectrons are emitted. Which of the following statements is correct?\nA. The maximum kinetic energy of the photoelectrons depends on the intensity of the incident light.\nB. The number of photoelectrons emitted per second depends on the frequency of the incident light.\nC. The maximum kinetic energy of the photoelectrons depends on the frequency of the incident light.\nD. The number of photoelectrons emitted per second depends on the work function of the metal.",
+        "mark_scheme": [
+          "Correct answer: C. Ek,max = hf − Φ depends on frequency; intensity affects only the number of photoelectrons released per second."
+        ],
+        "sample_answer": "C"
+      },
+      {
+        "part_label": "MCQ_9",
+        "marks": 1,
+        "question_text": "Which of the following describes threshold frequency?\nA. The frequency of light that causes photoelectrons to have maximum kinetic energy.\nB. The frequency of light emitted when excited electrons fall to the ground state.\nC. The minimum frequency of light that can cause an electron to leave a surface.\nD. The maximum frequency of light which excites an electron in the ground state.",
+        "mark_scheme": [
+          "Correct answer: C. Threshold frequency is the minimum frequency that can release an electron from the surface (at threshold the photoelectrons have zero kinetic energy)."
+        ],
+        "sample_answer": "C"
+      },
+      {
+        "part_label": "MCQ_10",
+        "marks": 1,
+        "question_text": "When the photoelectric effect occurs, light incident on the surface of a metal releases electrons. Which of the following is an experimental observation of the photoelectric effect?\nA. Electrons are only released after light has been incident for a long time.\nB. Increasing the frequency of the light increases the maximum kinetic energy of the released electrons.\nC. Increasing the intensity of the light increases the maximum kinetic energy of the released electrons.\nD. Only light with a wavelength above a threshold value releases electrons.",
+        "mark_scheme": [
+          "Correct answer: B (hf = Φ + Ek,max, so increasing f increases Ek,max). Electrons are released instantaneously; intensity only changes the number released; it is frequency above a threshold (wavelength below), not wavelength above."
+        ],
+        "sample_answer": "B"
+      },
+      {
+        "part_label": "MCQ_11",
+        "marks": 1,
+        "question_text": "Light from a discharge tube is viewed through a diffraction grating. An emission line spectrum is observed. Which of the following explains how electrons in the discharge tube produce the emission line spectrum?\nA. Excited electrons move to higher energy levels and absorb photons.\nB. Excited electrons move to higher energy levels and emit photons.\nC. Excited electrons move to lower energy levels and absorb photons.\nD. Excited electrons move to lower energy levels and emit photons.",
+        "mark_scheme": [
+          "Correct answer: D. Emission lines are produced when excited electrons drop to lower energy levels and emit photons."
+        ],
+        "sample_answer": "D"
+      },
+      {
+        "part_label": "MCQ_12",
+        "marks": 1,
+        "question_text": "Some of the energy levels of a hydrogen atom are −0.54 eV, −0.85 eV, −1.51 eV, −3.40 eV and −13.60 eV. An excited electron in the level −0.54 eV drops to the level −13.60 eV, resulting in the release of at least one photon.\nWhich of the following photon energy values could not be produced from this electron transition?\nA. 0.31 eV\nB. 0.54 eV\nC. 12.09 eV\nD. 13.06 eV",
+        "mark_scheme": [
+          "Correct answer: B. There is no downward jump of 0.54 eV. 0.31 eV is −0.54 → −0.85; 12.09 eV is −1.51 → −13.60; 13.06 eV is −0.54 → −13.60."
+        ],
+        "sample_answer": "B"
+      },
+      {
+        "part_label": "MCQ_13",
+        "marks": 1,
+        "question_text": "The energy levels of a hydrogen atom are −13.60 eV (ground state), −3.40 eV, −1.51 eV, −0.85 eV and −0.54 eV. An electron in the ground state absorbs a photon. Which of the following could not be the energy of the photon?\nA. 9.8 eV\nB. 10.2 eV\nC. 12.09 eV\nD. 12.75 eV",
+        "mark_scheme": [
+          "Correct answer: A. 10.2 eV, 12.09 eV and 12.75 eV are transitions from the ground state to −3.40, −1.51 and −0.85 eV respectively; 9.8 eV does not match any transition."
+        ],
+        "sample_answer": "A"
+      },
+      {
+        "part_label": "MCQ_14",
+        "marks": 1,
+        "question_text": "Electrons in an atom are excited from the ground state (n = 1) to the energy level n = 3. How many different frequencies of radiation can be emitted from this atom as electrons return to the ground state?\nA. 1\nB. 2\nC. 3\nD. 4",
+        "mark_scheme": [
+          "Correct answer: C. The possible transitions are n = 3 → 2, n = 3 → 1 and n = 2 → 1."
+        ],
+        "sample_answer": "C"
+      },
+      {
+        "part_label": "MCQ_15",
+        "marks": 1,
+        "question_text": "An electron in a hydrogen atom makes the transition from the −13.6 eV level to the −3.4 eV level. Which of the following could not have caused this transition?\nA. The atom absorbing a photon with an energy of 13.6 eV.\nB. The atom absorbing a photon with an energy of 10.2 eV.\nC. An electron with a kinetic energy of 13.6 eV colliding with the atom.\nD. An electron with a kinetic energy of 10.2 eV colliding with the atom.",
+        "mark_scheme": [
+          "Correct answer: A. A photon cannot be partially absorbed, so a 13.6 eV photon cannot cause a 10.2 eV transition. A 10.2 eV photon matches exactly; a colliding electron can transfer part (or all) of its kinetic energy."
+        ],
+        "sample_answer": "A"
+      }
+    ]
+  }
+]
